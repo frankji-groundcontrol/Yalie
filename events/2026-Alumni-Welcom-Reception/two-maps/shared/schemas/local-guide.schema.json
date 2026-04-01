@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yalie.local/schemas/local-guide.schema.json",
+  "title": "GuideLocation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "nameCn",
+    "category",
+    "description",
+    "descriptionCn",
+    "address",
+    "addressCn",
+    "coordinates",
+    "tips",
+    "tipsCn"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "nameCn": { "type": "string", "minLength": 1 },
+    "category": {
+      "type": "string",
+      "enum": ["food", "culture", "art", "nature", "practical", "nightlife"]
+    },
+    "description": { "type": "string", "minLength": 1 },
+    "descriptionCn": { "type": "string", "minLength": 1 },
+    "address": { "type": "string", "minLength": 1 },
+    "addressCn": { "type": "string", "minLength": 1 },
+    "coordinates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "tips": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "tipsCn": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "photoUrl": { "type": "string", "format": "uri" },
+    "rating": { "type": "number", "minimum": 0, "maximum": 5 },
+    "addedBy": { "type": "string" }
+  }
+}

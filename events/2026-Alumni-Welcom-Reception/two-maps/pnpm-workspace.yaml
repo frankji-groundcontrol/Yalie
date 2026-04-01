@@ -1,0 +1,5 @@
+packages:
+  - "shared"
+  - "web"
+  - "alumni-journey-map/video-remotion"
+  - "local-guide-map/video-remotion"

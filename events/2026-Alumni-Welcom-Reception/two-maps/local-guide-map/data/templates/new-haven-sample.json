@@ -1,0 +1,3991 @@
+{
+  "title": "New Haven Local Guide",
+  "titleCn": "纽黑文本地指南",
+  "subtitle": "The city that made us Yale",
+  "subtitleCn": "塑造我们耶鲁人的城市",
+  "locations": [
+    {
+      "id": "loc-frank-pepes",
+      "name": "Frank Pepe Pizzeria Napoletana",
+      "nameCn": "弗兰克·佩佩披萨店",
+      "category": "food",
+      "description": "Founded 1925, the original New Haven apizza. Coal-fired brick oven, legendary white clam pizza. The single most famous pizza in New Haven.",
+      "descriptionCn": "创建于1925年，纽黑文原创apizza。燃煤砖炉，传奇的白蛤蜊披萨，纽黑文最著名的一张饼。",
+      "address": "157 Wooster St, New Haven, CT 06511",
+      "addressCn": "纽黑文伍斯特街157号",
+      "coordinates": {
+        "lat": 41.3029,
+        "lng": -72.9169
+      },
+      "tips": [
+        "Arrive before 11:30am or expect 45-90 min waits on weekends",
+        "Must order: White Clam Pizza",
+        "Cash-friendly, walk-ins only at the original location"
+      ],
+      "tipsCn": [
+        "周末11:30前到可避免45-90分钟排队",
+        "必点：白蛤蜊披萨",
+        "接受现金，原店只接待步行顾客"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-sallys-apizza",
+      "name": "Sally's Apizza",
+      "nameCn": "萨利披萨",
+      "category": "food",
+      "description": "Founded 1938 by Frank Pepe's nephew. Secret tomato sauce, the tomato pie is transcendent. Frank Sinatra was a regular.",
+      "descriptionCn": "1938年由佩佩的侄子创办。秘制番茄酱，番茄派令人超凡脱俗。弗兰克·辛纳屈是常客。",
+      "address": "237 Wooster St, New Haven, CT 06511",
+      "addressCn": "纽黑文伍斯特街237号",
+      "coordinates": {
+        "lat": 41.3031,
+        "lng": -72.92
+      },
+      "tips": [
+        "Lunch is less crowded than dinner",
+        "Order the tomato pie (no cheese) — sounds wrong, tastes transcendent",
+        "Cash only"
+      ],
+      "tipsCn": [
+        "午餐比晚餐人少",
+        "点番茄派（不加奶酪）——听起来奇怪但味道超绝",
+        "只收现金"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "loc-modern-apizza",
+      "name": "Modern Apizza",
+      "nameCn": "摩登披萨",
+      "category": "food",
+      "description": "Founded 1934, #1 restaurant in New Haven on TripAdvisor. Signature Italian Bomb pizza. The locals' favorite — less touristy than Wooster St.",
+      "descriptionCn": "创建于1934年，TripAdvisor上纽黑文排名第一。招牌意大利炸弹披萨。本地人最爱——比伍斯特街少了游客。",
+      "address": "874 State St, New Haven, CT 06511",
+      "addressCn": "纽黑文州街874号",
+      "coordinates": {
+        "lat": 41.3108,
+        "lng": -72.9244
+      },
+      "tips": [
+        "No reservations needed — just walk in",
+        "Must order: Italian Bomb pizza",
+        "Closed Mondays"
+      ],
+      "tipsCn": [
+        "无需预约，直接进店",
+        "必点：意大利炸弹披萨",
+        "周一休息"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-louis-lunch",
+      "name": "Louis' Lunch",
+      "nameCn": "路易午餐",
+      "category": "food",
+      "description": "Est. 1895. Library of Congress recognized birthplace of the hamburger. Original 1898 cast-iron vertical broilers. Served on toast, no ketchup allowed.",
+      "descriptionCn": "创建于1895年。国会图书馆认定的汉堡包发源地。原始1898年铸铁立式烤架。吐司夹肉，禁止番茄酱。",
+      "address": "261 Crown St, New Haven, CT 06511",
+      "addressCn": "纽黑文皇冠街261号",
+      "coordinates": {
+        "lat": 41.306,
+        "lng": -72.9281
+      },
+      "tips": [
+        "Do NOT ask for ketchup — it is considered sacrilege",
+        "Closed the entire month of August",
+        "Late afternoon is less crowded"
+      ],
+      "tipsCn": [
+        "千万不要要番茄酱——这被视为亵渎",
+        "整个八月关门",
+        "下午晚些时候人少"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "loc-zinc",
+      "name": "ZINC Restaurant",
+      "nameCn": "ZINC餐厅",
+      "category": "food",
+      "description": "Seed-to-plate sustainable dining across from New Haven Green. The go-to for Yale faculty dinners, recruiting events, and special occasions.",
+      "descriptionCn": "从种子到餐桌的可持续餐饮，对面是纽黑文绿地。耶鲁教职人员宴请、招聘活动和特殊场合的首选。",
+      "address": "964 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街964号",
+      "coordinates": {
+        "lat": 41.3082,
+        "lng": -72.9296
+      },
+      "tips": [
+        "Make reservations — fills up during Yale events",
+        "Parking validated for dinner guests",
+        "Bar menu offers lighter bites at lower prices"
+      ],
+      "tipsCn": [
+        "建议预约——耶鲁活动期间满座",
+        "晚餐客人可享免费停车",
+        "吧台菜单更轻便实惠"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-atticus",
+      "name": "Atticus Bookstore Cafe",
+      "nameCn": "阿提克斯书店咖啡馆",
+      "category": "food",
+      "description": "Independent bookstore and cafe steps from Yale's main gate. The quintessential study-with-coffee spot for generations of Yale students.",
+      "descriptionCn": "独立书店兼咖啡馆，距耶鲁正门几步之遥。几代耶鲁学子边喝咖啡边学习的经典场所。",
+      "address": "1082 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街1082号",
+      "coordinates": {
+        "lat": 41.3083,
+        "lng": -72.9318
+      },
+      "tips": [
+        "Go for breakfast or lunch — soups and sandwiches are the stars",
+        "Browse the curated bookstore section",
+        "Can get crowded during midterms and finals"
+      ],
+      "tipsCn": [
+        "早餐或午餐最佳——汤和三明治是招牌",
+        "逛逛精选书籍区",
+        "期中期末会比较挤"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-zuppardis",
+      "name": "Zuppardi's Apizza",
+      "nameCn": "祖帕迪披萨",
+      "category": "food",
+      "description": "Founded 1934 in West Haven. Best fresh-clam pizza according to Serious Eats founder. The insider's choice for true New Haven pizza devotees.",
+      "descriptionCn": "1934年创建于西黑文。Serious Eats创始人评为最佳鲜蛤蜊披萨。真正的纽黑文披萨爱好者的内行之选。",
+      "address": "179 Union Ave, West Haven, CT 06516",
+      "addressCn": "西黑文联合大道179号",
+      "coordinates": {
+        "lat": 41.2726,
+        "lng": -72.9618
+      },
+      "tips": [
+        "Requires car or Uber from campus — worth it",
+        "Must order: Fresh clam pizza",
+        "Much friendlier and less crowded than Wooster St"
+      ],
+      "tipsCn": [
+        "需要开车或打车前往——值得",
+        "必点：鲜蛤蜊披萨",
+        "比伍斯特街友好得多也不拥挤"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-olmo",
+      "name": "Olmo",
+      "nameCn": "奥尔莫餐厅",
+      "category": "food",
+      "description": "Highest-rated restaurant near Yale on Yelp. Italian-Mediterranean with seasonal pasta and excellent weekend brunch.",
+      "descriptionCn": "Yelp上耶鲁附近评分最高的餐厅。意大利-地中海风格，时令意面和出色的周末早午餐。",
+      "address": "93 Whitney Ave, New Haven, CT 06510",
+      "addressCn": "纽黑文惠特尼大道93号",
+      "coordinates": {
+        "lat": 41.3118,
+        "lng": -72.9268
+      },
+      "tips": [
+        "Weekend brunch is extremely popular — arrive early",
+        "Handmade pasta changes seasonally",
+        "Good wine list for a neighborhood spot"
+      ],
+      "tipsCn": [
+        "周末早午餐非常火爆——早到",
+        "手工意面随季节变化",
+        "社区餐厅中酒单出色"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "loc-union-league",
+      "name": "Union League Cafe",
+      "nameCn": "联盟咖啡馆",
+      "category": "food",
+      "description": "Classic French brasserie in a historic landmark. The celebration dinner restaurant for Yale — dissertation defenses, tenure announcements, graduation dinners.",
+      "descriptionCn": "历史地标建筑中的经典法式小酒馆。耶鲁人的庆祝晚餐首选——论文答辩、终身教职公布、毕业晚宴。",
+      "address": "1032 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街1032号",
+      "coordinates": {
+        "lat": 41.3083,
+        "lng": -72.9311
+      },
+      "tips": [
+        "Reservations essential during Yale events and graduation",
+        "Prix-fixe lunch is excellent value",
+        "Bar area is more casual, no reservations needed"
+      ],
+      "tipsCn": [
+        "耶鲁活动和毕业季务必预约",
+        "午间套餐性价比极高",
+        "吧台区更休闲，无需预约"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-peabody",
+      "name": "Yale Peabody Museum",
+      "nameCn": "耶鲁皮博迪自然历史博物馆",
+      "category": "culture",
+      "description": "Founded 1866, recently renovated. 14 million objects including the iconic Brontosaurus skeleton. The Zallinger mural 'The Age of Reptiles' is one of the most famous scientific paintings in the world. Free.",
+      "descriptionCn": "创建于1866年，近期完成翻新。1400万件标本，包括标志性的雷龙骨架。扎林格壁画《爬行动物时代》是世界上最著名的科学绘画之一。免费。",
+      "address": "170 Whitney Ave, New Haven, CT 06511",
+      "addressCn": "纽黑文惠特尼大道170号",
+      "coordinates": {
+        "lat": 41.3178,
+        "lng": -72.9237
+      },
+      "tips": [
+        "Closed Mondays",
+        "Newly renovated dinosaur hall is dramatically expanded",
+        "Free admission"
+      ],
+      "tipsCn": [
+        "周一闭馆",
+        "新翻修的恐龙厅大幅扩展",
+        "免费入场"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "loc-beinecke",
+      "name": "Beinecke Rare Book and Manuscript Library",
+      "nameCn": "拜内克珍本书与手稿图书馆",
+      "category": "culture",
+      "description": "Translucent Vermont marble panels glow amber in sunlight. Houses a Gutenberg Bible and the Voynich Manuscript. Isamu Noguchi sculpture garden outside. Free.",
+      "descriptionCn": "半透明佛蒙特大理石外墙在阳光下散发琥珀色光芒。藏有古腾堡圣经和沃伊尼奇手稿。外有野口勇雕塑花园。免费。",
+      "address": "121 Wall St, New Haven, CT 06511",
+      "addressCn": "纽黑文沃尔街121号",
+      "coordinates": {
+        "lat": 41.3115,
+        "lng": -72.9284
+      },
+      "tips": [
+        "Glows golden at dusk — photograph it then",
+        "Saturday tours at 1:30pm led by library staff",
+        "The sunken Noguchi sculpture garden is a hidden gem"
+      ],
+      "tipsCn": [
+        "黄昏时分外墙泛金光——最佳拍照时间",
+        "周六下午1:30有图书馆员导览",
+        "下沉式野口勇雕塑花园是隐藏宝藏"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "loc-shubert",
+      "name": "Shubert Theatre",
+      "nameCn": "舒伯特剧院",
+      "category": "culture",
+      "description": "'The Birthplace of the Nation's Greatest Hits' since 1914. Over 600 pre-Broadway tryouts including Oklahoma!, A Streetcar Named Desire, My Fair Lady, and The Sound of Music.",
+      "descriptionCn": "自1914年起被誉为\"美国最伟大演出的诞生地\"。逾600部百老汇前试演，包括《俄克拉荷马！》《欲望号街车》《窈窕淑女》《音乐之声》。",
+      "address": "247 College St, New Haven, CT 06510",
+      "addressCn": "纽黑文学院街247号",
+      "coordinates": {
+        "lat": 41.3063,
+        "lng": -72.9278
+      },
+      "tips": [
+        "Check for pre-Broadway tryouts — you might see the next Hamilton here first",
+        "Lobby bar opens 1 hour before curtain",
+        "Box office open Mon-Fri 12-6pm"
+      ],
+      "tipsCn": [
+        "留意百老汇前试演——也许能先睹为快",
+        "大堂吧在开演前1小时开放",
+        "票房周一至周五12-18点开放"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "loc-yale-rep",
+      "name": "Yale Repertory Theatre",
+      "nameCn": "耶鲁剧目剧院",
+      "category": "culture",
+      "description": "America's most award-winning regional theater — 5 Tony Awards. Alumni include Meryl Streep, Sigourney Weaver, Paul Giamatti, Angela Bassett.",
+      "descriptionCn": "美国获奖最多的地区剧院——5项托尼奖。校友包括梅丽尔·斯特里普、西格妮·韦弗、保罗·吉亚玛提、安吉拉·巴塞特。",
+      "address": "1120 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街1120号",
+      "coordinates": {
+        "lat": 41.3079,
+        "lng": -72.933
+      },
+      "tips": [
+        "$15 student rush tickets 30 min before curtain",
+        "Season runs September-May",
+        "Second stage at 222 York St"
+      ],
+      "tipsCn": [
+        "开演前30分钟有15美元学生票",
+        "演出季9月至5月",
+        "第二舞台在约克街222号"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "loc-grove-cemetery",
+      "name": "Grove Street Cemetery",
+      "nameCn": "格罗夫街公墓",
+      "category": "culture",
+      "description": "First chartered US burial ground (1796). Egyptian Revival gate (1845). Eli Whitney, Noah Webster, and Charles Goodyear rest here.",
+      "descriptionCn": "美国第一个特许墓地（1796年）。埃及复兴风格大门（1845年）。伊莱·惠特尼、诺亚·韦伯斯特和查尔斯·固特异长眠于此。",
+      "address": "227 Grove St, New Haven, CT 06511",
+      "addressCn": "纽黑文格罗夫街227号",
+      "coordinates": {
+        "lat": 41.3108,
+        "lng": -72.9296
+      },
+      "tips": [
+        "Free and open daily",
+        "Self-guided walking tour map available at the gate",
+        "Best visited in autumn for spectacular foliage"
+      ],
+      "tipsCn": [
+        "免费且每日开放",
+        "大门处提供自助步行导览地图",
+        "秋季枫叶最美"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "loc-new-haven-museum",
+      "name": "New Haven Museum",
+      "nameCn": "纽黑文博物馆",
+      "category": "culture",
+      "description": "Chronicles 375+ years of New Haven history from the Quinnipiac people to Yale's founding to the city's industrial and cultural evolution.",
+      "descriptionCn": "记录纽黑文375余年历史——从昆尼皮亚克原住民到耶鲁建校，再到城市工业与文化演变。",
+      "address": "114 Whitney Ave, New Haven, CT 06510",
+      "addressCn": "纽黑文惠特尼大道114号",
+      "coordinates": {
+        "lat": 41.3148,
+        "lng": -72.9256
+      },
+      "tips": [
+        "Small but rich — plan 1-1.5 hours",
+        "Research library open to the public"
+      ],
+      "tipsCn": [
+        "小而精——预留1-1.5小时",
+        "研究图书馆对公众开放"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-ingalls-rink",
+      "name": "Ingalls Rink (The Whale)",
+      "nameCn": "英格尔斯溜冰场（大鲸鱼）",
+      "category": "culture",
+      "description": "Eero Saarinen's 1958 parabolic concrete masterpiece, nicknamed 'The Whale.' Home to Yale hockey. Public skating on weekends.",
+      "descriptionCn": "埃罗·沙里宁1958年的抛物线混凝土杰作，绰号\"大鲸鱼\"。耶鲁冰球队主场。周末对公众开放溜冰。",
+      "address": "73 Sachem St, New Haven, CT 06511",
+      "addressCn": "纽黑文萨切姆街73号",
+      "coordinates": {
+        "lat": 41.3178,
+        "lng": -72.9262
+      },
+      "tips": [
+        "Public skating sessions on weekends — check Yale Athletics schedule",
+        "Worth visiting for the architecture alone",
+        "Yale hockey games have electric atmosphere"
+      ],
+      "tipsCn": [
+        "周末公众溜冰——查看耶鲁体育日程",
+        "仅为建筑也值得一访",
+        "耶鲁冰球赛气氛火爆"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "loc-long-wharf",
+      "name": "Long Wharf Theatre",
+      "nameCn": "长码头剧院",
+      "category": "culture",
+      "description": "Tony Award-winning regional theater (1978). Known for intimate, socially engaged productions. Currently operating nomadically across New Haven venues.",
+      "descriptionCn": "托尼奖得主地区剧院（1978年）。以亲密、具社会关怀的制作著称。目前在纽黑文各场地游牧式运营。",
+      "address": "Various New Haven venues (nomadic)",
+      "addressCn": "纽黑文多个场地（游牧模式）",
+      "coordinates": {
+        "lat": 41.2978,
+        "lng": -72.9198
+      },
+      "tips": [
+        "Check website for current venue — productions move around",
+        "Known for adventurous programming"
+      ],
+      "tipsCn": [
+        "查网站确认当前演出场地",
+        "以大胆创新的编排著称"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-yale-art-gallery",
+      "name": "Yale University Art Gallery",
+      "nameCn": "耶鲁大学美术馆",
+      "category": "art",
+      "description": "Oldest college art museum in America (1832). Over 300,000 objects — Van Gogh, Picasso, Monet, Pollock. The Kahn-designed 1953 wing is an architectural landmark. Free.",
+      "descriptionCn": "美国历史最悠久的大学美术馆（1832年）。馆藏逾30万件——梵高、毕加索、莫奈、波洛克。路易斯·康1953年设计的展翼是建筑地标。免费。",
+      "address": "1111 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街1111号",
+      "coordinates": {
+        "lat": 41.3083,
+        "lng": -72.9317
+      },
+      "tips": [
+        "Thursday hours extend to 8pm",
+        "The Trumbull Gallery's Revolutionary War paintings are quintessentially Yale",
+        "Free coat check available"
+      ],
+      "tipsCn": [
+        "周四延长至晚8点",
+        "特朗布尔画廊的独立战争画作是耶鲁精髓",
+        "提供免费寄存"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "loc-ycba",
+      "name": "Yale Center for British Art",
+      "nameCn": "耶鲁英国艺术中心",
+      "category": "art",
+      "description": "Largest collection of British art outside the UK. Housed in Louis Kahn's final masterpiece (1977) — concrete, oak, and natural light. Free.",
+      "descriptionCn": "英国境外最大的英国艺术收藏。建筑本身是路易斯·康的最后杰作（1977年）——混凝土、橡木与自然光。免费。",
+      "address": "1080 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街1080号",
+      "coordinates": {
+        "lat": 41.3081,
+        "lng": -72.9323
+      },
+      "tips": [
+        "The building itself is the exhibit — look up at the skylit courts",
+        "The museum cafe is a quiet gem",
+        "Free admission"
+      ],
+      "tipsCn": [
+        "建筑本身就是展品——抬头看天光庭院",
+        "博物馆咖啡馆是安静的宝藏",
+        "免费入场"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "loc-school-of-art",
+      "name": "Yale School of Art Galleries",
+      "nameCn": "耶鲁艺术学院画廊",
+      "category": "art",
+      "description": "Galleries of Yale's world-renowned MFA program. Alumni include Chuck Close, Richard Serra, Brice Marden. Free, often cutting-edge.",
+      "descriptionCn": "耶鲁世界顶尖MFA项目的展览空间。校友包括查克·克洛斯、理查德·塞拉、布莱斯·马登。免费且前沿。",
+      "address": "1156 Chapel St, New Haven, CT 06511",
+      "addressCn": "纽黑文教堂街1156号",
+      "coordinates": {
+        "lat": 41.3073,
+        "lng": -72.934
+      },
+      "tips": [
+        "Opening receptions are free and social",
+        "The May MFA thesis show is unmissable",
+        "Check art.yale.edu for exhibition schedule"
+      ],
+      "tipsCn": [
+        "开幕酒会免费且社交氛围好",
+        "五月MFA毕业展不可错过",
+        "查看art.yale.edu了解展览日程"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-east-rock",
+      "name": "East Rock Park",
+      "nameCn": "东岩公园",
+      "category": "nature",
+      "description": "New Haven's crown jewel — 425 acres rising 365 feet. Panoramic views of the city, Long Island Sound, and on clear days, Manhattan. Pardee Rose Garden blooms in June.",
+      "descriptionCn": "纽黑文的皇冠明珠——425英亩，海拔365英尺。可俯瞰城市、长岛海峡，晴天甚至能看到曼哈顿。帕迪玫瑰园六月盛放。",
+      "address": "41 Cold Spring St, New Haven, CT 06511",
+      "addressCn": "纽黑文冷泉街41号",
+      "coordinates": {
+        "lat": 41.325,
+        "lng": -72.9103
+      },
+      "tips": [
+        "Sunrise hikes are magical — arrive before 6am",
+        "Pardee Rose Garden peaks in mid-June",
+        "Fall foliage from the summit is extraordinary"
+      ],
+      "tipsCn": [
+        "日出徒步很梦幻——6点前到达",
+        "帕迪玫瑰园六月中旬最盛",
+        "秋天山顶的枫叶美不胜收"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "loc-west-rock",
+      "name": "West Rock Ridge State Park",
+      "nameCn": "西岩山脊州立公园",
+      "category": "nature",
+      "description": "East Rock's dramatic counterpart — 1,500 acres with the historic Judges Cave where regicide judges hid from King Charles II in 1661. Lake Wintergreen for swimming.",
+      "descriptionCn": "东岩的壮观对应——1500英亩，有历史性的法官洞穴，1661年弑君法官曾在此躲避查理二世。温特格林湖可游泳。",
+      "address": "1134 Wintergreen Ave, New Haven, CT 06514",
+      "addressCn": "纽黑文温特格林大道1134号",
+      "coordinates": {
+        "lat": 41.328,
+        "lng": -72.9768
+      },
+      "tips": [
+        "Judges Cave is a 0.5-mile walk from parking — historically fascinating",
+        "Lake Wintergreen open for swimming in summer",
+        "Less crowded than East Rock — great for trail runs"
+      ],
+      "tipsCn": [
+        "法官洞穴距停车场0.5英里——历史迷人",
+        "温特格林湖夏季开放游泳",
+        "比东岩人少——适合跑步"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "loc-lighthouse-point",
+      "name": "Lighthouse Point Park",
+      "nameCn": "灯塔角公园",
+      "category": "nature",
+      "description": "82 acres at the tip of New Haven Harbor. Five Mile Point Lighthouse (1845), 1916 carousel with 69 hand-carved horses (50 cents a ride), and world-class fall hawk migration.",
+      "descriptionCn": "82英亩，位于纽黑文港尖端。五英里角灯塔（1845年）、1916年旋转木马有69匹手工雕刻木马（每次50美分），秋季鹰迁徙世界级观赏点。",
+      "address": "2 Lighthouse Rd, New Haven, CT 06512",
+      "addressCn": "纽黑文灯塔路2号",
+      "coordinates": {
+        "lat": 41.2484,
+        "lng": -72.902
+      },
+      "tips": [
+        "Carousel rides are just 50 cents — a New Haven tradition",
+        "Fall hawk migration (Sept-Nov) is world-class — bring binoculars",
+        "Sunset views over Long Island Sound are spectacular"
+      ],
+      "tipsCn": [
+        "旋转木马仅50美分——纽黑文传统",
+        "秋季鹰迁徙（9-11月）世界级——带望远镜",
+        "长岛海峡日落壮观"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "loc-new-haven-green",
+      "name": "New Haven Green",
+      "nameCn": "纽黑文绿地",
+      "category": "nature",
+      "description": "16-acre National Historic Landmark (1638), heart of America's first planned city. Three 19th-century churches. Yale Commencement spills onto the Green every May.",
+      "descriptionCn": "16英亩国家历史地标（1638年），美国第一个规划城市的心脏。三座19世纪教堂。每年五月耶鲁毕业典礼延伸至此。",
+      "address": "250 Temple St, New Haven, CT 06511",
+      "addressCn": "纽黑文坦普尔街250号",
+      "coordinates": {
+        "lat": 41.3083,
+        "lng": -72.9256
+      },
+      "tips": [
+        "Free outdoor concerts most summer evenings",
+        "International Festival of Arts & Ideas in June is a must",
+        "Farmers Market Tuesdays and Saturdays in season"
+      ],
+      "tipsCn": [
+        "夏季大多数晚上有免费户外音乐会",
+        "六月国际艺术与创意节不可错过",
+        "农贸市场在季节中的周二和周六举行"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-edgewood-park",
+      "name": "Edgewood Park",
+      "nameCn": "埃奇伍德公园",
+      "category": "nature",
+      "description": "Olmsted-influenced neighborhood park near Yale's Science Hill. Two ponds, 2+ miles of trails. The go-to for grad students and medical school residents.",
+      "descriptionCn": "受奥姆斯特德风格影响的社区公园，靠近耶鲁科学山。两个池塘，2英里以上步道。研究生和医学院住院医生的首选。",
+      "address": "720 Edgewood Ave, New Haven, CT 06515",
+      "addressCn": "纽黑文埃奇伍德大道720号",
+      "coordinates": {
+        "lat": 41.302,
+        "lng": -72.953
+      },
+      "tips": [
+        "The two ponds are great for duck-watching and reflection",
+        "Skate park is one of the best in the region",
+        "Combine with a visit to Westville Village galleries and cafes"
+      ],
+      "tipsCn": [
+        "两个池塘适合观鸭和沉思",
+        "滑板公园是该地区最好的之一",
+        "可顺便逛韦斯特维尔村的画廊和咖啡馆"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-wooster-square",
+      "name": "Wooster Square Park",
+      "nameCn": "伍斯特广场公园",
+      "category": "nature",
+      "description": "New Haven's most romantic park — cherry trees explode pink every April. Italian-American neighborhood, one block from the legendary pizza institutions.",
+      "descriptionCn": "纽黑文最浪漫的公园——每年四月樱花绽放成粉色海洋。意大利裔美国人社区，距传奇披萨店仅一街之隔。",
+      "address": "570 Chapel St, New Haven, CT 06511",
+      "addressCn": "纽黑文教堂街570号",
+      "coordinates": {
+        "lat": 41.302,
+        "lng": -72.917
+      },
+      "tips": [
+        "Cherry Blossom Festival in late April is one of New Haven's best free events",
+        "Combine with dinner on Wooster Street",
+        "The surrounding brownstones are beautiful 19th-century architecture"
+      ],
+      "tipsCn": [
+        "四月下旬樱花节是纽黑文最好的免费活动之一",
+        "可搭配伍斯特街晚餐",
+        "周边褐石建筑是美丽的19世纪建筑"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "loc-sterling-library",
+      "name": "Sterling Memorial Library",
+      "nameCn": "斯特林纪念图书馆",
+      "category": "practical",
+      "description": "Yale's 'cathedral of learning' (1931). The soaring Nave, stained glass, and carved stone details are breathtaking. Over 4 million volumes. The Nave is open to the public.",
+      "descriptionCn": "耶鲁的\"学习大教堂\"（1931年）。高耸的中殿、彩色玻璃窗和石雕细节令人叹为观止。藏书逾400万册。中殿对公众开放。",
+      "address": "120 High St, New Haven, CT 06511",
+      "addressCn": "纽黑文高街120号",
+      "coordinates": {
+        "lat": 41.3088,
+        "lng": -72.9319
+      },
+      "tips": [
+        "The Nave is open to the public during library hours — no Yale ID required",
+        "Look for the whimsical carved stone figures — telephone, football",
+        "The L&B Reading Room is the most beautiful study space on campus"
+      ],
+      "tipsCn": [
+        "图书馆开放时间中殿对公众开放——无需耶鲁证件",
+        "留意石雕中的趣味图案——电话、足球",
+        "L&B阅览室是校园最美的自习空间"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "loc-harkness-tower",
+      "name": "Harkness Tower",
+      "nameCn": "哈克尼斯塔",
+      "category": "practical",
+      "description": "Yale's most iconic silhouette — 216-foot Gothic Revival tower (1921) with a 54-bell carillon ringing across campus since 1922.",
+      "descriptionCn": "耶鲁最具标志性的轮廓——216英尺哥特复兴式塔楼（1921年），54口钟琴自1922年起在校园上空回响。",
+      "address": "High St and Tower Pkwy, New Haven, CT 06511",
+      "addressCn": "纽黑文高街与塔路交叉口",
+      "coordinates": {
+        "lat": 41.3076,
+        "lng": -72.9327
+      },
+      "tips": [
+        "Carillon concerts: Fridays 6pm and Sundays 12:30pm during academic year",
+        "Best photo angle: corner of High St and Tower Pkwy at golden hour",
+        "Enter Memorial Quadrangle courtyard through Branford College gate"
+      ],
+      "tipsCn": [
+        "钟琴演奏：学期中周五下午6点和周日中午12:30",
+        "最佳拍照角度：黄金时段的高街与塔路交叉口",
+        "通过布兰福德学院大门进入纪念四合院"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "loc-old-campus",
+      "name": "Yale Old Campus",
+      "nameCn": "耶鲁老校区",
+      "category": "practical",
+      "description": "Yale's original heart — 10-acre enclosed quad where all first-years live. Phelps Gate (1896) is the ceremonial entrance. Connecticut Hall (1752) is Yale's oldest surviving building.",
+      "descriptionCn": "耶鲁的原始核心——10英亩封闭四合院，所有大一新生在此居住。菲尔普斯门（1896年）是礼仪性正门。康涅狄格厅（1752年）是耶鲁现存最古老建筑。",
+      "address": "344 College St, New Haven, CT 06511",
+      "addressCn": "纽黑文学院街344号",
+      "coordinates": {
+        "lat": 41.3097,
+        "lng": -72.9296
+      },
+      "tips": [
+        "Free Yale campus tours depart from 149 Elm St (Visitor Center)",
+        "Connecticut Hall is open during business hours",
+        "Phelps Gate in morning light is the classic Yale photo"
+      ],
+      "tipsCn": [
+        "免费校园导览从榆树街149号（访客中心）出发",
+        "康涅狄格厅工作时间内开放",
+        "清晨的菲尔普斯门是经典耶鲁照片"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "loc-union-station",
+      "name": "New Haven Union Station",
+      "nameCn": "纽黑文联合车站",
+      "category": "practical",
+      "description": "Beaux-Arts transportation hub (1918). Metro-North to NYC Grand Central in ~1h40m. Amtrak Acela to NYC Penn Station in ~1h20m.",
+      "descriptionCn": "布杂艺术风格交通枢纽（1918年）。大都会北方铁路至纽约中央车站约1小时40分钟。美铁Acela至纽约宾州车站约1小时20分钟。",
+      "address": "50 Union Ave, New Haven, CT 06519",
+      "addressCn": "纽黑文联合大道50号",
+      "coordinates": {
+        "lat": 41.2977,
+        "lng": -72.9258
+      },
+      "tips": [
+        "Metro-North to NYC: trains every 30-60 min, ~1h40m",
+        "Buy tickets via MTA app to avoid lines",
+        "Yale campus is a 15-min walk or 5-min ride"
+      ],
+      "tipsCn": [
+        "大都会北方铁路到纽约：每30-60分钟一班，约1小时40分钟",
+        "用MTA应用买票避免排队",
+        "耶鲁校园步行15分钟或打车5分钟"
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "loc-visitor-center",
+      "name": "Yale Visitor Center",
+      "nameCn": "耶鲁访客中心",
+      "category": "practical",
+      "description": "Official starting point for exploring Yale. Free guided walking tours daily. Adjacent Woolsey Hall hosts Yale Symphony Orchestra concerts.",
+      "descriptionCn": "探索耶鲁的官方起点。每日提供免费步行导览。相邻的伍尔西厅举办耶鲁交响乐团音乐会。",
+      "address": "149 Elm St, New Haven, CT 06511",
+      "addressCn": "纽黑文榆树街149号",
+      "coordinates": {
+        "lat": 41.3118,
+        "lng": -72.928
+      },
+      "tips": [
+        "Free campus tours Mon-Fri 10:30am and 2pm; weekends 1:30pm",
+        "Book online at visitor.yale.edu — fills up fast",
+        "The Yale Bookstore (77 Broadway) is a 5-min walk"
+      ],
+      "tipsCn": [
+        "免费校园导览周一至周五10:30和14:00；周末13:30",
+        "在visitor.yale.edu在线预约——名额抢手",
+        "耶鲁书店（百老汇77号）步行5分钟"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "loc-toads-place",
+      "name": "Toad's Place",
+      "nameCn": "托德之地",
+      "category": "nightlife",
+      "description": "New Haven's legendary live music venue since 1975. The Rolling Stones played a surprise show here in 1989. U2, Bob Dylan, Bruce Springsteen all played this stage.",
+      "descriptionCn": "纽黑文传奇现场音乐场馆，自1975年开业。1989年滚石乐队在此举行惊喜演出。U2、鲍勃·迪伦、布鲁斯·斯普林斯汀都曾登台。",
+      "address": "300 York St, New Haven, CT 06511",
+      "addressCn": "纽黑文约克街300号",
+      "coordinates": {
+        "lat": 41.3058,
+        "lng": -72.934
+      },
+      "tips": [
+        "Check the calendar — national touring acts mix with local bands",
+        "21+ after 10pm on most nights",
+        "The sound system is excellent — arrive early for good spots"
+      ],
+      "tipsCn": [
+        "查看日程——全国巡演乐队与本地乐队混合",
+        "大多数晚上10点后需21岁以上",
+        "音响系统出色——早到占好位置"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "loc-bar-nightclub",
+      "name": "BAR New Haven",
+      "nameCn": "BAR纽黑文",
+      "category": "nightlife",
+      "description": "Brewpub, pizzeria, and dance club in one. The mashed potato pizza is a New Haven cult classic. Basement dance floor packed on weekends. The default Yale social hub for 30+ years.",
+      "descriptionCn": "集自酿啤酒吧、披萨店和舞厅于一体。土豆泥披萨是纽黑文邪典经典。地下舞池周末爆满。三十多年来耶鲁人的默认社交据点。",
+      "address": "254 Crown St, New Haven, CT 06511",
+      "addressCn": "纽黑文皇冠街254号",
+      "coordinates": {
+        "lat": 41.3059,
+        "lng": -72.927
+      },
+      "tips": [
+        "Mashed potato pizza is non-negotiable",
+        "Arrive before 9pm weekends to avoid the line",
+        "21+ for dance floor after 10pm"
+      ],
+      "tipsCn": [
+        "土豆泥披萨是必点",
+        "周末9点前到避免排队",
+        "10点后舞池需21岁以上"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-the-ordinary",
+      "name": "The Ordinary",
+      "nameCn": "奥迪纳里酒吧",
+      "category": "nightlife",
+      "description": "Beloved Chapel Street bar with excellent craft beer and whiskey. A favorite of Yale grad students and young faculty — the kind of place you go for one drink and stay for four.",
+      "descriptionCn": "教堂街上深受喜爱的酒吧，精酿啤酒和威士忌出色。耶鲁研究生和年轻教职人员的最爱——那种你打算喝一杯却喝了四杯的地方。",
+      "address": "990 Chapel St, New Haven, CT 06510",
+      "addressCn": "纽黑文教堂街990号",
+      "coordinates": {
+        "lat": 41.3082,
+        "lng": -72.935
+      },
+      "tips": [
+        "No reservations needed",
+        "Rotating tap list is always interesting",
+        "Quiz nights on Tuesdays draw a loyal crowd"
+      ],
+      "tipsCn": [
+        "无需预约",
+        "轮换啤酒单总有惊喜",
+        "周二问答之夜吸引忠实人群"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "loc-anchor-bar",
+      "name": "Anchor Bar and Grill",
+      "nameCn": "锚酒吧烧烤",
+      "category": "nightlife",
+      "description": "Classic New Haven dive bar next to the Shubert Theatre. Cheap drinks, pool tables, zero pretension. Welcoming Yale students since the 1970s.",
+      "descriptionCn": "纽黑文经典平民酒吧，紧邻舒伯特剧院。廉价饮品、台球桌、毫无做作。自1970年代起欢迎耶鲁学生。",
+      "address": "272 College St, New Haven, CT 06510",
+      "addressCn": "纽黑文学院街272号",
+      "coordinates": {
+        "lat": 41.3062,
+        "lng": -72.9278
+      },
+      "tips": [
+        "Cash-friendly",
+        "Pool tables in the back",
+        "The jukebox is legendary — best on weeknights"
+      ],
+      "tipsCn": [
+        "欢迎现金",
+        "后面有台球桌",
+        "点唱机堪称传奇——工作日晚上最佳"
+      ],
+      "rating": 4.2
+    }
+  ],
+  "walks": [
+    {
+      "id": "walk-campus-greatest-hits",
+      "name": "Yale Campus Greatest Hits",
+      "nameCn": "耶鲁校园精华之旅",
+      "description": "The essential Yale experience — from the oldest building to the most modern icon. Entirely walkable and flat.",
+      "descriptionCn": "耶鲁精华体验——从最古老的建筑到最现代的地标。全程步行，地势平坦。",
+      "stops": [
+        "loc-union-station",
+        "loc-new-haven-green",
+        "loc-visitor-center",
+        "loc-beinecke",
+        "loc-old-campus",
+        "loc-sterling-library",
+        "loc-harkness-tower"
+      ],
+      "durationMinutes": 150,
+      "distanceKm": 4,
+      "routeGeometry": [
+        [
+          41.297739,
+          -72.926073
+        ],
+        [
+          41.297365,
+          -72.926412
+        ],
+        [
+          41.297373,
+          -72.926465
+        ],
+        [
+          41.297362,
+          -72.926507
+        ],
+        [
+          41.29725,
+          -72.926621
+        ],
+        [
+          41.297121,
+          -72.926736
+        ],
+        [
+          41.29709,
+          -72.926749
+        ],
+        [
+          41.296949,
+          -72.926764
+        ],
+        [
+          41.296932,
+          -72.926805
+        ],
+        [
+          41.296935,
+          -72.926856
+        ],
+        [
+          41.296951,
+          -72.926914
+        ],
+        [
+          41.296971,
+          -72.926957
+        ],
+        [
+          41.296998,
+          -72.927001
+        ],
+        [
+          41.297031,
+          -72.927032
+        ],
+        [
+          41.297079,
+          -72.927055
+        ],
+        [
+          41.297133,
+          -72.927077
+        ],
+        [
+          41.297184,
+          -72.927109
+        ],
+        [
+          41.297224,
+          -72.927185
+        ],
+        [
+          41.297255,
+          -72.927249
+        ],
+        [
+          41.297313,
+          -72.92737
+        ],
+        [
+          41.296745,
+          -72.927878
+        ],
+        [
+          41.296612,
+          -72.928096
+        ],
+        [
+          41.296593,
+          -72.928138
+        ],
+        [
+          41.29658,
+          -72.928172
+        ],
+        [
+          41.29657,
+          -72.928212
+        ],
+        [
+          41.296567,
+          -72.928239
+        ],
+        [
+          41.296565,
+          -72.928268
+        ],
+        [
+          41.296566,
+          -72.928301
+        ],
+        [
+          41.296569,
+          -72.928332
+        ],
+        [
+          41.296576,
+          -72.928367
+        ],
+        [
+          41.296589,
+          -72.928404
+        ],
+        [
+          41.296606,
+          -72.928437
+        ],
+        [
+          41.296626,
+          -72.928463
+        ],
+        [
+          41.296651,
+          -72.928489
+        ],
+        [
+          41.296682,
+          -72.928512
+        ],
+        [
+          41.29672,
+          -72.928538
+        ],
+        [
+          41.296785,
+          -72.928576
+        ],
+        [
+          41.297481,
+          -72.928731
+        ],
+        [
+          41.298591,
+          -72.928975
+        ],
+        [
+          41.298638,
+          -72.928986
+        ],
+        [
+          41.298697,
+          -72.928999
+        ],
+        [
+          41.298765,
+          -72.929016
+        ],
+        [
+          41.29881,
+          -72.929028
+        ],
+        [
+          41.299231,
+          -72.929132
+        ],
+        [
+          41.299804,
+          -72.929222
+        ],
+        [
+          41.299933,
+          -72.929252
+        ],
+        [
+          41.300095,
+          -72.92929
+        ],
+        [
+          41.300176,
+          -72.929309
+        ],
+        [
+          41.300451,
+          -72.92938
+        ],
+        [
+          41.3005,
+          -72.929381
+        ],
+        [
+          41.300641,
+          -72.929383
+        ],
+        [
+          41.300725,
+          -72.929375
+        ],
+        [
+          41.300856,
+          -72.929362
+        ],
+        [
+          41.301029,
+          -72.929321
+        ],
+        [
+          41.301136,
+          -72.929295
+        ],
+        [
+          41.301207,
+          -72.929268
+        ],
+        [
+          41.301319,
+          -72.929213
+        ],
+        [
+          41.301576,
+          -72.92906
+        ],
+        [
+          41.301618,
+          -72.929029
+        ],
+        [
+          41.301821,
+          -72.928876
+        ],
+        [
+          41.30201,
+          -72.928717
+        ],
+        [
+          41.302052,
+          -72.928689
+        ],
+        [
+          41.302154,
+          -72.9287
+        ],
+        [
+          41.302239,
+          -72.928639
+        ],
+        [
+          41.302258,
+          -72.928626
+        ],
+        [
+          41.302621,
+          -72.928351
+        ],
+        [
+          41.302669,
+          -72.928315
+        ],
+        [
+          41.302684,
+          -72.928303
+        ],
+        [
+          41.302772,
+          -72.928236
+        ],
+        [
+          41.302822,
+          -72.928195
+        ],
+        [
+          41.302867,
+          -72.928159
+        ],
+        [
+          41.30288,
+          -72.928149
+        ],
+        [
+          41.303766,
+          -72.927488
+        ],
+        [
+          41.303835,
+          -72.927436
+        ],
+        [
+          41.303906,
+          -72.927384
+        ],
+        [
+          41.304732,
+          -72.926762
+        ],
+        [
+          41.304805,
+          -72.926707
+        ],
+        [
+          41.304871,
+          -72.926658
+        ],
+        [
+          41.305349,
+          -72.926306
+        ],
+        [
+          41.305701,
+          -72.92604
+        ],
+        [
+          41.305989,
+          -72.925829
+        ],
+        [
+          41.306065,
+          -72.925772
+        ],
+        [
+          41.306111,
+          -72.92588
+        ],
+        [
+          41.30643,
+          -72.926625
+        ],
+        [
+          41.306474,
+          -72.926727
+        ],
+        [
+          41.306557,
+          -72.926921
+        ],
+        [
+          41.306589,
+          -72.926999
+        ],
+        [
+          41.306622,
+          -72.927082
+        ],
+        [
+          41.307257,
+          -72.928592
+        ],
+        [
+          41.307288,
+          -72.92867
+        ],
+        [
+          41.307363,
+          -72.928621
+        ],
+        [
+          41.308385,
+          -72.927856
+        ],
+        [
+          41.309367,
+          -72.92714
+        ],
+        [
+          41.309424,
+          -72.927099
+        ],
+        [
+          41.309481,
+          -72.927059
+        ],
+        [
+          41.309444,
+          -72.926972
+        ],
+        [
+          41.30898,
+          -72.925885
+        ],
+        [
+          41.308811,
+          -72.925489
+        ],
+        [
+          41.308781,
+          -72.925421
+        ],
+        [
+          41.308729,
+          -72.925455
+        ],
+        [
+          41.308665,
+          -72.925497
+        ],
+        [
+          41.308351,
+          -72.925724
+        ],
+        [
+          41.307671,
+          -72.926216
+        ],
+        [
+          41.30753,
+          -72.926323
+        ],
+        [
+          41.306667,
+          -72.926943
+        ],
+        [
+          41.306589,
+          -72.926999
+        ],
+        [
+          41.306622,
+          -72.927082
+        ],
+        [
+          41.307257,
+          -72.928592
+        ],
+        [
+          41.307288,
+          -72.92867
+        ],
+        [
+          41.307363,
+          -72.928621
+        ],
+        [
+          41.308385,
+          -72.927856
+        ],
+        [
+          41.309367,
+          -72.92714
+        ],
+        [
+          41.309424,
+          -72.927099
+        ],
+        [
+          41.309481,
+          -72.927059
+        ],
+        [
+          41.309562,
+          -72.926999
+        ],
+        [
+          41.310162,
+          -72.92656
+        ],
+        [
+          41.310657,
+          -72.926189
+        ],
+        [
+          41.310689,
+          -72.926165
+        ],
+        [
+          41.310736,
+          -72.926131
+        ],
+        [
+          41.310756,
+          -72.926117
+        ],
+        [
+          41.31078,
+          -72.926099
+        ],
+        [
+          41.310806,
+          -72.926079
+        ],
+        [
+          41.311195,
+          -72.925799
+        ],
+        [
+          41.311544,
+          -72.925548
+        ],
+        [
+          41.311629,
+          -72.925553
+        ],
+        [
+          41.311729,
+          -72.92558
+        ],
+        [
+          41.311792,
+          -72.925725
+        ],
+        [
+          41.312365,
+          -72.927075
+        ],
+        [
+          41.312396,
+          -72.927156
+        ],
+        [
+          41.312479,
+          -72.927859
+        ],
+        [
+          41.31252,
+          -72.928211
+        ],
+        [
+          41.312593,
+          -72.92851
+        ],
+        [
+          41.312621,
+          -72.928604
+        ],
+        [
+          41.312652,
+          -72.928695
+        ],
+        [
+          41.31275,
+          -72.928947
+        ],
+        [
+          41.312866,
+          -72.929176
+        ],
+        [
+          41.312965,
+          -72.929334
+        ],
+        [
+          41.313072,
+          -72.929478
+        ],
+        [
+          41.313188,
+          -72.929624
+        ],
+        [
+          41.313275,
+          -72.929753
+        ],
+        [
+          41.313336,
+          -72.929896
+        ],
+        [
+          41.313372,
+          -72.930009
+        ],
+        [
+          41.313393,
+          -72.930097
+        ],
+        [
+          41.313409,
+          -72.930187
+        ],
+        [
+          41.313413,
+          -72.930215
+        ],
+        [
+          41.313421,
+          -72.930274
+        ],
+        [
+          41.313425,
+          -72.930382
+        ],
+        [
+          41.313417,
+          -72.930491
+        ],
+        [
+          41.313403,
+          -72.930556
+        ],
+        [
+          41.313375,
+          -72.930679
+        ],
+        [
+          41.313319,
+          -72.930843
+        ],
+        [
+          41.313147,
+          -72.931334
+        ],
+        [
+          41.312927,
+          -72.931963
+        ],
+        [
+          41.312909,
+          -72.932043
+        ],
+        [
+          41.312901,
+          -72.932114
+        ],
+        [
+          41.312897,
+          -72.932198
+        ],
+        [
+          41.312896,
+          -72.932232
+        ],
+        [
+          41.312899,
+          -72.932454
+        ],
+        [
+          41.312902,
+          -72.932537
+        ],
+        [
+          41.312838,
+          -72.932561
+        ],
+        [
+          41.312763,
+          -72.932582
+        ],
+        [
+          41.312708,
+          -72.932581
+        ],
+        [
+          41.312653,
+          -72.932564
+        ],
+        [
+          41.312524,
+          -72.932484
+        ],
+        [
+          41.31246,
+          -72.932415
+        ],
+        [
+          41.312379,
+          -72.932323
+        ],
+        [
+          41.312325,
+          -72.932255
+        ],
+        [
+          41.31229,
+          -72.932212
+        ],
+        [
+          41.312244,
+          -72.932158
+        ],
+        [
+          41.312216,
+          -72.932126
+        ],
+        [
+          41.31202,
+          -72.931896
+        ],
+        [
+          41.311859,
+          -72.931704
+        ],
+        [
+          41.311824,
+          -72.931664
+        ],
+        [
+          41.311577,
+          -72.931376
+        ],
+        [
+          41.311487,
+          -72.931274
+        ],
+        [
+          41.311467,
+          -72.931252
+        ],
+        [
+          41.311187,
+          -72.93095
+        ],
+        [
+          41.311163,
+          -72.930924
+        ],
+        [
+          41.311112,
+          -72.930873
+        ],
+        [
+          41.311061,
+          -72.930804
+        ],
+        [
+          41.311014,
+          -72.930726
+        ],
+        [
+          41.310946,
+          -72.93061
+        ],
+        [
+          41.310851,
+          -72.930364
+        ],
+        [
+          41.310784,
+          -72.93018
+        ],
+        [
+          41.310771,
+          -72.930147
+        ],
+        [
+          41.310753,
+          -72.930103
+        ],
+        [
+          41.310717,
+          -72.930015
+        ],
+        [
+          41.310783,
+          -72.92997
+        ],
+        [
+          41.311564,
+          -72.929393
+        ],
+        [
+          41.311837,
+          -72.929185
+        ],
+        [
+          41.31192,
+          -72.929122
+        ],
+        [
+          41.311968,
+          -72.929088
+        ],
+        [
+          41.312541,
+          -72.928663
+        ],
+        [
+          41.312621,
+          -72.928604
+        ],
+        [
+          41.312652,
+          -72.928695
+        ],
+        [
+          41.31275,
+          -72.928947
+        ],
+        [
+          41.312866,
+          -72.929176
+        ],
+        [
+          41.312965,
+          -72.929334
+        ],
+        [
+          41.313072,
+          -72.929478
+        ],
+        [
+          41.313188,
+          -72.929624
+        ],
+        [
+          41.313275,
+          -72.929753
+        ],
+        [
+          41.313336,
+          -72.929896
+        ],
+        [
+          41.313372,
+          -72.930009
+        ],
+        [
+          41.313393,
+          -72.930097
+        ],
+        [
+          41.313409,
+          -72.930187
+        ],
+        [
+          41.313413,
+          -72.930215
+        ],
+        [
+          41.313421,
+          -72.930274
+        ],
+        [
+          41.313425,
+          -72.930382
+        ],
+        [
+          41.313417,
+          -72.930491
+        ],
+        [
+          41.313403,
+          -72.930556
+        ],
+        [
+          41.313375,
+          -72.930679
+        ],
+        [
+          41.313319,
+          -72.930843
+        ],
+        [
+          41.313147,
+          -72.931334
+        ],
+        [
+          41.312927,
+          -72.931963
+        ],
+        [
+          41.312909,
+          -72.932043
+        ],
+        [
+          41.312901,
+          -72.932114
+        ],
+        [
+          41.312897,
+          -72.932198
+        ],
+        [
+          41.312896,
+          -72.932232
+        ],
+        [
+          41.312899,
+          -72.932454
+        ],
+        [
+          41.312902,
+          -72.932537
+        ],
+        [
+          41.312838,
+          -72.932561
+        ],
+        [
+          41.312763,
+          -72.932582
+        ],
+        [
+          41.312708,
+          -72.932581
+        ],
+        [
+          41.312653,
+          -72.932564
+        ],
+        [
+          41.312524,
+          -72.932484
+        ],
+        [
+          41.31246,
+          -72.932415
+        ],
+        [
+          41.312379,
+          -72.932323
+        ],
+        [
+          41.312325,
+          -72.932255
+        ],
+        [
+          41.31229,
+          -72.932212
+        ],
+        [
+          41.312244,
+          -72.932158
+        ],
+        [
+          41.312216,
+          -72.932126
+        ],
+        [
+          41.31202,
+          -72.931896
+        ],
+        [
+          41.311859,
+          -72.931704
+        ],
+        [
+          41.311824,
+          -72.931664
+        ],
+        [
+          41.311577,
+          -72.931376
+        ],
+        [
+          41.311487,
+          -72.931274
+        ],
+        [
+          41.311467,
+          -72.931252
+        ],
+        [
+          41.311187,
+          -72.93095
+        ],
+        [
+          41.311163,
+          -72.930924
+        ],
+        [
+          41.311112,
+          -72.930873
+        ],
+        [
+          41.311061,
+          -72.930804
+        ],
+        [
+          41.311014,
+          -72.930726
+        ],
+        [
+          41.310946,
+          -72.93061
+        ],
+        [
+          41.310851,
+          -72.930364
+        ],
+        [
+          41.310784,
+          -72.93018
+        ],
+        [
+          41.310771,
+          -72.930147
+        ],
+        [
+          41.310753,
+          -72.930103
+        ],
+        [
+          41.310717,
+          -72.930015
+        ],
+        [
+          41.310687,
+          -72.929939
+        ],
+        [
+          41.310197,
+          -72.928776
+        ],
+        [
+          41.310175,
+          -72.928727
+        ],
+        [
+          41.309688,
+          -72.927548
+        ],
+        [
+          41.309526,
+          -72.927154
+        ],
+        [
+          41.309481,
+          -72.927059
+        ],
+        [
+          41.309424,
+          -72.927099
+        ],
+        [
+          41.309367,
+          -72.92714
+        ],
+        [
+          41.308385,
+          -72.927856
+        ],
+        [
+          41.307363,
+          -72.928621
+        ],
+        [
+          41.307288,
+          -72.92867
+        ],
+        [
+          41.307327,
+          -72.928766
+        ],
+        [
+          41.307591,
+          -72.929414
+        ],
+        [
+          41.30768,
+          -72.929633
+        ],
+        [
+          41.30793,
+          -72.930266
+        ],
+        [
+          41.307953,
+          -72.930326
+        ],
+        [
+          41.308016,
+          -72.930276
+        ],
+        [
+          41.308441,
+          -72.929969
+        ],
+        [
+          41.30905,
+          -72.929536
+        ],
+        [
+          41.309533,
+          -72.929188
+        ],
+        [
+          41.310074,
+          -72.928798
+        ],
+        [
+          41.310112,
+          -72.928771
+        ],
+        [
+          41.310127,
+          -72.928761
+        ],
+        [
+          41.310175,
+          -72.928727
+        ],
+        [
+          41.309688,
+          -72.927548
+        ],
+        [
+          41.309526,
+          -72.927154
+        ],
+        [
+          41.309481,
+          -72.927059
+        ],
+        [
+          41.309424,
+          -72.927099
+        ],
+        [
+          41.309367,
+          -72.92714
+        ],
+        [
+          41.308385,
+          -72.927856
+        ],
+        [
+          41.307363,
+          -72.928621
+        ],
+        [
+          41.307288,
+          -72.92867
+        ],
+        [
+          41.307327,
+          -72.928766
+        ],
+        [
+          41.307591,
+          -72.929414
+        ],
+        [
+          41.30768,
+          -72.929633
+        ],
+        [
+          41.30793,
+          -72.930266
+        ],
+        [
+          41.307953,
+          -72.930326
+        ],
+        [
+          41.307964,
+          -72.930355
+        ],
+        [
+          41.307974,
+          -72.93038
+        ],
+        [
+          41.308457,
+          -72.931546
+        ],
+        [
+          41.308471,
+          -72.931642
+        ],
+        [
+          41.308489,
+          -72.931733
+        ],
+        [
+          41.308548,
+          -72.931999
+        ],
+        [
+          41.30878,
+          -72.933045
+        ],
+        [
+          41.308878,
+          -72.933483
+        ],
+        [
+          41.308895,
+          -72.933563
+        ],
+        [
+          41.308836,
+          -72.933605
+        ],
+        [
+          41.308448,
+          -72.933899
+        ],
+        [
+          41.307997,
+          -72.934229
+        ],
+        [
+          41.307938,
+          -72.934271
+        ],
+        [
+          41.307883,
+          -72.93431
+        ],
+        [
+          41.3078,
+          -72.93437
+        ],
+        [
+          41.307268,
+          -72.934761
+        ],
+        [
+          41.307084,
+          -72.934896
+        ],
+        [
+          41.307017,
+          -72.934945
+        ],
+        [
+          41.306977,
+          -72.934849
+        ],
+        [
+          41.306931,
+          -72.934743
+        ],
+        [
+          41.306709,
+          -72.934223
+        ],
+        [
+          41.306684,
+          -72.934162
+        ],
+        [
+          41.306618,
+          -72.934005
+        ],
+        [
+          41.306545,
+          -72.933834
+        ],
+        [
+          41.306335,
+          -72.93334
+        ],
+        [
+          41.306291,
+          -72.933236
+        ],
+        [
+          41.306352,
+          -72.933192
+        ],
+        [
+          41.306448,
+          -72.933124
+        ],
+        [
+          41.30648,
+          -72.933101
+        ],
+        [
+          41.306643,
+          -72.932985
+        ],
+        [
+          41.306802,
+          -72.932873
+        ],
+        [
+          41.306972,
+          -72.932752
+        ],
+        [
+          41.307185,
+          -72.932595
+        ],
+        [
+          41.307233,
+          -72.932562
+        ],
+        [
+          41.307286,
+          -72.932526
+        ],
+        [
+          41.307471,
+          -72.93239
+        ]
+      ],
+      "routeDistanceM": 7529,
+      "routeDurationS": 669
+    },
+    {
+      "id": "walk-off-campus-new-haven",
+      "name": "Off-Campus New Haven",
+      "nameCn": "校园之外的纽黑文",
+      "description": "Beyond the Yale bubble — Italian neighborhoods, legendary pizza, and the dramatic natural landscape of East Rock.",
+      "descriptionCn": "走出耶鲁泡泡——意大利社区、传奇披萨和东岩的壮丽自然景观。",
+      "stops": [
+        "loc-new-haven-green",
+        "loc-wooster-square",
+        "loc-frank-pepes",
+        "loc-east-rock"
+      ],
+      "durationMinutes": 210,
+      "distanceKm": 5.6,
+      "routeGeometry": [
+        [
+          41.308351,
+          -72.925724
+        ],
+        [
+          41.307671,
+          -72.926216
+        ],
+        [
+          41.30753,
+          -72.926323
+        ],
+        [
+          41.306667,
+          -72.926943
+        ],
+        [
+          41.306589,
+          -72.926999
+        ],
+        [
+          41.306512,
+          -72.927055
+        ],
+        [
+          41.305356,
+          -72.927874
+        ],
+        [
+          41.305301,
+          -72.927913
+        ],
+        [
+          41.305245,
+          -72.927954
+        ],
+        [
+          41.30441,
+          -72.928572
+        ],
+        [
+          41.304347,
+          -72.928618
+        ],
+        [
+          41.30432,
+          -72.928556
+        ],
+        [
+          41.30424,
+          -72.928368
+        ],
+        [
+          41.303887,
+          -72.927561
+        ],
+        [
+          41.303835,
+          -72.927436
+        ],
+        [
+          41.303801,
+          -72.927356
+        ],
+        [
+          41.303779,
+          -72.927303
+        ],
+        [
+          41.303497,
+          -72.92664
+        ],
+        [
+          41.303466,
+          -72.926565
+        ],
+        [
+          41.303404,
+          -72.926419
+        ],
+        [
+          41.303303,
+          -72.926179
+        ],
+        [
+          41.303197,
+          -72.925929
+        ],
+        [
+          41.303158,
+          -72.925827
+        ],
+        [
+          41.303111,
+          -72.925716
+        ],
+        [
+          41.302954,
+          -72.92535
+        ],
+        [
+          41.302893,
+          -72.925211
+        ],
+        [
+          41.302796,
+          -72.924988
+        ],
+        [
+          41.302657,
+          -72.924648
+        ],
+        [
+          41.302605,
+          -72.924513
+        ],
+        [
+          41.302619,
+          -72.924395
+        ],
+        [
+          41.302485,
+          -72.924479
+        ],
+        [
+          41.302425,
+          -72.924501
+        ],
+        [
+          41.302333,
+          -72.924526
+        ],
+        [
+          41.302241,
+          -72.924532
+        ],
+        [
+          41.302181,
+          -72.924531
+        ],
+        [
+          41.302088,
+          -72.92452
+        ],
+        [
+          41.302032,
+          -72.924513
+        ],
+        [
+          41.301561,
+          -72.924438
+        ],
+        [
+          41.301534,
+          -72.924434
+        ],
+        [
+          41.301471,
+          -72.924421
+        ],
+        [
+          41.301443,
+          -72.924372
+        ],
+        [
+          41.301415,
+          -72.924316
+        ],
+        [
+          41.301394,
+          -72.924258
+        ],
+        [
+          41.301391,
+          -72.924248
+        ],
+        [
+          41.301379,
+          -72.92418
+        ],
+        [
+          41.30138,
+          -72.924108
+        ],
+        [
+          41.301438,
+          -72.923924
+        ],
+        [
+          41.301414,
+          -72.923777
+        ],
+        [
+          41.301409,
+          -72.923739
+        ],
+        [
+          41.301408,
+          -72.923735
+        ],
+        [
+          41.301426,
+          -72.923124
+        ],
+        [
+          41.301417,
+          -72.923022
+        ],
+        [
+          41.301409,
+          -72.922934
+        ],
+        [
+          41.30138,
+          -72.922317
+        ],
+        [
+          41.301378,
+          -72.922288
+        ],
+        [
+          41.301321,
+          -72.921242
+        ],
+        [
+          41.301306,
+          -72.920877
+        ],
+        [
+          41.301301,
+          -72.920754
+        ],
+        [
+          41.301396,
+          -72.920748
+        ],
+        [
+          41.301651,
+          -72.920699
+        ],
+        [
+          41.302923,
+          -72.920465
+        ],
+        [
+          41.302975,
+          -72.920456
+        ],
+        [
+          41.302971,
+          -72.920391
+        ],
+        [
+          41.302945,
+          -72.919782
+        ],
+        [
+          41.302929,
+          -72.919384
+        ],
+        [
+          41.302926,
+          -72.919323
+        ],
+        [
+          41.302907,
+          -72.918851
+        ],
+        [
+          41.302902,
+          -72.918707
+        ],
+        [
+          41.302882,
+          -72.918206
+        ],
+        [
+          41.302878,
+          -72.918113
+        ],
+        [
+          41.302837,
+          -72.917149
+        ],
+        [
+          41.302828,
+          -72.916916
+        ],
+        [
+          41.302779,
+          -72.916914
+        ],
+        [
+          41.302641,
+          -72.916909
+        ],
+        [
+          41.302002,
+          -72.916887
+        ],
+        [
+          41.301587,
+          -72.916872
+        ],
+        [
+          41.301473,
+          -72.916868
+        ],
+        [
+          41.301098,
+          -72.916866
+        ],
+        [
+          41.30095,
+          -72.916865
+        ],
+        [
+          41.300935,
+          -72.916865
+        ],
+        [
+          41.300835,
+          -72.916867
+        ],
+        [
+          41.300835,
+          -72.917304
+        ],
+        [
+          41.300834,
+          -72.918074
+        ],
+        [
+          41.30084,
+          -72.918176
+        ],
+        [
+          41.300847,
+          -72.918282
+        ],
+        [
+          41.300862,
+          -72.918409
+        ],
+        [
+          41.300884,
+          -72.918542
+        ],
+        [
+          41.300962,
+          -72.918984
+        ],
+        [
+          41.30103,
+          -72.919356
+        ],
+        [
+          41.301103,
+          -72.919711
+        ],
+        [
+          41.301197,
+          -72.920145
+        ],
+        [
+          41.30125,
+          -72.920377
+        ],
+        [
+          41.301285,
+          -72.920567
+        ],
+        [
+          41.301296,
+          -72.920675
+        ],
+        [
+          41.301301,
+          -72.920754
+        ],
+        [
+          41.301396,
+          -72.920748
+        ],
+        [
+          41.301651,
+          -72.920699
+        ],
+        [
+          41.302923,
+          -72.920465
+        ],
+        [
+          41.302975,
+          -72.920456
+        ],
+        [
+          41.302971,
+          -72.920391
+        ],
+        [
+          41.302945,
+          -72.919782
+        ],
+        [
+          41.302929,
+          -72.919384
+        ],
+        [
+          41.302926,
+          -72.919323
+        ],
+        [
+          41.302907,
+          -72.918851
+        ],
+        [
+          41.302902,
+          -72.918707
+        ],
+        [
+          41.302882,
+          -72.918206
+        ],
+        [
+          41.302878,
+          -72.918113
+        ],
+        [
+          41.302837,
+          -72.917149
+        ],
+        [
+          41.302828,
+          -72.916916
+        ],
+        [
+          41.302828,
+          -72.916904
+        ],
+        [
+          41.302821,
+          -72.916694
+        ],
+        [
+          41.302809,
+          -72.916265
+        ],
+        [
+          41.302803,
+          -72.916064
+        ],
+        [
+          41.302797,
+          -72.915876
+        ],
+        [
+          41.302853,
+          -72.915872
+        ],
+        [
+          41.303322,
+          -72.915835
+        ],
+        [
+          41.303673,
+          -72.915808
+        ],
+        [
+          41.30374,
+          -72.915803
+        ],
+        [
+          41.303745,
+          -72.915943
+        ],
+        [
+          41.303787,
+          -72.91709
+        ],
+        [
+          41.303826,
+          -72.918006
+        ],
+        [
+          41.303829,
+          -72.918114
+        ],
+        [
+          41.303837,
+          -72.918413
+        ],
+        [
+          41.303839,
+          -72.918479
+        ],
+        [
+          41.303848,
+          -72.918673
+        ],
+        [
+          41.303897,
+          -72.919668
+        ],
+        [
+          41.30392,
+          -72.92016
+        ],
+        [
+          41.303924,
+          -72.920271
+        ],
+        [
+          41.303945,
+          -72.920378
+        ],
+        [
+          41.30405,
+          -72.920717
+        ],
+        [
+          41.304281,
+          -72.921455
+        ],
+        [
+          41.30433,
+          -72.921614
+        ],
+        [
+          41.304336,
+          -72.921629
+        ],
+        [
+          41.304365,
+          -72.92171
+        ],
+        [
+          41.304389,
+          -72.921776
+        ],
+        [
+          41.304638,
+          -72.922392
+        ],
+        [
+          41.304696,
+          -72.92253
+        ],
+        [
+          41.304731,
+          -72.922614
+        ],
+        [
+          41.30477,
+          -72.922696
+        ],
+        [
+          41.304826,
+          -72.922813
+        ],
+        [
+          41.304863,
+          -72.922894
+        ],
+        [
+          41.304889,
+          -72.922956
+        ],
+        [
+          41.305413,
+          -72.924224
+        ],
+        [
+          41.30544,
+          -72.92429
+        ],
+        [
+          41.305466,
+          -72.924353
+        ],
+        [
+          41.305762,
+          -72.925056
+        ],
+        [
+          41.306015,
+          -72.925658
+        ],
+        [
+          41.306065,
+          -72.925772
+        ],
+        [
+          41.306139,
+          -72.925717
+        ],
+        [
+          41.307034,
+          -72.925062
+        ],
+        [
+          41.307852,
+          -72.924454
+        ],
+        [
+          41.308152,
+          -72.924231
+        ],
+        [
+          41.308197,
+          -72.924197
+        ],
+        [
+          41.30825,
+          -72.924159
+        ],
+        [
+          41.308325,
+          -72.924103
+        ],
+        [
+          41.308621,
+          -72.923883
+        ],
+        [
+          41.308766,
+          -72.923775
+        ],
+        [
+          41.308788,
+          -72.923759
+        ],
+        [
+          41.308924,
+          -72.923658
+        ],
+        [
+          41.30911,
+          -72.92352
+        ],
+        [
+          41.309244,
+          -72.923421
+        ],
+        [
+          41.309451,
+          -72.923278
+        ],
+        [
+          41.309491,
+          -72.923244
+        ],
+        [
+          41.309521,
+          -72.923223
+        ],
+        [
+          41.309533,
+          -72.923215
+        ],
+        [
+          41.309715,
+          -72.923086
+        ],
+        [
+          41.309973,
+          -72.922904
+        ],
+        [
+          41.310267,
+          -72.922696
+        ],
+        [
+          41.310386,
+          -72.922612
+        ],
+        [
+          41.310471,
+          -72.922583
+        ],
+        [
+          41.310518,
+          -72.922567
+        ],
+        [
+          41.310525,
+          -72.922565
+        ],
+        [
+          41.310535,
+          -72.922562
+        ],
+        [
+          41.310995,
+          -72.922435
+        ],
+        [
+          41.311047,
+          -72.92242
+        ],
+        [
+          41.311242,
+          -72.922363
+        ],
+        [
+          41.311597,
+          -72.922253
+        ],
+        [
+          41.311688,
+          -72.922223
+        ],
+        [
+          41.31175,
+          -72.922204
+        ],
+        [
+          41.311811,
+          -72.922185
+        ],
+        [
+          41.312237,
+          -72.922051
+        ],
+        [
+          41.312425,
+          -72.921989
+        ],
+        [
+          41.312647,
+          -72.921921
+        ],
+        [
+          41.31269,
+          -72.921907
+        ],
+        [
+          41.312987,
+          -72.921814
+        ],
+        [
+          41.313087,
+          -72.921801
+        ],
+        [
+          41.313167,
+          -72.921788
+        ],
+        [
+          41.313505,
+          -72.921686
+        ],
+        [
+          41.313697,
+          -72.921623
+        ],
+        [
+          41.313866,
+          -72.921561
+        ],
+        [
+          41.314102,
+          -72.921454
+        ],
+        [
+          41.314306,
+          -72.9214
+        ],
+        [
+          41.314326,
+          -72.92139
+        ],
+        [
+          41.314697,
+          -72.921221
+        ],
+        [
+          41.314809,
+          -72.921168
+        ],
+        [
+          41.314879,
+          -72.921137
+        ],
+        [
+          41.315364,
+          -72.920908
+        ],
+        [
+          41.315425,
+          -72.920878
+        ],
+        [
+          41.315492,
+          -72.920846
+        ],
+        [
+          41.3157,
+          -72.920749
+        ],
+        [
+          41.315833,
+          -72.920684
+        ],
+        [
+          41.315921,
+          -72.920642
+        ],
+        [
+          41.315954,
+          -72.920627
+        ],
+        [
+          41.316044,
+          -72.920585
+        ],
+        [
+          41.31645,
+          -72.920394
+        ],
+        [
+          41.316681,
+          -72.920284
+        ],
+        [
+          41.317106,
+          -72.920086
+        ],
+        [
+          41.317411,
+          -72.919927
+        ],
+        [
+          41.317718,
+          -72.919799
+        ],
+        [
+          41.317822,
+          -72.91975
+        ],
+        [
+          41.317882,
+          -72.919721
+        ],
+        [
+          41.31813,
+          -72.919601
+        ],
+        [
+          41.318376,
+          -72.919481
+        ],
+        [
+          41.31873,
+          -72.919309
+        ],
+        [
+          41.319051,
+          -72.919156
+        ],
+        [
+          41.31924,
+          -72.919067
+        ],
+        [
+          41.319296,
+          -72.91904
+        ],
+        [
+          41.319541,
+          -72.918919
+        ],
+        [
+          41.319606,
+          -72.918888
+        ],
+        [
+          41.31967,
+          -72.918858
+        ],
+        [
+          41.320449,
+          -72.91849
+        ],
+        [
+          41.320566,
+          -72.918435
+        ],
+        [
+          41.320798,
+          -72.918326
+        ],
+        [
+          41.321026,
+          -72.918218
+        ],
+        [
+          41.321388,
+          -72.918048
+        ],
+        [
+          41.321454,
+          -72.918016
+        ],
+        [
+          41.321913,
+          -72.9178
+        ],
+        [
+          41.322078,
+          -72.917724
+        ],
+        [
+          41.322319,
+          -72.91761
+        ],
+        [
+          41.322535,
+          -72.917509
+        ],
+        [
+          41.322645,
+          -72.917455
+        ],
+        [
+          41.32305,
+          -72.917264
+        ],
+        [
+          41.323771,
+          -72.91691
+        ],
+        [
+          41.323824,
+          -72.916885
+        ],
+        [
+          41.32408,
+          -72.916772
+        ],
+        [
+          41.324163,
+          -72.916735
+        ],
+        [
+          41.324218,
+          -72.916711
+        ],
+        [
+          41.324295,
+          -72.916676
+        ],
+        [
+          41.324447,
+          -72.916609
+        ],
+        [
+          41.324602,
+          -72.916541
+        ],
+        [
+          41.324666,
+          -72.916512
+        ],
+        [
+          41.324738,
+          -72.916478
+        ],
+        [
+          41.325045,
+          -72.916332
+        ],
+        [
+          41.325568,
+          -72.916083
+        ],
+        [
+          41.325669,
+          -72.916034
+        ],
+        [
+          41.325873,
+          -72.915937
+        ],
+        [
+          41.326144,
+          -72.915808
+        ],
+        [
+          41.326126,
+          -72.915739
+        ],
+        [
+          41.326112,
+          -72.915688
+        ],
+        [
+          41.3261,
+          -72.915641
+        ],
+        [
+          41.325708,
+          -72.91416
+        ],
+        [
+          41.325695,
+          -72.914111
+        ],
+        [
+          41.325671,
+          -72.914016
+        ],
+        [
+          41.325643,
+          -72.91391
+        ],
+        [
+          41.325619,
+          -72.913821
+        ],
+        [
+          41.325385,
+          -72.912952
+        ],
+        [
+          41.32537,
+          -72.912896
+        ],
+        [
+          41.325341,
+          -72.912782
+        ],
+        [
+          41.325318,
+          -72.912694
+        ],
+        [
+          41.325182,
+          -72.912176
+        ],
+        [
+          41.324719,
+          -72.910432
+        ]
+      ],
+      "routeDistanceM": 6829,
+      "routeDurationS": 612
+    },
+    {
+      "id": "walk-pizza-trail",
+      "name": "New Haven Pizza Trail",
+      "nameCn": "纽黑文披萨之路",
+      "description": "New Haven is the birthplace of American apizza — hit all three legendary institutions plus a Yale-favorite bar. Share slices, don't try full pies at each.",
+      "descriptionCn": "纽黑文是美式apizza的发源地——打卡三大传奇店加一家耶鲁最爱酒吧。分享切片，别在每家都点整张。",
+      "stops": [
+        "loc-wooster-square",
+        "loc-frank-pepes",
+        "loc-sallys-apizza",
+        "loc-bar-nightclub",
+        "loc-modern-apizza"
+      ],
+      "durationMinutes": 210,
+      "distanceKm": 3.2,
+      "routeGeometry": [
+        [
+          41.302002,
+          -72.916887
+        ],
+        [
+          41.301587,
+          -72.916872
+        ],
+        [
+          41.301473,
+          -72.916868
+        ],
+        [
+          41.301098,
+          -72.916866
+        ],
+        [
+          41.30095,
+          -72.916865
+        ],
+        [
+          41.300935,
+          -72.916865
+        ],
+        [
+          41.300835,
+          -72.916867
+        ],
+        [
+          41.300835,
+          -72.917304
+        ],
+        [
+          41.300834,
+          -72.918074
+        ],
+        [
+          41.30084,
+          -72.918176
+        ],
+        [
+          41.300847,
+          -72.918282
+        ],
+        [
+          41.300862,
+          -72.918409
+        ],
+        [
+          41.300884,
+          -72.918542
+        ],
+        [
+          41.300962,
+          -72.918984
+        ],
+        [
+          41.30103,
+          -72.919356
+        ],
+        [
+          41.301103,
+          -72.919711
+        ],
+        [
+          41.301197,
+          -72.920145
+        ],
+        [
+          41.30125,
+          -72.920377
+        ],
+        [
+          41.301285,
+          -72.920567
+        ],
+        [
+          41.301296,
+          -72.920675
+        ],
+        [
+          41.301301,
+          -72.920754
+        ],
+        [
+          41.301396,
+          -72.920748
+        ],
+        [
+          41.301651,
+          -72.920699
+        ],
+        [
+          41.302923,
+          -72.920465
+        ],
+        [
+          41.302975,
+          -72.920456
+        ],
+        [
+          41.302971,
+          -72.920391
+        ],
+        [
+          41.302945,
+          -72.919782
+        ],
+        [
+          41.302929,
+          -72.919384
+        ],
+        [
+          41.302926,
+          -72.919323
+        ],
+        [
+          41.302907,
+          -72.918851
+        ],
+        [
+          41.302902,
+          -72.918707
+        ],
+        [
+          41.302882,
+          -72.918206
+        ],
+        [
+          41.302878,
+          -72.918113
+        ],
+        [
+          41.302837,
+          -72.917149
+        ],
+        [
+          41.302828,
+          -72.916916
+        ],
+        [
+          41.302828,
+          -72.916904
+        ],
+        [
+          41.302821,
+          -72.916694
+        ],
+        [
+          41.302809,
+          -72.916265
+        ],
+        [
+          41.302803,
+          -72.916064
+        ],
+        [
+          41.302797,
+          -72.915876
+        ],
+        [
+          41.302853,
+          -72.915872
+        ],
+        [
+          41.303322,
+          -72.915835
+        ],
+        [
+          41.303673,
+          -72.915808
+        ],
+        [
+          41.30374,
+          -72.915803
+        ],
+        [
+          41.303745,
+          -72.915943
+        ],
+        [
+          41.303787,
+          -72.91709
+        ],
+        [
+          41.303826,
+          -72.918006
+        ],
+        [
+          41.303829,
+          -72.918114
+        ],
+        [
+          41.303837,
+          -72.918413
+        ],
+        [
+          41.303839,
+          -72.918479
+        ],
+        [
+          41.303848,
+          -72.918673
+        ],
+        [
+          41.303897,
+          -72.919668
+        ],
+        [
+          41.30392,
+          -72.92016
+        ],
+        [
+          41.303924,
+          -72.920271
+        ],
+        [
+          41.303854,
+          -72.920285
+        ],
+        [
+          41.303197,
+          -72.920414
+        ],
+        [
+          41.302975,
+          -72.920456
+        ],
+        [
+          41.302971,
+          -72.920391
+        ],
+        [
+          41.302955,
+          -72.920011
+        ],
+        [
+          41.302945,
+          -72.919782
+        ],
+        [
+          41.302929,
+          -72.919384
+        ],
+        [
+          41.302926,
+          -72.919323
+        ],
+        [
+          41.302907,
+          -72.918851
+        ],
+        [
+          41.302902,
+          -72.918707
+        ],
+        [
+          41.302882,
+          -72.918206
+        ],
+        [
+          41.302878,
+          -72.918113
+        ],
+        [
+          41.302943,
+          -72.918106
+        ],
+        [
+          41.302985,
+          -72.918101
+        ],
+        [
+          41.303753,
+          -72.918014
+        ],
+        [
+          41.303826,
+          -72.918006
+        ],
+        [
+          41.303829,
+          -72.918114
+        ],
+        [
+          41.303837,
+          -72.918413
+        ],
+        [
+          41.303839,
+          -72.918479
+        ],
+        [
+          41.303848,
+          -72.918673
+        ],
+        [
+          41.303897,
+          -72.919668
+        ],
+        [
+          41.30392,
+          -72.92016
+        ],
+        [
+          41.303924,
+          -72.920271
+        ],
+        [
+          41.303945,
+          -72.920378
+        ],
+        [
+          41.30405,
+          -72.920717
+        ],
+        [
+          41.304281,
+          -72.921455
+        ],
+        [
+          41.30433,
+          -72.921614
+        ],
+        [
+          41.304336,
+          -72.921629
+        ],
+        [
+          41.304365,
+          -72.92171
+        ],
+        [
+          41.304389,
+          -72.921776
+        ],
+        [
+          41.304638,
+          -72.922392
+        ],
+        [
+          41.304696,
+          -72.92253
+        ],
+        [
+          41.304731,
+          -72.922614
+        ],
+        [
+          41.30477,
+          -72.922696
+        ],
+        [
+          41.304826,
+          -72.922813
+        ],
+        [
+          41.304745,
+          -72.922869
+        ],
+        [
+          41.304304,
+          -72.923178
+        ],
+        [
+          41.30388,
+          -72.923493
+        ],
+        [
+          41.303564,
+          -72.923728
+        ],
+        [
+          41.303518,
+          -72.923763
+        ],
+        [
+          41.303453,
+          -72.92381
+        ],
+        [
+          41.303092,
+          -72.924072
+        ],
+        [
+          41.302708,
+          -72.924336
+        ],
+        [
+          41.302619,
+          -72.924395
+        ],
+        [
+          41.302605,
+          -72.924513
+        ],
+        [
+          41.302657,
+          -72.924648
+        ],
+        [
+          41.302796,
+          -72.924988
+        ],
+        [
+          41.302893,
+          -72.925211
+        ],
+        [
+          41.302954,
+          -72.92535
+        ],
+        [
+          41.303111,
+          -72.925716
+        ],
+        [
+          41.303158,
+          -72.925827
+        ],
+        [
+          41.303097,
+          -72.925913
+        ],
+        [
+          41.30271,
+          -72.926192
+        ],
+        [
+          41.302723,
+          -72.926243
+        ],
+        [
+          41.302728,
+          -72.926255
+        ],
+        [
+          41.302748,
+          -72.926301
+        ],
+        [
+          41.303106,
+          -72.927173
+        ],
+        [
+          41.30345,
+          -72.928098
+        ],
+        [
+          41.303836,
+          -72.92825
+        ],
+        [
+          41.305146,
+          -72.927311
+        ],
+        [
+          41.304907,
+          -72.92671
+        ],
+        [
+          41.30599,
+          -72.92592
+        ],
+        [
+          41.30606,
+          -72.926069
+        ],
+        [
+          41.306203,
+          -72.926399
+        ],
+        [
+          41.306338,
+          -72.92671
+        ],
+        [
+          41.306455,
+          -72.926984
+        ],
+        [
+          41.306011,
+          -72.927288
+        ],
+        [
+          41.305817,
+          -72.927421
+        ],
+        [
+          41.305641,
+          -72.927551
+        ],
+        [
+          41.305346,
+          -72.927757
+        ],
+        [
+          41.305146,
+          -72.927311
+        ],
+        [
+          41.303836,
+          -72.92825
+        ],
+        [
+          41.30345,
+          -72.928098
+        ],
+        [
+          41.303106,
+          -72.927173
+        ],
+        [
+          41.302748,
+          -72.926301
+        ],
+        [
+          41.302728,
+          -72.926255
+        ],
+        [
+          41.302723,
+          -72.926243
+        ],
+        [
+          41.30271,
+          -72.926192
+        ],
+        [
+          41.303097,
+          -72.925913
+        ],
+        [
+          41.303158,
+          -72.925827
+        ],
+        [
+          41.303197,
+          -72.925929
+        ],
+        [
+          41.303303,
+          -72.926179
+        ],
+        [
+          41.303404,
+          -72.926419
+        ],
+        [
+          41.303466,
+          -72.926565
+        ],
+        [
+          41.303497,
+          -72.92664
+        ],
+        [
+          41.303779,
+          -72.927303
+        ],
+        [
+          41.303801,
+          -72.927356
+        ],
+        [
+          41.303835,
+          -72.927436
+        ],
+        [
+          41.303906,
+          -72.927384
+        ],
+        [
+          41.304732,
+          -72.926762
+        ],
+        [
+          41.304805,
+          -72.926707
+        ],
+        [
+          41.304871,
+          -72.926658
+        ],
+        [
+          41.305349,
+          -72.926306
+        ],
+        [
+          41.305701,
+          -72.92604
+        ],
+        [
+          41.305989,
+          -72.925829
+        ],
+        [
+          41.306065,
+          -72.925772
+        ],
+        [
+          41.306139,
+          -72.925717
+        ],
+        [
+          41.307034,
+          -72.925062
+        ],
+        [
+          41.307852,
+          -72.924454
+        ],
+        [
+          41.308152,
+          -72.924231
+        ],
+        [
+          41.308197,
+          -72.924197
+        ],
+        [
+          41.30825,
+          -72.924159
+        ],
+        [
+          41.308325,
+          -72.924103
+        ],
+        [
+          41.308621,
+          -72.923883
+        ],
+        [
+          41.308766,
+          -72.923775
+        ],
+        [
+          41.308788,
+          -72.923759
+        ],
+        [
+          41.308924,
+          -72.923658
+        ],
+        [
+          41.30911,
+          -72.92352
+        ],
+        [
+          41.309244,
+          -72.923421
+        ],
+        [
+          41.309451,
+          -72.923278
+        ],
+        [
+          41.309491,
+          -72.923244
+        ],
+        [
+          41.309521,
+          -72.923223
+        ],
+        [
+          41.309533,
+          -72.923215
+        ],
+        [
+          41.309715,
+          -72.923086
+        ],
+        [
+          41.309973,
+          -72.922904
+        ],
+        [
+          41.310267,
+          -72.922696
+        ],
+        [
+          41.310386,
+          -72.922612
+        ],
+        [
+          41.310471,
+          -72.922583
+        ],
+        [
+          41.310519,
+          -72.922695
+        ],
+        [
+          41.310636,
+          -72.922975
+        ],
+        [
+          41.310929,
+          -72.923673
+        ],
+        [
+          41.310961,
+          -72.923746
+        ],
+        [
+          41.310992,
+          -72.923818
+        ],
+        [
+          41.310935,
+          -72.923862
+        ],
+        [
+          41.310661,
+          -72.924059
+        ]
+      ],
+      "routeDistanceM": 5295,
+      "routeDurationS": 755
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-03-26T00:00:00Z",
+    "version": "0.1.0",
+    "isLive": false
+  }
+}

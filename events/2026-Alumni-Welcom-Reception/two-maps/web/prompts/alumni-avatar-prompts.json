@@ -1,0 +1,71 @@
+{
+  "style": "cartoon hand-drawn stylish sketch portrait, expressive ink lines, clean color blocks, editorial illustration, no text, shoulder-up, soft paper texture",
+  "profiles": [
+    {
+      "profileId": "alumni-frank-ji-2020",
+      "person": "Frank Ji",
+      "ageRange": "from 20s student to 30s founder",
+      "raceCue": "Chinese East Asian male",
+      "locationCue": "Beijing -> New Haven -> Shanghai",
+      "occupationCue": "computational biologist to AI entrepreneur",
+      "stopTitles": ["Where It All Began", "The Yale Years", "Building Something New"],
+      "prompt": "Create a 3-image character series of the same Chinese East Asian male (Frank Ji). Keep one consistent face identity and hairstyle while evolving by life stage: (1) Beijing curious youth scientist vibe, (2) New Haven Yale-era PhD researcher with notebook, (3) Shanghai AI startup founder in modern smart-casual blazer. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm amber with deep blue accents, clean background, no text. Return exactly 3 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-frank-ji-2020/step-{index}.png"
+    },
+    {
+      "profileId": "alumni-marina-ross-1989",
+      "person": "Marina Ross",
+      "ageRange": "from 20s student to mature curator",
+      "raceCue": "White female",
+      "locationCue": "Boston -> New Haven -> New York -> London",
+      "occupationCue": "art history student to curator and nonprofit advisor",
+      "stopTitles": ["A Childhood of Museums", "Art History at Yale", "Gallery Years", "Curator Without Borders"],
+      "prompt": "Create a 4-image character series of the same White female (Marina Ross). Keep one consistent face identity while evolving by life stage: (1) Boston museum-loving youth, (2) Yale art-history student with sketchbook, (3) New York gallery professional in tailored jacket, (4) London independent curator with refined artistic style. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm ochre and slate-blue palette, clean background, no text. Return exactly 4 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-marina-ross-1989/step-{index}.png"
+    },
+    {
+      "profileId": "alumni-daniel-park-1998",
+      "person": "Daniel Park",
+      "ageRange": "from youth to senior finance leader",
+      "raceCue": "Korean East Asian male",
+      "locationCue": "Seoul -> New Haven -> Hong Kong -> Singapore",
+      "occupationCue": "economics student to sustainable infrastructure fund leader",
+      "stopTitles": ["Seoul Beginnings", "Economics at Yale", "Investment Banking", "Impact Capital"],
+      "prompt": "Create a 4-image character series of the same Korean East Asian male (Daniel Park). Keep one consistent face identity while evolving by life stage: (1) Seoul youth with ambitious expression, (2) Yale economics student, (3) Hong Kong investment banker in business suit, (4) Singapore impact-capital managing director with confident mature presence. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, amber and teal accents, clean background, no text. Return exactly 4 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-daniel-park-1998/step-{index}.png"
+    },
+    {
+      "profileId": "alumni-lucia-herrera-2007",
+      "person": "Lucia Herrera",
+      "ageRange": "from youth tinkerer to VP engineering",
+      "raceCue": "Latina female",
+      "locationCue": "Monterrey -> New Haven -> San Francisco -> Shenzhen",
+      "occupationCue": "electrical engineer to robotics engineering executive",
+      "stopTitles": ["Engineering Roots", "Yale Engineering", "Silicon Valley", "Hardware Capital"],
+      "prompt": "Create a 4-image character series of the same Latina female (Lucia Herrera). Keep one consistent face identity while evolving by life stage: (1) Monterrey electronics-loving youth, (2) Yale engineering graduate student with technical notes, (3) Silicon Valley hardware engineer in startup attire, (4) Shenzhen robotics VP engineering with leadership energy. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm gold + industrial blue accents, clean background, no text. Return exactly 4 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-lucia-herrera-2007/step-{index}.png"
+    },
+    {
+      "profileId": "alumni-owen-cheng-2014",
+      "person": "Owen Cheng",
+      "ageRange": "from youth observer to policy scholar",
+      "raceCue": "Chinese East Asian male",
+      "locationCue": "Vancouver -> New Haven -> Toronto",
+      "occupationCue": "sociology researcher to professor and policy consultant",
+      "stopTitles": ["Pacific Coast Childhood", "Sociology at Yale", "Policy & Academia"],
+      "prompt": "Create a 3-image character series of the same Chinese East Asian male (Owen Cheng). Keep one consistent face identity while evolving by life stage: (1) Vancouver youth with thoughtful expression, (2) Yale sociology PhD scholar with books, (3) Toronto professor-policy consultant with mature academic style. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm tan and cool blue accents, clean background, no text. Return exactly 3 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-owen-cheng-2014/step-{index}.png"
+    },
+    {
+      "profileId": "alumni-priya-menon-2022",
+      "person": "Priya Menon",
+      "ageRange": "from youth idealist to physician-founder",
+      "raceCue": "South Asian Indian female",
+      "locationCue": "Bengaluru -> New Haven -> Mumbai -> Dubai",
+      "occupationCue": "medical student to preventive-care startup physician-founder",
+      "stopTitles": ["Tech City Origins", "Medicine at Yale", "Public Health Frontlines", "Global Health Innovation"],
+      "prompt": "Create a 4-image character series of the same South Asian Indian female (Priya Menon). Keep one consistent face identity while evolving by life stage: (1) Bengaluru youth with empathetic expression, (2) Yale medical student in white-coat academic style, (3) Mumbai public-health frontline physician, (4) Dubai physician-founder with visionary leadership presence. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm saffron and deep blue accents, clean background, no text. Return exactly 4 distinct life-stage avatars in chronological order.",
+      "outputPattern": "/avatars/stages/alumni-priya-menon-2022/step-{index}.png"
+    }
+  ]
+}

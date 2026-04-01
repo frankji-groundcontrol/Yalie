@@ -1,0 +1,15 @@
+{
+  "name": "@yalie/alumni-journey-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@yalie/shared": "workspace:*",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.13.2"
+  }
+}

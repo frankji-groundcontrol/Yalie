@@ -1,0 +1,22 @@
+{
+  "name": "@yalie/two-maps-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --port 1701",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@yalie/shared": "workspace:*",
+    "globe.gl": "^2.45.1",
+    "leaflet": "^1.9.4",
+    "leaflet.geodesic": "^2.7.2",
+    "leaflet.markercluster": "^1.5.3",
+    "nuxt": "^3.13.2"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21"
+  }
+}

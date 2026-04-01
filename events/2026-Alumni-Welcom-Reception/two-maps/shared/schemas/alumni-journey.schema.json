@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yalie.local/schemas/alumni-journey.schema.json",
+  "title": "AlumniProfile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "classYear",
+    "program",
+    "hometown",
+    "hometownCountry",
+    "yaleExperience",
+    "currentRole",
+    "currentCity",
+    "currentCountry",
+    "journeyHighlights",
+    "tags"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "classYear": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+    "program": { "type": "string", "minLength": 1 },
+    "track": { "type": "string" },
+    "hometown": { "type": "string", "minLength": 1 },
+    "hometownCountry": { "type": "string", "minLength": 1 },
+    "yaleExperience": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "currentRole": { "type": "string", "minLength": 1 },
+    "currentCity": { "type": "string", "minLength": 1 },
+    "currentCountry": { "type": "string", "minLength": 1 },
+    "website": { "type": "string", "format": "uri" },
+    "journeyHighlights": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "photoUrl": { "type": "string", "format": "uri" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    }
+  }
+}

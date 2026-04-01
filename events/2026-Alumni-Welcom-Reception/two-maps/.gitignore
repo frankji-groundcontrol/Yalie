@@ -1,0 +1,12 @@
+node_modules/
+.pnpm-store/
+.nuxt/
+.output/
+dist/
+out/
+*.log
+*.tmp
+renders/
+remotion-renders/
+alumni-journey-map/video-remotion/out/
+local-guide-map/video-remotion/out/

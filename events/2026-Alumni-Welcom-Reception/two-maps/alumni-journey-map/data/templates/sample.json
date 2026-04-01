@@ -1,0 +1,393 @@
+{
+  "title": "Yale Alumni Journey Map",
+  "subtitle": "From Yale pathways to global impact, now connected in Shanghai",
+  "profiles": [
+    {
+      "id": "alumni-frank-ji-2020",
+      "name": "Frank Ji",
+      "nameCn": "\u5180\u9f0e\u89c9",
+      "classYear": 2020,
+      "program": "Biological & Biomedical Sciences (PhD)",
+      "track": "Computational Biology & Bioinformatics",
+      "hometown": "Beijing",
+      "hometownCountry": "China",
+      "yaleExperience": [
+        "PhD research in computational biology",
+        "Interdisciplinary work bridging biology and computer science"
+      ],
+      "currentRole": "Co-founder of MuShanghai, AI/tech entrepreneur",
+      "currentCity": "Shanghai",
+      "currentCountry": "China",
+      "photoUrl": "/avatars/frank-ji.png",
+      "website": "https://chicken-dice.me",
+      "journeyHighlights": [
+        "Academic training in life sciences",
+        "Transition to biotech-oriented research workflows",
+        "Pivot into AI-enabled entrepreneurship",
+        "Built cross-border community events through MuShanghai"
+      ],
+      "tags": ["biotech", "AI", "entrepreneurship", "community", "interdisciplinary"],
+      "stops": [
+        {
+          "city": "Beijing",
+          "cityCn": "\u5317\u4eac",
+          "coordinates": { "lat": 39.9042, "lng": 116.4074 },
+          "year": 1994,
+          "title": "Where It All Began",
+          "titleCn": "\u4e00\u5207\u7684\u8d77\u70b9",
+          "story": "Growing up in Beijing, fascinated by the intersection of biology and technology.",
+          "storyCn": "\u5728\u5317\u4eac\u957f\u5927\uff0c\u5bf9\u751f\u7269\u4e0e\u6280\u672f\u7684\u4ea4\u53c9\u9886\u57df\u7740\u8ff7\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 2015,
+          "endYear": 2020,
+          "title": "The Yale Years",
+          "titleCn": "\u8036\u9c81\u5c81\u6708",
+          "story": "PhD in computational biology, bridging biology and computer science at the frontier of both fields.",
+          "storyCn": "\u8ba1\u7b97\u751f\u7269\u5b66\u535a\u58eb\uff0c\u5728\u4e24\u4e2a\u9886\u57df\u7684\u524d\u6cbf\u67b6\u8d77\u6865\u6881\u3002"
+        },
+        {
+          "city": "Shanghai",
+          "cityCn": "\u4e0a\u6d77",
+          "coordinates": { "lat": 31.2304, "lng": 121.4737 },
+          "year": 2020,
+          "title": "Building Something New",
+          "titleCn": "\u521b\u9020\u65b0\u4e8b\u7269",
+          "story": "Co-founded MuShanghai, pivoting from academia into AI-enabled entrepreneurship and community building.",
+          "storyCn": "\u8054\u5408\u521b\u7acbMuShanghai\uff0c\u4ece\u5b66\u672f\u8f6c\u5411AI\u9a71\u52a8\u7684\u521b\u4e1a\u4e0e\u793e\u533a\u5efa\u8bbe\u3002"
+        }
+      ]
+    },
+    {
+      "id": "alumni-marina-ross-1989",
+      "name": "Marina Ross",
+      "classYear": 1989,
+      "program": "History of Art (BA)",
+      "hometown": "Boston",
+      "hometownCountry": "United States",
+      "yaleExperience": [
+        "Focused on museum studies and East-West art history",
+        "Co-curated student exhibitions with visiting scholars"
+      ],
+      "currentRole": "Independent curator and cultural nonprofit advisor",
+      "currentCity": "London",
+      "currentCountry": "United Kingdom",
+      "photoUrl": "/avatars/marina-ross.png",
+      "journeyHighlights": [
+        "Started in museum research",
+        "Led international gallery partnerships",
+        "Founded a public art education initiative"
+      ],
+      "tags": ["arts", "culture", "curation", "education"],
+      "stops": [
+        {
+          "city": "Boston",
+          "cityCn": "\u6ce2\u58eb\u987f",
+          "coordinates": { "lat": 42.3601, "lng": -71.0589 },
+          "year": 1967,
+          "title": "A Childhood of Museums",
+          "titleCn": "\u535a\u7269\u9986\u4e2d\u7684\u7ae5\u5e74",
+          "story": "Born into a family of educators, spent weekends exploring the MFA and Isabella Stewart Gardner Museum.",
+          "storyCn": "\u51fa\u751f\u4e8e\u6559\u80b2\u4e16\u5bb6\uff0c\u5468\u672b\u5728\u6ce2\u58eb\u987f\u7f8e\u672f\u9986\u548c\u52a0\u5fb7\u7eb3\u535a\u7269\u9986\u5ea6\u8fc7\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 1985,
+          "endYear": 1989,
+          "title": "Art History at Yale",
+          "titleCn": "\u8036\u9c81\u7684\u827a\u672f\u53f2",
+          "story": "Immersed in museum studies and East-West art history, co-curating exhibitions with visiting scholars.",
+          "storyCn": "\u6c89\u6d78\u4e8e\u535a\u7269\u9986\u5b66\u4e0e\u4e1c\u897f\u65b9\u827a\u672f\u53f2\uff0c\u4e0e\u8bbf\u95ee\u5b66\u8005\u8054\u5408\u7b56\u5c55\u3002"
+        },
+        {
+          "city": "New York",
+          "cityCn": "\u7ebd\u7ea6",
+          "coordinates": { "lat": 40.7128, "lng": -74.006 },
+          "year": 1989,
+          "endYear": 2003,
+          "title": "Gallery Years",
+          "titleCn": "\u753b\u5eca\u5c81\u6708",
+          "story": "Museum research and international gallery partnerships in Manhattan, building bridges across art worlds.",
+          "storyCn": "\u5728\u66fc\u54c8\u987f\u4ece\u4e8b\u535a\u7269\u9986\u7814\u7a76\u4e0e\u56fd\u9645\u753b\u5eca\u5408\u4f5c\uff0c\u67b6\u8d77\u827a\u672f\u4e16\u754c\u7684\u6865\u6881\u3002"
+        },
+        {
+          "city": "London",
+          "cityCn": "\u4f26\u6566",
+          "coordinates": { "lat": 51.5074, "lng": -0.1278 },
+          "year": 2003,
+          "title": "Curator Without Borders",
+          "titleCn": "\u65e0\u754c\u7b56\u5c55\u4eba",
+          "story": "Independent curator and cultural nonprofit advisor, founding a public art education initiative.",
+          "storyCn": "\u72ec\u7acb\u7b56\u5c55\u4eba\u4e0e\u6587\u5316\u975e\u8425\u5229\u987e\u95ee\uff0c\u521b\u529e\u516c\u5171\u827a\u672f\u6559\u80b2\u9879\u76ee\u3002"
+        }
+      ]
+    },
+    {
+      "id": "alumni-daniel-park-1998",
+      "name": "Daniel Park",
+      "classYear": 1998,
+      "program": "Economics (BA)",
+      "track": "International Finance",
+      "hometown": "Seoul",
+      "hometownCountry": "South Korea",
+      "yaleExperience": [
+        "Research assistant on emerging market capital flows",
+        "Student leadership in Asia-Pacific policy forum"
+      ],
+      "currentRole": "Managing director at a sustainable infrastructure fund",
+      "currentCity": "Singapore",
+      "currentCountry": "Singapore",
+      "photoUrl": "/avatars/daniel-park.png",
+      "journeyHighlights": [
+        "Analyst at global investment bank",
+        "Shifted to impact-oriented private capital",
+        "Scaled cross-border green projects in Southeast Asia"
+      ],
+      "tags": ["investment", "infrastructure", "impact", "finance"],
+      "stops": [
+        {
+          "city": "Seoul",
+          "cityCn": "\u9996\u5c14",
+          "coordinates": { "lat": 37.5665, "lng": 126.978 },
+          "year": 1976,
+          "title": "Seoul Beginnings",
+          "titleCn": "\u9996\u5c14\u8d77\u6b65",
+          "story": "Grew up watching South Korea's economic transformation firsthand.",
+          "storyCn": "\u4eb2\u5386\u97e9\u56fd\u7ecf\u6d4e\u8f6c\u578b\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 1994,
+          "endYear": 1998,
+          "title": "Economics at Yale",
+          "titleCn": "\u8036\u9c81\u7ecf\u6d4e\u5b66",
+          "story": "Research on emerging market capital flows, student leadership in Asia-Pacific policy forum.",
+          "storyCn": "\u7814\u7a76\u65b0\u5174\u5e02\u573a\u8d44\u672c\u6d41\u52a8\uff0c\u9886\u5bfc\u4e9a\u592a\u653f\u7b56\u8bba\u575b\u3002"
+        },
+        {
+          "city": "Hong Kong",
+          "cityCn": "\u9999\u6e2f",
+          "coordinates": { "lat": 22.3193, "lng": 114.1694 },
+          "year": 1998,
+          "endYear": 2008,
+          "title": "Investment Banking",
+          "titleCn": "\u6295\u8d44\u94f6\u884c",
+          "story": "Analyst rising to VP at a global investment bank, learning the mechanics of capital at scale.",
+          "storyCn": "\u4ece\u5206\u6790\u5e08\u664b\u5347\u81f3\u5168\u7403\u6295\u884c\u526f\u603b\u88c1\uff0c\u5b66\u4e60\u8d44\u672c\u8fd0\u4f5c\u3002"
+        },
+        {
+          "city": "Singapore",
+          "cityCn": "\u65b0\u52a0\u5761",
+          "coordinates": { "lat": 1.3521, "lng": 103.8198 },
+          "year": 2008,
+          "title": "Impact Capital",
+          "titleCn": "\u5f71\u54cd\u529b\u8d44\u672c",
+          "story": "Managing director at a sustainable infrastructure fund, scaling green projects across Southeast Asia.",
+          "storyCn": "\u53ef\u6301\u7eed\u57fa\u7840\u8bbe\u65bd\u57fa\u91d1\u6267\u884c\u8463\u4e8b\uff0c\u63a8\u52a8\u4e1c\u5357\u4e9a\u7eff\u8272\u9879\u76ee\u3002"
+        }
+      ]
+    },
+    {
+      "id": "alumni-lucia-herrera-2007",
+      "name": "Lucia Herrera",
+      "classYear": 2007,
+      "program": "Electrical Engineering (MS)",
+      "track": "Embedded Systems",
+      "hometown": "Monterrey",
+      "hometownCountry": "Mexico",
+      "yaleExperience": [
+        "Built low-power sensing prototypes",
+        "Collaborated with public health researchers on field devices"
+      ],
+      "currentRole": "VP Engineering at a robotics automation company",
+      "currentCity": "Shenzhen",
+      "currentCountry": "China",
+      "photoUrl": "/avatars/lucia-herrera.png",
+      "journeyHighlights": [
+        "Early career in semiconductor design",
+        "Moved into industrial robotics",
+        "Leads multilingual engineering teams across regions"
+      ],
+      "tags": ["engineering", "robotics", "hardware", "leadership"],
+      "stops": [
+        {
+          "city": "Monterrey",
+          "cityCn": "\u8499\u7279\u96f7",
+          "coordinates": { "lat": 25.6866, "lng": -100.3161 },
+          "year": 1983,
+          "title": "Engineering Roots",
+          "titleCn": "\u5de5\u7a0b\u6839\u57fa",
+          "story": "Grew up in Mexico's industrial heartland, tinkering with electronics from a young age.",
+          "storyCn": "\u5728\u58a8\u897f\u54e5\u5de5\u4e1a\u91cd\u9547\u957f\u5927\uff0c\u4ece\u5c0f\u5c31\u70ed\u8877\u6478\u5f04\u7535\u5b50\u8bbe\u5907\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 2005,
+          "endYear": 2007,
+          "title": "Yale Engineering",
+          "titleCn": "\u8036\u9c81\u5de5\u7a0b",
+          "story": "MS in electrical engineering, building low-power sensing prototypes and health-tech field devices.",
+          "storyCn": "\u7535\u6c14\u5de5\u7a0b\u7855\u58eb\uff0c\u6784\u5efa\u4f4e\u529f\u8017\u4f20\u611f\u539f\u578b\u4e0e\u5065\u5eb7\u79d1\u6280\u73b0\u573a\u8bbe\u5907\u3002"
+        },
+        {
+          "city": "San Francisco",
+          "cityCn": "\u65e7\u91d1\u5c71",
+          "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+          "year": 2007,
+          "endYear": 2015,
+          "title": "Silicon Valley",
+          "titleCn": "\u7845\u8c37",
+          "story": "Semiconductor design engineer, then transitioned into industrial robotics in the Bay Area.",
+          "storyCn": "\u534a\u5bfc\u4f53\u8bbe\u8ba1\u5de5\u7a0b\u5e08\uff0c\u540e\u8f6c\u5411\u6e7e\u533a\u7684\u5de5\u4e1a\u673a\u5668\u4eba\u9886\u57df\u3002"
+        },
+        {
+          "city": "Shenzhen",
+          "cityCn": "\u6df1\u5733",
+          "coordinates": { "lat": 22.5431, "lng": 114.0579 },
+          "year": 2015,
+          "title": "Hardware Capital",
+          "titleCn": "\u786c\u4ef6\u4e4b\u90fd",
+          "story": "VP Engineering at a robotics company, leading multilingual teams building the future of automation.",
+          "storyCn": "\u673a\u5668\u4eba\u516c\u53f8\u5de5\u7a0b\u526f\u603b\u88c1\uff0c\u9886\u5bfc\u591a\u8bed\u8a00\u56e2\u961f\u6784\u5efa\u81ea\u52a8\u5316\u7684\u672a\u6765\u3002"
+        }
+      ]
+    },
+    {
+      "id": "alumni-owen-cheng-2014",
+      "name": "Owen Cheng",
+      "classYear": 2014,
+      "program": "Sociology (PhD)",
+      "track": "Urban Inequality",
+      "hometown": "Vancouver",
+      "hometownCountry": "Canada",
+      "yaleExperience": [
+        "Longitudinal research on migration and labor",
+        "Interdisciplinary seminars with policy and data science labs"
+      ],
+      "currentRole": "Associate professor and public policy consultant",
+      "currentCity": "Toronto",
+      "currentCountry": "Canada",
+      "photoUrl": "/avatars/owen-cheng.png",
+      "journeyHighlights": [
+        "Published comparative urban mobility studies",
+        "Advised city governments on evidence-based policy",
+        "Built civic data literacy programs"
+      ],
+      "tags": ["social science", "policy", "research", "urban"],
+      "stops": [
+        {
+          "city": "Vancouver",
+          "cityCn": "\u6e29\u54e5\u534e",
+          "coordinates": { "lat": 49.2827, "lng": -123.1207 },
+          "year": 1986,
+          "title": "Pacific Coast Childhood",
+          "titleCn": "\u592a\u5e73\u6d0b\u6d77\u5cb8\u7ae5\u5e74",
+          "story": "Grew up in one of the world's most diverse cities, sparking a lifelong interest in urban sociology.",
+          "storyCn": "\u5728\u4e16\u754c\u4e0a\u6700\u591a\u5143\u7684\u57ce\u5e02\u4e4b\u4e00\u957f\u5927\uff0c\u6fc0\u53d1\u4e86\u5bf9\u57ce\u5e02\u793e\u4f1a\u5b66\u7684\u7ec8\u8eab\u5174\u8da3\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 2009,
+          "endYear": 2014,
+          "title": "Sociology at Yale",
+          "titleCn": "\u8036\u9c81\u793e\u4f1a\u5b66",
+          "story": "PhD research on migration and labor, interdisciplinary work with policy and data science labs.",
+          "storyCn": "\u79fb\u6c11\u4e0e\u52b3\u52a8\u7814\u7a76\u535a\u58eb\uff0c\u4e0e\u653f\u7b56\u548c\u6570\u636e\u79d1\u5b66\u5b9e\u9a8c\u5ba4\u8de8\u5b66\u79d1\u5408\u4f5c\u3002"
+        },
+        {
+          "city": "Toronto",
+          "cityCn": "\u591a\u4f26\u591a",
+          "coordinates": { "lat": 43.6532, "lng": -79.3832 },
+          "year": 2014,
+          "title": "Policy & Academia",
+          "titleCn": "\u653f\u7b56\u4e0e\u5b66\u672f",
+          "story": "Associate professor and public policy consultant, building civic data literacy programs.",
+          "storyCn": "\u526f\u6559\u6388\u4e0e\u516c\u5171\u653f\u7b56\u987e\u95ee\uff0c\u6784\u5efa\u516c\u6c11\u6570\u636e\u7d20\u517b\u9879\u76ee\u3002"
+        }
+      ]
+    },
+    {
+      "id": "alumni-priya-menon-2022",
+      "name": "Priya Menon",
+      "classYear": 2022,
+      "program": "Medicine (MD)",
+      "track": "Global Health Innovation",
+      "hometown": "Bengaluru",
+      "hometownCountry": "India",
+      "yaleExperience": [
+        "Clinical rotations with focus on community medicine",
+        "Capstone on digital triage and primary care access"
+      ],
+      "currentRole": "Physician-founder at a preventive care startup",
+      "currentCity": "Dubai",
+      "currentCountry": "United Arab Emirates",
+      "photoUrl": "/avatars/priya-menon.png",
+      "journeyHighlights": [
+        "Practiced in public hospital systems",
+        "Launched hybrid telehealth clinics",
+        "Scaled data-driven chronic care programs"
+      ],
+      "tags": ["medicine", "healthtech", "startup", "global health"],
+      "stops": [
+        {
+          "city": "Bengaluru",
+          "cityCn": "\u73ed\u52a0\u7f57\u5c14",
+          "coordinates": { "lat": 12.9716, "lng": 77.5946 },
+          "year": 1996,
+          "title": "Tech City Origins",
+          "titleCn": "\u79d1\u6280\u4e4b\u57ce\u8d77\u6e90",
+          "story": "Born in India's tech capital, witnessing healthcare disparities that shaped her calling.",
+          "storyCn": "\u51fa\u751f\u4e8e\u5370\u5ea6\u79d1\u6280\u4e4b\u90fd\uff0c\u4eb2\u773c\u76ee\u7779\u7684\u533b\u7597\u5dee\u8ddd\u5851\u9020\u4e86\u5979\u7684\u4f7f\u547d\u3002"
+        },
+        {
+          "city": "New Haven",
+          "cityCn": "\u7ebd\u9ed1\u6587",
+          "coordinates": { "lat": 41.3083, "lng": -72.9279 },
+          "year": 2018,
+          "endYear": 2022,
+          "title": "Medicine at Yale",
+          "titleCn": "\u8036\u9c81\u533b\u5b66",
+          "story": "Clinical rotations in community medicine, capstone on digital triage and primary care access.",
+          "storyCn": "\u793e\u533a\u533b\u5b66\u4e34\u5e8a\u8f6e\u8f6c\uff0c\u6bd5\u4e1a\u8bba\u6587\u805a\u7126\u6570\u5b57\u5206\u8bca\u4e0e\u57fa\u5c42\u533b\u7597\u3002"
+        },
+        {
+          "city": "Mumbai",
+          "cityCn": "\u5b5f\u4e70",
+          "coordinates": { "lat": 19.076, "lng": 72.8777 },
+          "year": 2022,
+          "endYear": 2024,
+          "title": "Public Health Frontlines",
+          "titleCn": "\u516c\u5171\u536b\u751f\u524d\u7ebf",
+          "story": "Practicing in public hospital systems, witnessing scalability challenges that inspired her next move.",
+          "storyCn": "\u5728\u516c\u7acb\u533b\u9662\u7cfb\u7edf\u6267\u4e1a\uff0c\u89c1\u8bc1\u53ef\u6269\u5c55\u6027\u6311\u6218\u5e76\u6fc0\u53d1\u4e86\u4e0b\u4e00\u6b65\u884c\u52a8\u3002"
+        },
+        {
+          "city": "Dubai",
+          "cityCn": "\u8fea\u62dc",
+          "coordinates": { "lat": 25.2048, "lng": 55.2708 },
+          "year": 2024,
+          "title": "Global Health Innovation",
+          "titleCn": "\u5168\u7403\u5065\u5eb7\u521b\u65b0",
+          "story": "Physician-founder of a preventive care startup, scaling data-driven chronic care programs across the Gulf.",
+          "storyCn": "\u9884\u9632\u4fdd\u5065\u521d\u521b\u516c\u53f8\u533b\u751f\u521b\u59cb\u4eba\uff0c\u5728\u6d77\u6e7e\u5730\u533a\u63a8\u5e7f\u6570\u636e\u9a71\u52a8\u7684\u6162\u75c5\u7ba1\u7406\u3002"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-03-26T10:00:00.000Z",
+    "version": "2.0.0",
+    "isLive": false
+  }
+}

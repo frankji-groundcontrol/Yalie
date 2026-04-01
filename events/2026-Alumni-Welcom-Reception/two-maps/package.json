@@ -1,0 +1,12 @@
+{
+  "name": "@yalie/two-maps",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "pnpm --filter @yalie/two-maps-web dev",
+    "build": "pnpm -r --filter ./shared --filter @yalie/two-maps-web --filter @yalie/alumni-journey-video --filter @yalie/local-guide-video build",
+    "render": "pnpm -r --filter @yalie/alumni-journey-video --filter @yalie/local-guide-video render",
+    "render:alumni": "pnpm --filter @yalie/alumni-journey-video render",
+    "render:local": "pnpm --filter @yalie/local-guide-video render"
+  }
+}

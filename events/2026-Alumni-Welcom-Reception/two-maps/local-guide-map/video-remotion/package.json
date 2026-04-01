@@ -1,0 +1,21 @@
+{
+  "name": "@yalie/local-guide-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/Root.tsx",
+    "build": "remotion bundle src/Root.tsx",
+    "render": "remotion render src/Root.tsx LocalGuideVideo out/local-guide.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.230",
+    "@yalie/shared": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.230"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1"
+  }
+}
