@@ -19,6 +19,8 @@ This folder contains all internal planning documents for the Yale Shanghai Alumn
 | A confirmed volunteer / 已确认的志愿者 | Your role plan in [en/](en/) | 你的岗位计划在 [cn/](cn/) |
 | A lead / 负责人 | [Operations Runbook](en/plan_en.md) + your role plan | [执行计划](cn/plan_cn.md) + 你的岗位计划 |
 | A co-host or stakeholder / 协办方或利益方 | [Event Proposal](en/event-plan_en.md) | [活动提案](cn/event-plan_cn.md) |
+| Volcano Engine collaboration contact / 火山引擎合作对接人 | [Volcano Brief](en/volcengine-workshop-brief_en.md) | [火山需求说明](cn/volcengine-workshop-brief_cn.md) |
+| Workshop participant / 工作坊参与者 | [Participant Guide](en/participant-workshop-guide_en.md) | [参与者参考文档](cn/participant-workshop-guide_cn.md) |
 | An organizer / 组织者 | Read everything in [en/](en/) | 阅读 [cn/](cn/) 下所有文档 |
 
 ## Folder Structure / 文件夹结构
@@ -28,11 +30,15 @@ planning/
 ├── cn/                            ← 中文文档
 │   ├── event-plan_cn.md              提案概念文档
 │   ├── plan_cn.md                    志愿者执行计划（主 runbook）
+│   ├── volcengine-workshop-brief_cn.md  火山引擎现场支持需求说明
+│   ├── participant-workshop-guide_cn.md  参与者现场参考文档
 │   ├── volunteer-willing-list_cn.md  志愿者意向登记表
 │   └── role-*_cn.md                  10 个岗位计划（4 负责人 + 6 志愿者岗位）
 ├── en/                            ← English documents
 │   ├── event-plan_en.md              Proposal-level concept document
 │   ├── plan_en.md                    Volunteer operations runbook (main)
+│   ├── volcengine-workshop-brief_en.md  Volcano Engine on-site support brief
+│   ├── participant-workshop-guide_en.md  Participant on-site guide
 │   ├── volunteer-willing-list_en.md  Volunteer interest form
 │   └── role-*_en.md                  10 role plans (4 leads + 6 volunteer roles)
 └── README.md                      ← This file / 本文件

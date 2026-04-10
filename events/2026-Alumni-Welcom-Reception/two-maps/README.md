@@ -7,23 +7,24 @@
 - Folder Structure / 目录结构
 - Getting Started / 快速开始
 - Rendering Videos / 视频渲染
+- OpenClaw Prompt Pack / OpenClaw 提示词包
 
 ## Overview / 项目概览
 
 This workspace powers two event experiences for the Yale alumni welcome reception in Shanghai:
 
-1. Alumni Journey Map: a profile-based storytelling map showing where alumni started and where they are now.
-2. Local Guide Map: a practical and cultural map to help incoming attendees navigate Shanghai.
+1. Alumni Journey Map: a life-path map showing each person's route from hometown, through Yale (New Haven), to where they are now.
+2. Local Guide Map: a city map of practical and cultural places for "our cities" (New Haven, Beijing, Shanghai), built from city templates.
 
 本工作区支持耶鲁上海校友迎新活动的两种内容体验：
 
-1. Alumni Journey Map（校友旅程地图）：展示校友背景与当下城市的故事型地图。
-2. Local Guide Map（本地指南地图）：帮助新到场校友快速了解上海生活与活动场景的实用地图。
+1. Alumni Journey Map（校友旅程地图）：以“人生路径”为核心，展示每个人从家乡、到耶鲁（纽黑文）、再到当下城市的路径。
+2. Local Guide Map（本地指南地图）：以“城市本身”为核心，沉淀纽黑文、北京、上海三城的在地资源与路线。
 
 ## What The Two Maps Are / 两张地图是什么
 
-- Alumni Journey Map combines structured alumni profile data with reusable web and video views.
-- Local Guide Map combines bilingual place data with curated art/city walks.
+- Alumni Journey Map is person-centric: each profile contains ordered journey stops (`stops`) with city and year.
+- Local Guide Map is place-centric: each location has category, coordinates, and route-level walk data.
 - Both maps share the same TypeScript types, JSON schemas, and utility formatters through `@yalie/shared`.
 - Both maps can run as web templates in Nuxt and as pre-produced videos in Remotion.
 - Frank Ji's personal site `chicken-dice.me` (built with Nuxt) can be used as a style and interaction reference for implementation quality.
@@ -34,11 +35,16 @@ This workspace powers two event experiences for the Yale alumni welcome receptio
 - 两张地图都可作为 Nuxt 网页模板运行，并可用 Remotion 生成视频。
 - Frank Ji 的个人站点 `chicken-dice.me`（Nuxt 技术栈）可作为风格和交互质量的参考。
 
+Implementation note / 实现备注:
+- Current city templates in repo: Shanghai and New Haven (`local-guide-map/data/templates/`).
+- Beijing is part of the workshop's target city set and can be added with the same schema.
+
 ## Folder Structure / 目录结构
 
 ```text
 two-maps/
   shared/                        # Shared types, schemas, and helpers
+  docs/                          # Plans and facilitation prompt packs
   alumni-journey-map/
     data/templates/              # Sample template JSON
     web-nuxt/                    # Nuxt 3 web scaffold
@@ -75,3 +81,8 @@ pnpm render
 
 - 仅渲染校友地图：`pnpm render:alumni`
 - 仅渲染本地指南地图：`pnpm render:local`
+
+## OpenClaw Prompt Pack / OpenClaw 提示词包
+
+- English: `docs/openclaw-starter-prompts_en.md`
+- 中文：`docs/openclaw-starter-prompts_cn.md`

@@ -13,8 +13,12 @@ This folder groups the working materials for the Yale Shanghai alumni reception 
 - `planning/` contains internal planning and operations documents, split by language.
   - `planning/README.md` — reader guide: which document should I read?
   - `planning/cn/` — all Chinese planning documents (proposal, runbook, and 10 role plans).
+    - `volcengine-workshop-brief_cn.md` — 火山引擎现场支持需求说明。
+    - `participant-workshop-guide_cn.md` — 参与者现场参考文档。
     - `volunteer-willing-list_cn.md` — volunteer interest form and role selection guide.
   - `planning/en/` — all English planning documents (mirrors `cn/`).
+    - `volcengine-workshop-brief_en.md` — Volcano Engine on-site support brief.
+    - `participant-workshop-guide_en.md` — participant on-site guide.
     - `volunteer-willing-list_en.md` — volunteer interest form and role selection guide.
 - `posts/` contains outward-facing recruitment copy by channel.
   - `post-official_en.md` and `post-official_cn.md` are the longer public posts.
@@ -26,14 +30,14 @@ This folder groups the working materials for the Yale Shanghai alumni reception 
   - `two-maps/shared/` — shared TypeScript types, JSON schemas, and utilities.
   - `two-maps/alumni-journey-map/` — Alumni Journey Map (Nuxt web + Remotion video).
   - `two-maps/local-guide-map/` — Local Guide Map (Nuxt web + Remotion video).
-  - `two-maps/docs/` — implementation plan and reusable workflow skill template.
+  - `two-maps/docs/` — implementation plans, skill templates, and OpenClaw facilitation prompts.
 
 ## Two Maps Project
 
 The Two Maps are interactive showcase pieces produced for the event and rendered in multiple formats:
 
 1. **Alumni Journey Map** — profile-based storytelling map showing where alumni started, what they studied at Yale, and where they are now. Emphasizes diversity of paths.
-2. **Local Guide Map** — bilingual practical and cultural map for Shanghai with curated art walks and resource lists.
+2. **Local Guide Map** — bilingual city map for our workshop cities (New Haven, Beijing, Shanghai) with practical/cultural resources and curated routes.
 
 **Tech stack**: Nuxt 3 (Vue 3) for interactive web pages, Remotion (React) for video generation, pnpm workspaces for monorepo, shared TypeScript data contracts.
 

@@ -1,6 +1,9 @@
 import { defineNuxtConfig } from 'nuxt/config';
 
 const config = {
+  // WARNING: Binding to 0.0.0.0 is not technically recommended for general use.
+  // This is set only for workshop facility — allows LAN access from participants' devices.
+  devServer: { host: '0.0.0.0' },
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   tailwindcss: {
