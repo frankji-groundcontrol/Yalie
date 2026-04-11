@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { GuideCategory } from "@yalie/shared";
+import MapModeToggle from "../shared/MapModeToggle.vue";
 import { categoryVisuals } from "./LocalCategoryData";
 
 const { activeCity, data, switchCity } = useLocalGuideState();
@@ -39,6 +40,16 @@ const floatingPlacement: Record<GuideCategory, { left: string; top: string; dela
         <span>Shanghai</span>
         <small>上海</small>
       </button>
+      <button
+        type="button"
+        class="city-toggle-button"
+        :class="{ 'is-active': activeCity === 'beijing' }"
+        :aria-pressed="activeCity === 'beijing'"
+        @click="switchCity('beijing')"
+      >
+        <span>Beijing</span>
+        <small>北京</small>
+      </button>
     </div>
 
     <div class="hero-copy">
@@ -48,6 +59,7 @@ const floatingPlacement: Record<GuideCategory, { left: string; top: string; dela
         <span>{{ data.title }}</span>
       </h1>
       <p class="hero-subtitle">{{ data.subtitleCn }} / {{ data.subtitle }}</p>
+      <MapModeToggle active-view="local" theme="local" />
     </div>
 
     <ul class="floating-objects" aria-hidden="true">
@@ -142,6 +154,8 @@ const floatingPlacement: Record<GuideCategory, { left: string; top: string; dela
 .hero-copy {
   position: relative;
   z-index: 3;
+  display: grid;
+  gap: 0.95rem;
   max-width: 42rem;
 }
 
@@ -153,7 +167,6 @@ const floatingPlacement: Record<GuideCategory, { left: string; top: string; dela
 }
 
 h1 {
-  margin-top: 0.85rem;
   font-family: "Cormorant Garamond", "Noto Serif SC", serif;
   font-size: clamp(2rem, 5vw, 4.8rem);
   line-height: 0.95;
@@ -170,10 +183,14 @@ h1 span {
 }
 
 .hero-subtitle {
-  margin-top: 1rem;
   max-width: 40ch;
   font-size: clamp(0.98rem, 1.55vw, 1.3rem);
   color: var(--suit-charcoal);
+}
+
+.hero-copy :deep(.map-mode-toggle) {
+  margin-top: 0.4rem;
+  justify-self: start;
 }
 
 .floating-objects {

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import MapModeToggle from "../shared/MapModeToggle.vue";
+
 const { mapSubtitle } = useAlumniState();
 
 let animationFrame: number | null = null;
@@ -69,10 +71,11 @@ onUnmounted(() => {
   <header class="hero">
     <div class="hero-sky parallax-bg" aria-hidden="true"></div>
     <div class="hero-stars parallax-mid" aria-hidden="true"></div>
-    <div class="hero-copy parallax-fg">
+    <div class="hero-copy">
       <p class="kicker">Constellation of Lives · Shanghai Reception 2026</p>
       <h1>Where Did Yale Take You?</h1>
       <p>{{ mapSubtitle }}</p>
+      <MapModeToggle active-view="alumni" theme="alumni" />
     </div>
     <div class="horizon" aria-hidden="true"></div>
   </header>
@@ -83,10 +86,11 @@ onUnmounted(() => {
 .hero-sky, .hero-stars { position: absolute; inset: 0; pointer-events: none; }
 .hero-sky { background: radial-gradient(120% 80% at 18% 14%, rgba(225, 182, 98, 0.36) 0%, rgba(225, 182, 98, 0) 65%), radial-gradient(70% 45% at 78% 28%, rgba(123, 167, 188, 0.36) 0%, rgba(123, 167, 188, 0) 60%); }
 .hero-stars { background-image: radial-gradient(circle at 14% 18%, rgba(26, 20, 16, 0.32) 0 1px, transparent 1.2px), radial-gradient(circle at 68% 22%, rgba(26, 20, 16, 0.28) 0 1px, transparent 1.2px), radial-gradient(circle at 34% 44%, rgba(235, 232, 229, 0.72) 0 1.6px, transparent 1.8px), radial-gradient(circle at 82% 56%, rgba(235, 232, 229, 0.58) 0 1.3px, transparent 1.5px); background-size: 220px 220px, 260px 260px, 190px 190px, 280px 280px; opacity: 0.85; }
-.hero-copy { position: relative; z-index: 2; max-width: 58rem; color: var(--surrealist-black); }
+.hero-copy { position: relative; z-index: 3; display: grid; gap: 0.95rem; max-width: 58rem; color: var(--surrealist-black); }
 .kicker { font-size: 0.76rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(26, 20, 16, 0.8); }
-h1 { margin-top: 1rem; font-family: var(--font-heading); font-size: clamp(2.6rem, 9vw, 7rem); line-height: 0.93; }
-.hero-copy p:last-child { margin-top: 1rem; max-width: 44ch; font-size: clamp(1rem, 2vw, 1.3rem); color: rgba(26, 20, 16, 0.88); }
+h1 { font-family: var(--font-heading); font-size: clamp(2.6rem, 9vw, 7rem); line-height: 0.93; }
+.hero-copy > p:last-of-type { max-width: 44ch; font-size: clamp(1rem, 2vw, 1.3rem); color: rgba(26, 20, 16, 0.88); }
+.hero-copy :deep(.map-mode-toggle) { margin-top: 0.45rem; justify-self: start; }
 .horizon { position: absolute; left: 0; right: 0; bottom: 33%; border-top: 1px solid rgba(225, 182, 98, 0.86); box-shadow: 0 -10px 28px rgba(26, 20, 16, 0.16); }
 .parallax-bg, .parallax-mid, .parallax-fg { will-change: transform; }
 .parallax-bg { transform: translate3d(0, calc(var(--scroll, 0px) * 0.2), 0); }
