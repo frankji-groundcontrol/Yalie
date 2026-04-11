@@ -247,12 +247,19 @@ export function useLeafletMap(mapContainer?: Ref<HTMLElement | null>) {
   const internalContainer = mapContainer ?? ref<HTMLElement | null>(null);
 
   async function initMap(): Promise<void> {
-    if (!internalContainer.value) {
+    const element = internalContainer.value;
+    if (!element) {
       return;
     }
 
     const leaf = (await import("leaflet")).default;
     await import("leaflet.markercluster");
+
+    // Route transitions can unmount the map container while Leaflet is still loading.
+    if (internalContainer.value !== element || !element.isConnected) {
+      return;
+    }
+
     leafletLib = leaf;
 
     if (resizeObserver) {
@@ -268,7 +275,6 @@ export function useLeafletMap(mapContainer?: Ref<HTMLElement | null>) {
       walkLayerGroup = null;
     }
 
-    const element = internalContainer.value;
     if ("_leaflet_id" in element) {
       Reflect.deleteProperty(element as Record<string, unknown>, "_leaflet_id");
     }
