@@ -41,8 +41,8 @@ export function HeroSection({ title, subtitle, chineseDate, locations, compact =
   const infoIconClassName = compact ? 'h-5 w-5' : 'h-6 w-6'
   const infoTextClassName = compact ? 'text-xl md:text-2xl tracking-wide font-medium' : 'text-lg md:text-xl tracking-wide font-medium'
   const locationWrapClassName = compact
-    ? 'grid w-full max-w-4xl gap-3 md:grid-cols-2'
-    : 'flex flex-col items-center gap-3 sm:flex-row sm:gap-6'
+    ? 'grid w-full max-w-2xl gap-3'
+    : 'flex flex-col items-center gap-3'
 
   return (
     <section className={sectionClassName}>

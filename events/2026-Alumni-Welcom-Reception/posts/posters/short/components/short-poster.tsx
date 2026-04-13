@@ -190,12 +190,11 @@ function PosterContent() {
                       <p className="text-base font-semibold text-white md:text-lg">1:30 PM</p>
                       <p className="text-base font-semibold text-white/72 md:text-lg">开始签到</p>
                     </div>
-                    <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                    <div className="mt-4">
                       <div className="border border-white/10 bg-white/5 px-4 py-3">
                         <p className="text-sm font-semibold text-white md:text-base">陆家嘴数智港</p>
                         <p className="mt-1 text-xs leading-5 text-white/60 md:text-sm">上海市浦东新区洋泾街道滨江大道257弄8号V6商墅</p>
                       </div>
-
                     </div>
                   </div>
                 </div>
