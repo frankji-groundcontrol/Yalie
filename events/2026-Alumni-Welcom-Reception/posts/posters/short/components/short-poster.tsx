@@ -76,7 +76,7 @@ function AgendaRow({
           <h3 className="mt-2 text-xl font-semibold text-white md:text-2xl">{title}</h3>
           {description ? <p className="mt-2 text-sm leading-7 text-white/78 md:text-base">{description}</p> : null}
         </div>
-        <div>{children}</div>
+        <div className="flex h-full flex-col justify-center">{children}</div>
       </div>
     </article>
   )
@@ -108,13 +108,10 @@ function PosterContent() {
               time={posterContent.agendaItems[0].time}
               title={posterContent.agendaItems[0].title}
             >
-              <div className="grid gap-3 md:grid-cols-2">
-                {posterContent.locationCards.map((loc) => (
-                  <div key={loc.name} className="border border-white/12 bg-white/7 px-4 py-3">
-                    <p className="text-sm font-semibold text-white md:text-base">{loc.name} · {loc.venue}</p>
-                    <p className="mt-1 text-xs leading-5 text-white/60 md:text-sm">{loc.address}</p>
-                  </div>
-                ))}
+              <div className="flex items-center gap-3 border border-white/12 bg-white/7 px-4 py-3">
+                <span className="text-sm font-semibold text-white md:text-base">{posterContent.locationCards[0].name}</span>
+                <span className="text-white/40">·</span>
+                <span className="text-xs leading-5 text-white/60 md:text-sm">{posterContent.locationCards[0].address}</span>
               </div>
             </AgendaRow>
 
@@ -123,7 +120,7 @@ function PosterContent() {
               title={posterContent.agendaItems[1].title}
               description={posterContent.agendaItems[1].description}
             >
-              <div className="grid gap-3 md:grid-cols-2">
+              <div className="grid gap-3 md:grid-cols-2 items-center">
                 {posterContent.keynoteSpeakers.map((speaker) => (
                   <SpeakerThumbnail key={speaker.name} speaker={speaker} />
                 ))}
@@ -190,10 +187,11 @@ function PosterContent() {
                       <p className="text-base font-semibold text-white md:text-lg">1:30 PM</p>
                       <p className="text-base font-semibold text-white/72 md:text-lg">开始签到</p>
                     </div>
-                    <div className="mt-4">
-                      <div className="border border-white/10 bg-white/5 px-4 py-3">
-                        <p className="text-sm font-semibold text-white md:text-base">陆家嘴数智港</p>
-                        <p className="mt-1 text-xs leading-5 text-white/60 md:text-sm">上海市浦东新区洋泾街道滨江大道257弄8号V6商墅</p>
+                    <div className="mt-4 flex justify-center">
+                      <div className="flex items-center gap-3 border border-white/10 bg-white/5 px-4 py-3">
+                        <span className="text-sm font-semibold text-white md:text-base">陆家嘴数智港</span>
+                        <span className="text-white/40">·</span>
+                        <span className="text-xs leading-5 text-white/60 md:text-sm">上海市浦东新区洋泾街道滨江大道257弄8号V6商墅</span>
                       </div>
                     </div>
                   </div>

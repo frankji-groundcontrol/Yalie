@@ -11,11 +11,19 @@ type HeroSectionProps = {
 function parseLocation(location: string) {
   const parts = location.split(' · ')
 
-  if (parts.length <= 2) {
+  if (parts.length === 1) {
     return {
       label: parts[0] ?? '',
-      venue: parts[1] ?? null,
+      venue: null,
       address: null,
+    }
+  }
+
+  if (parts.length === 2) {
+    return {
+      label: parts[0] ?? '',
+      venue: null,
+      address: parts[1] ?? null,
     }
   }
 
@@ -41,7 +49,7 @@ export function HeroSection({ title, subtitle, chineseDate, locations, compact =
   const infoIconClassName = compact ? 'h-5 w-5' : 'h-6 w-6'
   const infoTextClassName = compact ? 'text-xl md:text-2xl tracking-wide font-medium' : 'text-lg md:text-xl tracking-wide font-medium'
   const locationWrapClassName = compact
-    ? 'grid w-full max-w-2xl gap-3'
+    ? 'grid w-full max-w-4xl gap-3'
     : 'flex flex-col items-center gap-3'
 
   return (
@@ -83,7 +91,7 @@ export function HeroSection({ title, subtitle, chineseDate, locations, compact =
                   </p>
                 ) : null}
                 {parsedLocation.address ? (
-                  <p className="mt-1 text-lg md:text-xl leading-relaxed text-[#00356b]/56">{parsedLocation.address}</p>
+                  <p className="mt-1 whitespace-nowrap text-lg md:text-xl leading-relaxed text-[#00356b]/56">{parsedLocation.address}</p>
                 ) : null}
               </div>
             </div>
