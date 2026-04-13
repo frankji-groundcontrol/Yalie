@@ -1,0 +1,28 @@
+[     132ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[     646ms] [LOG] %cssr:success%c Vite server hmr 10 files 
+      background: #2ecc71;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      in 4.76ms 
+  at vite_node_entry_default (/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@nuxt+vite-builder@3.21.2_@types+node@25.5.0_magicast@0.5.2_nuxt@3.21.2_@parcel+watcher_91965abdb25167e12709fb9b4bdf3e65/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs)
+  at process.processTicksAndRejections (node:internal/process/task_queues)
+  at async Object.renderToString (/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/vue-bundle-renderer@2.2.0/node_modules/vue-bundle-renderer/dist/runtime.mjs)
+ @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/browser.mjs?v=25c5963e:47
+[     648ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:7232
+[     672ms] [LOG] ✨ %cNuxt DevTools %c Press Shift + Option + D to open DevTools color: black; border-radius: 3px 0 0 3px; padding: 2px 2px 1px 10px; background: #00DC82 border-radius: 0 3px 3px 0; padding: 2px 10px 1px 2px; background: #00DC8220  @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@nuxt+devtools@3.2.4_vite@7.3.1_@types+node@25.5.0_jiti@2.6.1_terser@5.46.1_yaml@2.8.3__vue@3.5.31_typescript@6.0.2_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js?v=25c5963e:51
+[     752ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[     757ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[    9631ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   30670ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:3000/_nuxt/@vite/client:864
+[   31849ms] [ERROR] Failed to load resource: the server responded with a status of 503 (Service Unavailable) @ http://127.0.0.1:3000/alumni:0
+[   33581ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:7232
+[   33611ms] [LOG] ✨ %cNuxt DevTools %c Press Shift + Option + D to open DevTools color: black; border-radius: 3px 0 0 3px; padding: 2px 2px 1px 10px; background: #00DC82 border-radius: 0 3px 3px 0; padding: 2px 10px 1px 2px; background: #00DC8220  @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@nuxt+devtools@3.2.4_vite@7.3.1_@types+node@25.5.0_jiti@2.6.1_terser@5.46.1_yaml@2.8.3__vue@3.5.31_typescript@6.0.2_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js?v=25c5963e:51
+[   33665ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   33675ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   35875ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:3000/_nuxt/@vite/client:864
+[   37803ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:7232
+[   37822ms] [LOG] ✨ %cNuxt DevTools %c Press Shift + Option + D to open DevTools color: black; border-radius: 3px 0 0 3px; padding: 2px 2px 1px 10px; background: #00DC82 border-radius: 0 3px 3px 0; padding: 2px 10px 1px 2px; background: #00DC8220  @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@nuxt+devtools@3.2.4_vite@7.3.1_@types+node@25.5.0_jiti@2.6.1_terser@5.46.1_yaml@2.8.3__vue@3.5.31_typescript@6.0.2_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js?v=25c5963e:51
+[   37879ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   37884ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355

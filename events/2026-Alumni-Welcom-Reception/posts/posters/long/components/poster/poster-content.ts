@@ -155,7 +155,7 @@ export const posterContent: PosterContent = {
   audienceIntro: '无论是否是校友，只要下面有一点像你，都欢迎来参与：',
   audienceItems: [
     '即将前往纽黑文生活',
-    '在上海或北京想认识校友或新朋友',
+    '想在上海认识校友或新朋友',
     '对 AI、创作、城市生活、跨学科合作感兴趣',
     '想和有好奇心又认真的人们坐下来聊聊',
   ],
@@ -167,7 +167,6 @@ export const posterContent: PosterContent = {
     qrInstruction: '扫描二维码或点击阅读原文进行报名',
   },
   locations: [
-    '上海主会场 · 陆家嘴数智港 · 上海市浦东新区洋泾街道滨江大道257弄8号V6商墅',
-    '卫星会场 · 耶鲁北京中心 · 北京市朝阳区建外大街8号IFC国际财源中心B座36层',
+    '陆家嘴数智港 · 上海市浦东新区洋泾街道滨江大道257弄8号V6商墅',
   ],
 }

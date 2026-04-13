@@ -6,10 +6,10 @@
       "person": "Frank Ji",
       "ageRange": "from 20s student to 30s founder",
       "raceCue": "Chinese East Asian male",
-      "locationCue": "Beijing -> New Haven -> Shanghai",
+      "locationCue": "Shanghai -> New Haven -> Shanghai",
       "occupationCue": "computational biologist to AI entrepreneur",
       "stopTitles": ["Where It All Began", "The Yale Years", "Building Something New"],
-      "prompt": "Create a 3-image character series of the same Chinese East Asian male (Frank Ji). Keep one consistent face identity and hairstyle while evolving by life stage: (1) Beijing curious youth scientist vibe, (2) New Haven Yale-era PhD researcher with notebook, (3) Shanghai AI startup founder in modern smart-casual blazer. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm amber with deep blue accents, clean background, no text. Return exactly 3 distinct life-stage avatars in chronological order.",
+      "prompt": "Create a 3-image character series of the same Chinese East Asian male (Frank Ji). Keep one consistent face identity and hairstyle while evolving by life stage: (1) Shanghai curious youth scientist vibe, (2) New Haven Yale-era PhD researcher with notebook, (3) Shanghai AI startup founder in modern smart-casual blazer. Style: cartoon hand-drawn stylish sketch portrait, expressive ink lines, editorial illustration, warm amber with deep blue accents, clean background, no text. Return exactly 3 distinct life-stage avatars in chronological order.",
       "outputPattern": "/avatars/stages/alumni-frank-ji-2020/step-{index}.png"
     },
     {

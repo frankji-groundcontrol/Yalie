@@ -192,13 +192,10 @@ function PosterContent() {
                     </div>
                     <div className="mt-4 grid gap-3 sm:grid-cols-2">
                       <div className="border border-white/10 bg-white/5 px-4 py-3">
-                        <p className="text-sm font-semibold text-white md:text-base">上海主会场 · 陆家嘴数智港</p>
+                        <p className="text-sm font-semibold text-white md:text-base">陆家嘴数智港</p>
                         <p className="mt-1 text-xs leading-5 text-white/60 md:text-sm">上海市浦东新区洋泾街道滨江大道257弄8号V6商墅</p>
                       </div>
-                      <div className="border border-white/10 bg-white/5 px-4 py-3">
-                        <p className="text-sm font-semibold text-white md:text-base">卫星会场 · 耶鲁北京中心</p>
-                        <p className="mt-1 text-xs leading-5 text-white/60 md:text-sm">北京市朝阳区建外大街8号IFC国际财源中心B座36层</p>
-                      </div>
+
                     </div>
                   </div>
                 </div>

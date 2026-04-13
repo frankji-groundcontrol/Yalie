@@ -1,0 +1,734 @@
+{
+  "title": "Beijing Local Guide",
+  "titleCn": "北京本地指南",
+  "subtitle": "A dense city of imperial memory, contemporary art, fast transit, and late-night neighborhoods",
+  "subtitleCn": "一座把帝都记忆、当代艺术、快速交通与夜生活街区压缩在一起的城市",
+  "locations": [
+    {
+      "id": "loc-quanjude-qianmen",
+      "name": "Quanjude Roast Duck (Qianmen Branch)",
+      "nameCn": "全聚德烤鸭店（前门店）",
+      "category": "food",
+      "description": "A classic entry point into Beijing cuisine; the Qianmen branch remains one of the city's signature roast duck dining rooms.",
+      "descriptionCn": "经典的北京味觉入口，前门店仍是城市最具代表性的烤鸭餐厅之一。",
+      "address": "No. 30 Qianmen Street, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区前门大街30号",
+      "coordinates": {
+        "lat": 39.8996,
+        "lng": 116.3974
+      },
+      "tips": [
+        "Go early for lunch or book dinner in advance.",
+        "Order roast duck first, then add lighter Beijing dishes."
+      ],
+      "tipsCn": [
+        "建议午餐早点到，晚餐尽量提前预约。",
+        "先点烤鸭，再搭配几道清爽京味小菜。"
+      ],
+      "rating": 4.5,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-siji-minfu-forbidden-city",
+      "name": "Siji Minfu Roast Duck (Forbidden City Branch)",
+      "nameCn": "四季民福烤鸭店（故宫店）",
+      "category": "food",
+      "description": "A popular modern roast duck room near the Forbidden City, often recommended when visitors want Beijing duck in a polished setting.",
+      "descriptionCn": "靠近故宫的热门现代烤鸭店，适合想在更舒适环境中体验北京烤鸭的访客。",
+      "address": "No. 11 Nanchizi Street, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区南池子大街11号",
+      "coordinates": {
+        "lat": 39.9184,
+        "lng": 116.4081
+      },
+      "tips": [
+        "Reserve ahead because queues can get long.",
+        "Ask for window seating if you want a more memorable first visit."
+      ],
+      "tipsCn": [
+        "建议提前预约，排队通常较长。",
+        "如果是第一次来，可以争取靠窗位置提升体验。"
+      ],
+      "rating": 4.6,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-fangzhuanchang-zhajiangmian",
+      "name": "Fangzhuanchang 69 Zhajiangmian",
+      "nameCn": "方砖厂69号炸酱面",
+      "category": "food",
+      "description": "One of the city's best-known bowls of old Beijing zhajiangmian, good when you want something iconic but fast.",
+      "descriptionCn": "北京最知名的老北京炸酱面之一，适合想快速吃到代表性本地味道的时候。",
+      "address": "No. 69 Fangzhuanchang Hutong, Xicheng District, Beijing",
+      "addressCn": "北京市西城区方砖厂胡同69号",
+      "coordinates": {
+        "lat": 39.8968,
+        "lng": 116.4006
+      },
+      "tips": [
+        "Go off-peak if you want a faster table.",
+        "Pair zhajiangmian with a few cold dishes instead of over-ordering."
+      ],
+      "tipsCn": [
+        "想快点吃到的话尽量避开高峰。",
+        "炸酱面搭配几道凉菜就够，不必一次点太多。"
+      ],
+      "rating": 4.4,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-niujie-snack-street",
+      "name": "Niujie Snack Street",
+      "nameCn": "牛街小吃片区",
+      "category": "food",
+      "description": "A compact area for halal Beijing snacks, pastries, and quick local comfort food.",
+      "descriptionCn": "适合集中体验清真北京小吃、点心和家常口味的一片街区。",
+      "address": "Around Niujie, Xicheng District, Beijing",
+      "addressCn": "北京市西城区牛街周边",
+      "coordinates": {
+        "lat": 39.8919,
+        "lng": 116.3647
+      },
+      "tips": [
+        "Go hungry and order small portions from several shops.",
+        "Weekday afternoons are easier than weekend evenings."
+      ],
+      "tipsCn": [
+        "建议空着肚子来，每家少点一点更划算。",
+        "工作日下午通常比周末晚上轻松。"
+      ],
+      "rating": 4.5,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-dadong-dongsi",
+      "name": "Da Dong Roast Duck (Dongsi Branch)",
+      "nameCn": "大董烤鸭店（东四店）",
+      "category": "food",
+      "description": "A more refined roast duck option, known for a lighter style and strong service for guests hosting friends or family.",
+      "descriptionCn": "更精致的烤鸭选择，以相对轻盈的做法和稳定服务见长，适合请客。",
+      "address": "No. 22A Dongsishitiao, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区东四十条甲22号",
+      "coordinates": {
+        "lat": 39.9391,
+        "lng": 116.4322
+      },
+      "tips": [
+        "Good for business dinners or family-style ordering.",
+        "Book ahead if you want peak dinner hours."
+      ],
+      "tipsCn": [
+        "适合商务晚餐或多人合菜。",
+        "如果想约黄金晚餐时段，建议提前订位。"
+      ],
+      "rating": 4.5,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-temple-of-heaven",
+      "name": "Temple of Heaven",
+      "nameCn": "天坛",
+      "category": "culture",
+      "description": "A Ming-Qing imperial ritual complex where emperors prayed for harvests; one of Beijing's clearest expressions of ceremonial urban planning.",
+      "descriptionCn": "明清两代皇帝祭天祈谷的礼制建筑群，也是北京礼制空间最清晰的代表之一。",
+      "address": "No. 7 Tiantan East Road, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区天坛东路7号",
+      "coordinates": {
+        "lat": 39.8837,
+        "lng": 116.4122
+      },
+      "tips": [
+        "Morning visits are calmer and better for photography.",
+        "Foreign visitors can book tickets in advance with passport details."
+      ],
+      "tipsCn": [
+        "建议上午前往，人更少也更适合拍照。",
+        "外籍访客可提前用护照信息预约门票。"
+      ],
+      "rating": 4.8,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-palace-museum",
+      "name": "The Palace Museum",
+      "nameCn": "故宫博物院",
+      "category": "culture",
+      "description": "The most concentrated expression of imperial Beijing, with layered palace architecture and one of the city's deepest historical atmospheres.",
+      "descriptionCn": "最浓缩的帝都北京体验之一，宫殿建筑层层展开，历史氛围极强。",
+      "address": "No. 4 Jingshan Front Street, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区景山前街4号",
+      "coordinates": {
+        "lat": 39.9163,
+        "lng": 116.3972
+      },
+      "tips": [
+        "Book timed-entry tickets early; walk-ins are not reliable.",
+        "Enter with a route in mind or the scale can be overwhelming."
+      ],
+      "tipsCn": [
+        "建议尽早预约时段票，现场购票并不稳妥。",
+        "进门前最好先想好路线，不然很容易逛到失焦。"
+      ],
+      "rating": 4.9,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-national-museum-china",
+      "name": "National Museum of China",
+      "nameCn": "中国国家博物馆",
+      "category": "culture",
+      "description": "A huge survey of Chinese civilization and state history, useful when you want context rather than just iconic architecture.",
+      "descriptionCn": "系统理解中国文明与国家历史的重量级博物馆，适合补足背景脉络。",
+      "address": "No. 16 East Chang'an Avenue, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区东长安街16号",
+      "coordinates": {
+        "lat": 39.9051,
+        "lng": 116.4054
+      },
+      "tips": [
+        "Prioritize a few halls instead of trying to cover everything.",
+        "Bring ID and reserve ahead on busy dates."
+      ],
+      "tipsCn": [
+        "建议先选几个重点展厅，不要试图一次看完。",
+        "热门日期请提前预约并带好证件。"
+      ],
+      "rating": 4.8,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-yonghe-temple",
+      "name": "Yonghe Temple",
+      "nameCn": "雍和宫",
+      "category": "culture",
+      "description": "Beijing's most significant Tibetan Buddhist temple, combining incense, ritual movement, and unusually intact Qing-era architecture.",
+      "descriptionCn": "北京最重要的藏传佛教寺院之一，香火、仪式感与清代建筑保存得都很完整。",
+      "address": "No. 12 Yonghegong Street, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区雍和宫大街12号",
+      "coordinates": {
+        "lat": 39.9486,
+        "lng": 116.4173
+      },
+      "tips": [
+        "Dress and behave conservatively because it remains an active religious site.",
+        "Go early if you want a quieter atmosphere."
+      ],
+      "tipsCn": [
+        "这里仍是活跃宗教场所，衣着和举止尽量克制。",
+        "如果想感受更安静的氛围，建议早点到。"
+      ],
+      "rating": 4.7,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-confucian-temple-imperial-college",
+      "name": "Confucian Temple and Imperial College Museum",
+      "nameCn": "孔庙和国子监博物馆",
+      "category": "culture",
+      "description": "A calmer cultural stop near Yonghe Temple that helps explain Beijing's scholarly and examination traditions.",
+      "descriptionCn": "靠近雍和宫、相对安静的文化点位，能把北京的礼学与科举传统讲得更清楚。",
+      "address": "No. 15 Guozijian Street, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区国子监街15号",
+      "coordinates": {
+        "lat": 39.948,
+        "lng": 116.4189
+      },
+      "tips": [
+        "Pair it with Yonghe Temple on the same half-day route.",
+        "The side courtyards are often quieter than the main axis."
+      ],
+      "tipsCn": [
+        "很适合和雍和宫安排在同一个半天。",
+        "主轴之外的侧院通常更安静。"
+      ],
+      "rating": 4.6,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-798-art-district",
+      "name": "798 Art District",
+      "nameCn": "798艺术区",
+      "category": "art",
+      "description": "Beijing's best-known contemporary art district, where galleries, industrial-era factory buildings, cafes, and bookstores all collapse into one walkable zone.",
+      "descriptionCn": "北京最知名的当代艺术街区，画廊、工业遗址、咖啡馆与书店在同一片步行区域中交织。",
+      "address": "No. 4 Jiuxianqiao Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区酒仙桥路4号",
+      "coordinates": {
+        "lat": 39.9841,
+        "lng": 116.4975
+      },
+      "tips": [
+        "Reserve at least half a day if you want both exhibitions and cafes.",
+        "Weekday afternoons feel less crowded than weekends."
+      ],
+      "tipsCn": [
+        "如果想兼顾看展和咖啡，建议至少预留半天。",
+        "工作日下午通常比周末轻松。"
+      ],
+      "rating": 4.7,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-ucca-center",
+      "name": "UCCA Center for Contemporary Art",
+      "nameCn": "UCCA尤伦斯当代艺术中心",
+      "category": "art",
+      "description": "The anchor institution inside 798, useful if you want one reliable stop with stronger curatorial consistency.",
+      "descriptionCn": "798内部最稳定的核心机构之一，如果只想选一个看展点，它通常是最稳妥的选择。",
+      "address": "4 Jiuxianqiao Road, 798 Art District, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区798艺术区酒仙桥路4号",
+      "coordinates": {
+        "lat": 39.9848,
+        "lng": 116.4959
+      },
+      "tips": [
+        "Check current exhibitions before you go.",
+        "Plan extra time for the bookstore and nearby cafes."
+      ],
+      "tipsCn": [
+        "出发前建议先看当前展览。",
+        "可以把书店和附近咖啡馆一起算进时间里。"
+      ],
+      "rating": 4.7,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-red-brick-museum",
+      "name": "Red Brick Art Museum",
+      "nameCn": "红砖美术馆",
+      "category": "art",
+      "description": "A destination-scale museum where architecture and garden design matter almost as much as the exhibitions.",
+      "descriptionCn": "建筑与园林本身就值得专程前往的美术馆，空间体验几乎和展览同等重要。",
+      "address": "No. 1 Hegezhuang Village, Cuigezhuang Township, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区崔各庄乡何各庄村1号",
+      "coordinates": {
+        "lat": 40.0454,
+        "lng": 116.5039
+      },
+      "tips": [
+        "Best as a dedicated trip rather than a quick add-on.",
+        "Photography is often strongest in the courtyards and corridors."
+      ],
+      "tipsCn": [
+        "更适合作为专门行程，而不是顺路插入。",
+        "最出片的通常是庭院和回廊。"
+      ],
+      "rating": 4.6,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-guardian-art-center",
+      "name": "Guardian Art Center",
+      "nameCn": "嘉德艺术中心",
+      "category": "art",
+      "description": "An art-and-auction venue near Wangfujing that works well when you want a central-city art stop without going east to 798.",
+      "descriptionCn": "位于王府井附近的艺术与拍卖复合空间，适合不想专门跑到798时作为市中心艺术点位。",
+      "address": "No. 1 Wangfujing Avenue, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区王府井大街1号",
+      "coordinates": {
+        "lat": 39.9085,
+        "lng": 116.4139
+      },
+      "tips": [
+        "Check whether exhibitions are public before arriving.",
+        "Easy to pair with Wangfujing or the East Chang'an cultural axis."
+      ],
+      "tipsCn": [
+        "出发前最好确认当期展览是否对公众开放。",
+        "很适合和王府井、长安街东段安排在一起。"
+      ],
+      "rating": 4.4,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-today-art-museum",
+      "name": "Today Art Museum",
+      "nameCn": "今日美术馆",
+      "category": "art",
+      "description": "A familiar contemporary venue in the CBD fringe, often easier to combine with shopping, coffee, or evening plans nearby.",
+      "descriptionCn": "位于国贸边缘、使用频率很高的当代艺术场馆，适合和咖啡、购物或晚间安排连起来。",
+      "address": "No. 32 Baiziwan Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区百子湾路32号",
+      "coordinates": {
+        "lat": 39.9059,
+        "lng": 116.4624
+      },
+      "tips": [
+        "Good as a shorter art stop on a busy day.",
+        "Best paired with CBD or Sanlitun plans afterward."
+      ],
+      "tipsCn": [
+        "如果当天行程很满，这里适合做较短的艺术停留。",
+        "逛完之后很适合继续接CBD或三里屯安排。"
+      ],
+      "rating": 4.4,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-olympic-forest-park",
+      "name": "Beijing Olympic Forest Park",
+      "nameCn": "北京奥林匹克森林公园",
+      "category": "nature",
+      "description": "The city's largest urban park, stretching north from the Olympic Green with broad lawns, lakes, and easy breathing room after dense central districts.",
+      "descriptionCn": "北京最大的城市公园，从奥林匹克绿地向北展开，拥有开阔草地、湖面与适合放松呼吸的城市绿量。",
+      "address": "No. 33 Kehui Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区科荟路33号",
+      "coordinates": {
+        "lat": 40.0188,
+        "lng": 116.3948
+      },
+      "tips": [
+        "Go in late afternoon for softer light and cooler temperatures.",
+        "Pick your gate in advance because the park is huge."
+      ],
+      "tipsCn": [
+        "建议傍晚前往，光线和体感都更舒适。",
+        "公园很大，出发前最好先确定入口。"
+      ],
+      "rating": 4.6,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-summer-palace",
+      "name": "Summer Palace",
+      "nameCn": "颐和园",
+      "category": "nature",
+      "description": "The imperial lake-and-hill landscape that gives you Beijing at its most expansive and composed.",
+      "descriptionCn": "帝都山水园林的集大成者，也是体验“北京的开阔感”最直接的地方之一。",
+      "address": "No. 19 Xinjiangongmen Road, Haidian District, Beijing",
+      "addressCn": "北京市海淀区新建宫门路19号",
+      "coordinates": {
+        "lat": 39.9999,
+        "lng": 116.2755
+      },
+      "tips": [
+        "Reserve a longer block than you expect; the grounds are vast.",
+        "Boat and lakeside routes are more pleasant outside peak midday heat."
+      ],
+      "tipsCn": [
+        "建议比预期多留时间，园区真的很大。",
+        "如果不是盛夏正午，湖边和乘船路线会更舒服。"
+      ],
+      "rating": 4.8,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-beihai-park",
+      "name": "Beihai Park",
+      "nameCn": "北海公园",
+      "category": "nature",
+      "description": "A central lake park with one of the most graceful slow-walking circuits inside the old city.",
+      "descriptionCn": "老城中心非常优雅的湖面公园，也是最适合慢走的一条城市自然线。",
+      "address": "No. 1 Wenjin Street, Xicheng District, Beijing",
+      "addressCn": "北京市西城区文津街1号",
+      "coordinates": {
+        "lat": 39.932,
+        "lng": 116.3907
+      },
+      "tips": [
+        "Best when combined with Jingshan or the Palace Museum.",
+        "Try to circle part of the lake instead of only doing the main entrance axis."
+      ],
+      "tipsCn": [
+        "很适合和景山或故宫安排在同一天。",
+        "不要只走主入口轴线，尽量沿湖多绕一段。"
+      ],
+      "rating": 4.7,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-jingshan-park",
+      "name": "Jingshan Park",
+      "nameCn": "景山公园",
+      "category": "nature",
+      "description": "The quickest elevated view over Beijing's historic core and the Forbidden City roofs.",
+      "descriptionCn": "俯瞰故宫屋顶和北京老城中轴线最直接的高点之一。",
+      "address": "No. 44 Jingshan West Street, Xicheng District, Beijing",
+      "addressCn": "北京市西城区景山西街44号",
+      "coordinates": {
+        "lat": 39.9252,
+        "lng": 116.3961
+      },
+      "tips": [
+        "Sunset is especially strong if the air is clear.",
+        "Climb directly to the top first, then explore the rest of the park."
+      ],
+      "tipsCn": [
+        "天气好的傍晚尤其值得上来。",
+        "建议先直接登顶，再慢慢逛园子其余部分。"
+      ],
+      "rating": 4.7,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-chaoyang-park",
+      "name": "Chaoyang Park",
+      "nameCn": "朝阳公园",
+      "category": "nature",
+      "description": "A large east-Beijing leisure park that works well when you want an easier local reset than the more famous imperial gardens.",
+      "descriptionCn": "东北京非常实用的大型休闲公园，如果想找比皇家园林更轻松的城市放松点，这里很合适。",
+      "address": "No. 1 Chaoyang Park South Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区朝阳公园南路1号",
+      "coordinates": {
+        "lat": 39.9365,
+        "lng": 116.4746
+      },
+      "tips": [
+        "Good for jogging, casual walking, or a slow morning after a late night.",
+        "Pair it with nearby CBD or Sanlitun plans."
+      ],
+      "tipsCn": [
+        "很适合慢跑、散步，或者熬夜后的轻松早晨。",
+        "很适合和CBD或三里屯行程串起来。"
+      ],
+      "rating": 4.5,
+      "addedBy": "firecrawl-search"
+    },
+    {
+      "id": "loc-pumch-ims",
+      "name": "PUMCH International Medical Services",
+      "nameCn": "协和医院国际医疗部",
+      "category": "practical",
+      "description": "A reliable English-capable medical fallback for visitors, backed by Peking Union Medical College Hospital's strongest specialist network.",
+      "descriptionCn": "适合访客应急与英文沟通的稳妥医疗后备点，依托协和医院成熟的专科体系。",
+      "address": "1 Shuaifuyuan, Wangfujing, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区王府井帅府园1号",
+      "coordinates": {
+        "lat": 39.9163,
+        "lng": 116.4204
+      },
+      "tips": [
+        "Use the official PUMCH app to book outpatient appointments in advance.",
+        "Save the hospital name in Chinese before calling a ride."
+      ],
+      "tipsCn": [
+        "门诊建议提前通过协和官方 App 预约。",
+        "打车前先保存医院中文名称会更方便。"
+      ],
+      "rating": 4.4,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-dongzhimen-airport-express",
+      "name": "Dongzhimen Airport Express Transfer",
+      "nameCn": "东直门机场快线换乘点",
+      "category": "practical",
+      "description": "A key transfer point between the Capital Airport Express and central Beijing, useful when you want the fastest rail connection into the city.",
+      "descriptionCn": "首都机场快线进入市区的重要换乘点，适合需要快速铁路进城的访客。",
+      "address": "Dongzhimen Transport Hub, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区东直门交通枢纽",
+      "coordinates": {
+        "lat": 39.9418,
+        "lng": 116.4345
+      },
+      "tips": [
+        "Avoid rush hour if you are carrying large luggage.",
+        "It is especially convenient for stays in Dongcheng or Chaoyang."
+      ],
+      "tipsCn": [
+        "携带大件行李时尽量避开高峰时段。",
+        "如果住在东城或朝阳，这里通常是最顺手的换乘点。"
+      ],
+      "rating": 4.3,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-capital-airport-t3",
+      "name": "Beijing Capital International Airport Terminal 3",
+      "nameCn": "北京首都国际机场T3航站楼",
+      "category": "practical",
+      "description": "The most common international arrival point for visitors entering Beijing, with direct airport rail into the city.",
+      "descriptionCn": "国际访客进入北京最常见的抵达点之一，并可直接换乘机场快线进城。",
+      "address": "Terminal 3, Beijing Capital International Airport, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区北京首都国际机场T3航站楼",
+      "coordinates": {
+        "lat": 40.0799,
+        "lng": 116.6031
+      },
+      "tips": [
+        "Airport Express is usually faster than a taxi during heavy traffic.",
+        "Download payment and translation tools before landing if possible."
+      ],
+      "tipsCn": [
+        "遇到拥堵时，机场快线通常比打车更快。",
+        "如果可以，最好在落地前准备好支付和翻译工具。"
+      ],
+      "rating": 4.3,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-beijing-south-station",
+      "name": "Beijing South Railway Station",
+      "nameCn": "北京南站",
+      "category": "practical",
+      "description": "The high-speed rail gateway for trips to Tianjin, Shanghai, and beyond; useful when the workshop extends into regional travel.",
+      "descriptionCn": "连接天津、上海等方向的高铁枢纽，适合需要继续城际移动的参与者。",
+      "address": "No. 12 Yongdingmenwai Street, Fengtai District, Beijing",
+      "addressCn": "北京市丰台区永定门外大街12号",
+      "coordinates": {
+        "lat": 39.8652,
+        "lng": 116.378
+      },
+      "tips": [
+        "Leave extra time because the station is large and security lines vary.",
+        "Food options improve after you clear the main entry gates."
+      ],
+      "tipsCn": [
+        "车站很大，安检排队波动也大，建议预留时间。",
+        "过了主入口安检后再找吃的通常更高效。"
+      ],
+      "rating": 4.2,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-bank-of-china-wangfujing",
+      "name": "Bank of China Wangfujing Branch",
+      "nameCn": "中国银行王府井支行",
+      "category": "practical",
+      "description": "A central branch useful for international card support, exchange questions, or account-related errands in the core city area.",
+      "descriptionCn": "位于中心城区，适合处理跨境银行卡、兑换或账户相关事务。",
+      "address": "No. 218 Wangfujing Avenue, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区王府井大街218号",
+      "coordinates": {
+        "lat": 39.9158,
+        "lng": 116.4118
+      },
+      "tips": [
+        "Weekday mornings are usually the smoothest.",
+        "Bring passport and local phone number if your request is account-related."
+      ],
+      "tipsCn": [
+        "工作日上午通常最顺畅。",
+        "如果涉及账户业务，最好带好护照和本地手机号。"
+      ],
+      "rating": 4.1,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-taikoo-li-sanlitun",
+      "name": "Taikoo Li Sanlitun",
+      "nameCn": "三里屯太古里",
+      "category": "nightlife",
+      "description": "Beijing's clearest concentration of global retail, bars, fashion, and people-watching — the easiest place to feel the city's cosmopolitan night energy.",
+      "descriptionCn": "北京最集中的国际零售、酒吧、时尚与人流观察场之一，也是感受城市夜生活的直接入口。",
+      "address": "No. 19 Sanlitun Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区三里屯路19号",
+      "coordinates": {
+        "lat": 39.9335,
+        "lng": 116.4551
+      },
+      "tips": [
+        "Best after dusk when the district fully lights up.",
+        "Use it as a meeting point before choosing a bar or late dinner spot nearby."
+      ],
+      "tipsCn": [
+        "最佳到访时间是入夜之后，街区氛围更完整。",
+        "可以先把这里作为集合点，再决定去附近哪家酒吧或晚餐。"
+      ],
+      "rating": 4.5,
+      "addedBy": "firecrawl-research"
+    },
+    {
+      "id": "loc-sanlitun-bar-street",
+      "name": "Sanlitun Bar Street",
+      "nameCn": "三里屯酒吧街",
+      "category": "nightlife",
+      "description": "Still one of the easiest shorthand answers to “where should we go out tonight in Beijing?”",
+      "descriptionCn": "如果有人问“今晚在北京去哪儿”，这里仍然是最直接的标准答案之一。",
+      "address": "Sanlitun Road, Chaoyang District, Beijing",
+      "addressCn": "北京市朝阳区三里屯路",
+      "coordinates": {
+        "lat": 39.9369,
+        "lng": 116.4554
+      },
+      "tips": [
+        "Go later if you want the full crowd, earlier if you want easier seating.",
+        "Keep the first venue simple and move once the group settles in."
+      ],
+      "tipsCn": [
+        "想感受最热闹的气氛就晚点去，想轻松找位子就早点到。",
+        "如果是多人出行，第一站先选简单一点更好。"
+      ],
+      "rating": 4.4,
+      "addedBy": "firecrawl-search"
+    },
+    {
+      "id": "loc-houhai-bar-area",
+      "name": "Houhai Bar Area",
+      "nameCn": "后海酒吧片区",
+      "category": "nightlife",
+      "description": "A more atmospheric old-Beijing nightlife zone where lake views and hutong edges matter as much as the drinks.",
+      "descriptionCn": "更有“老北京夜色”氛围的夜生活区域，湖边和胡同的气质和酒本身一样重要。",
+      "address": "Around Houhai and Shichahai, Xicheng District, Beijing",
+      "addressCn": "北京市西城区后海与什刹海周边",
+      "coordinates": {
+        "lat": 39.9424,
+        "lng": 116.3851
+      },
+      "tips": [
+        "Go for atmosphere rather than the city's most cutting-edge cocktail program.",
+        "Works best on nights when you want to stroll between venues."
+      ],
+      "tipsCn": [
+        "这里更适合看氛围，不一定是全城最前沿的酒单。",
+        "如果想一边走一边换店，这片区域会很好用。"
+      ],
+      "rating": 4.4,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-great-leap-brewing-6",
+      "name": "Great Leap Brewing #6",
+      "nameCn": "大跃啤酒6号店",
+      "category": "nightlife",
+      "description": "A dependable craft-beer stop for groups that want something casual, social, and distinctly Beijing-built rather than generic hotel-bar energy.",
+      "descriptionCn": "适合多人轻松聊天的精酿啤酒点位，比酒店酒吧更有北京本地社群感。",
+      "address": "No. 6 Doujiao Hutong, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区豆角胡同6号",
+      "coordinates": {
+        "lat": 39.9399,
+        "lng": 116.42
+      },
+      "tips": [
+        "Good for a first round before moving elsewhere.",
+        "If you go with a group, order shared snacks early."
+      ],
+      "tipsCn": [
+        "很适合作为夜晚的第一站。",
+        "如果是多人同行，最好早点把小食一起点上。"
+      ],
+      "rating": 4.5,
+      "addedBy": "research-synthesis"
+    },
+    {
+      "id": "loc-modernista",
+      "name": "Modernista",
+      "nameCn": "摩登酒吧",
+      "category": "nightlife",
+      "description": "A long-running favorite for live music, dancing, and a less polished but more characterful night than the big commercial zones.",
+      "descriptionCn": "北京持续受欢迎的现场音乐与跳舞场所之一，相比大型商业夜区更有个性。",
+      "address": "No. 44 Baochao Hutong, Dongcheng District, Beijing",
+      "addressCn": "北京市东城区宝钞胡同44号",
+      "coordinates": {
+        "lat": 39.9435,
+        "lng": 116.405
+      },
+      "tips": [
+        "Check the event schedule before you go.",
+        "It gets better later in the evening than right at opening."
+      ],
+      "tipsCn": [
+        "出发前最好先看当晚活动安排。",
+        "通常越晚气氛越好，不必太早到。"
+      ],
+      "rating": 4.4,
+      "addedBy": "research-synthesis"
+    }
+  ],
+  "walks": [],
+  "metadata": {
+    "generatedAt": "2026-04-11T12:30:00.000Z",
+    "version": "1.1.0",
+    "isLive": false
+  }
+}

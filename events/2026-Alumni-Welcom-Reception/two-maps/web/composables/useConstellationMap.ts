@@ -18,6 +18,7 @@ import {
   STAR_COLORS,
   STARFIELD_TEXTURE
 } from "../components/alumni/AlumniStarData";
+import { resolveJourneyAvatarState } from "../lib/alumniJourneySelection";
 import { useAlumniState } from "./useAlumniState";
 
 type JourneyProfileList = JourneyMapData["profiles"];
@@ -183,17 +184,19 @@ function avatarScale(profileId: string): number {
 
 function currentProfileAvatars(): GlobeAvatar[] {
   return profileList.map((profile) => {
-    const fallback = profile.stops[profile.stops.length - 1]?.coordinates ?? ORIGIN_CITY;
-    const stop = profile.stops.find((item) => item.city === profile.currentCity)?.coordinates ?? fallback;
+    const avatarState = resolveJourneyAvatarState(profile, {
+      selectedProfileId: selectedProfileId.value,
+      selectedStoryStopIndex: selectedStoryStopIndex.value
+    });
     return {
       id: profile.id,
       profileId: profile.id,
-      lat: stop.lat,
-      lng: stop.lng,
+      lat: avatarState.lat,
+      lng: avatarState.lng,
       color: profileColor(profile.id),
       name: profile.name,
       classYear: profile.classYear,
-      photoUrl: profile.photoUrl,
+      photoUrl: avatarState.photoUrl,
       opacity: avatarOpacity(profile.id),
       scale: avatarScale(profile.id),
       selected: selectedProfileId.value === profile.id
@@ -209,6 +212,7 @@ function createAvatarElement(data: GlobeAvatar): HTMLElement {
   element.style.opacity = `${data.opacity}`;
   element.style.transform = `translate(-50%, -50%) scale(${data.scale})`;
   element.style.setProperty("--avatar-color", data.color);
+  element.dataset.targetOpacity = `${data.opacity}`;
   if (constellationMode.value === "build") {
     element.style.pointerEvents = "none";
   } else {
@@ -500,7 +504,7 @@ export function useConstellationMap(mapContainer?: Ref<HTMLElement | null>) {
           el.style.opacity = "0";
           return;
         }
-        const nextOpacity = Number.parseFloat(el.style.opacity || "1");
+        const nextOpacity = Number.parseFloat(el.dataset.targetOpacity || "1");
         el.style.opacity = `${nextOpacity}`;
       })
       .arcsData(selectedJourneyArcs())

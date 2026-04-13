@@ -20,8 +20,8 @@
 
 ## Repository Identity
 
-- This repository is primarily a documentation and planning vault, with one code sub-project (`two-maps/`).
-- The primary working area is `events/2026-Alumni-Welcom-Reception/`, organized into `planning/`, `posts/`, `artifacts/`, and `two-maps/`.
+- This repository is primarily a documentation and planning vault, with two code sub-projects (`two-maps/` and `posts/posters/long/`).
+- The primary working area is `events/2026-Alumni-Welcom-Reception/`, organized into `planning/`, `posts/`, `artifacts/`, `docs/`, and `two-maps/`.
 - Content is authored in Markdown and managed comfortably in Obsidian.
 - `.obsidian/core-plugins.json` confirms this is an Obsidian vault with core plugins such as `templates`, `daily-notes`, `canvas`, `outline`, `sync`, and `bases` enabled.
 - `LICENSE` is MPL 2.0; preserve it and keep new repository-level guidance compatible with that license context.
@@ -40,9 +40,11 @@
 - `events/2026-Alumni-Welcom-Reception/README.md` is the event-level index.
 - `events/2026-Alumni-Welcom-Reception/planning/cn/` contains all Chinese planning documents (proposal, runbook, and 10 role plans).
 - `events/2026-Alumni-Welcom-Reception/planning/en/` contains all English planning documents (mirrors `cn/`).
-- `events/2026-Alumni-Welcom-Reception/two-maps/` is a pnpm workspace monorepo containing Nuxt 3 web apps and Remotion video projects for the Alumni Journey Map and Local Guide Map.
-- `events/2026-Alumni-Welcom-Reception/posts/post-official_en.md` and `events/2026-Alumni-Welcom-Reception/posts/post-official_cn.md` are longer public-facing recruitment posts.
-- `events/2026-Alumni-Welcom-Reception/posts/post-wechat_en.md` and `events/2026-Alumni-Welcom-Reception/posts/post-wechat_cn.md` are shorter channel-specific posts.
+- `events/2026-Alumni-Welcom-Reception/two-maps/` is a pnpm workspace monorepo containing Nuxt 3 web apps and Remotion video projects for the Alumni Journey Map and Local Guide Map. See `two-maps/AGENTS.md` for code-specific conventions.
+- `events/2026-Alumni-Welcom-Reception/posts/volunteer/recruitment/post-official_en.md` and `events/2026-Alumni-Welcom-Reception/posts/volunteer/recruitment/post-official_cn.md` are longer public-facing recruitment posts.
+- `events/2026-Alumni-Welcom-Reception/posts/volunteer/recruitment/post-wechat_en.md` and `events/2026-Alumni-Welcom-Reception/posts/volunteer/recruitment/post-wechat_cn.md` are shorter channel-specific posts.
+- `events/2026-Alumni-Welcom-Reception/posts/posters/long/` is a standalone Next.js 16 poster renderer app (originated from v0 sandbox). See `posts/posters/long/AGENTS.md` for code-specific conventions.
+- `events/2026-Alumni-Welcom-Reception/docs/setup/` contains admin install guides (OpenClaw).
 - `events/2026-Alumni-Welcom-Reception/artifacts/耶鲁上海校友活动志愿者执行计划.pdf` is a rendered Chinese document artifact; do not edit it directly unless the user explicitly asks for PDF work.
 
 ## Build, Lint, Test, and Verification Commands
@@ -73,7 +75,9 @@
 
 ## Rule Files Check
 
-- No repository-local `AGENTS.md` existed before this one.
+- This `AGENTS.md` is the authoritative event-level instruction file.
+- Additional `AGENTS.md` files exist at `two-maps/AGENTS.md` and `posts/posters/long/AGENTS.md` for code sub-projects.
+- A root-level `AGENTS.md` exists at the Yalie vault root for repo-wide guidance.
 - No `.cursorrules` file exists in this repo.
 - No `.cursor/rules/` directory exists in this repo.
 - No `.github/copilot-instructions.md` file exists in this repo.

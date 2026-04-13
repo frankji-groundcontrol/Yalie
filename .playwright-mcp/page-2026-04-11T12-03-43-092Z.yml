@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e6]:
+      - navigation "Switch map experience" [ref=e7]:
+        - link "Journey 旅程" [ref=e8] [cursor=pointer]:
+          - /url: /alumni
+          - img [ref=e10]
+          - generic [ref=e16]: Journey
+          - generic [ref=e17]: 旅程
+        - link "Local 本地" [ref=e18] [cursor=pointer]:
+          - /url: /local
+          - img [ref=e20]
+          - generic [ref=e24]: Local
+          - generic [ref=e25]: 本地
+      - paragraph [ref=e26]: Constellation of Lives · Shanghai Reception 2026
+      - heading "Where Did Yale Take You?" [level=1] [ref=e27]
+      - paragraph [ref=e28]: From Yale pathways to global impact, now connected in Shanghai
+    - generic [ref=e30]:
+      - complementary "Map legend" [ref=e36]:
+        - heading "Alumni Journeys" [level=3] [ref=e37]
+        - list [ref=e38]:
+          - listitem [ref=e39]: "Origin: Yale · New Haven"
+          - listitem [ref=e41]: "Reunion: Shanghai 2026"
+          - listitem [ref=e43]: Frank Ji
+          - listitem [ref=e45]: Marina Ross
+          - listitem [ref=e47]: Daniel Park
+          - listitem [ref=e49]: Lucia Herrera
+          - listitem [ref=e51]: Owen Cheng
+          - listitem [ref=e53]: Priya Menon
+          - listitem [ref=e55]: Add Your Journey
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Click a star to explore an alumni's journey
+          - button "Got it" [ref=e59] [cursor=pointer]
+      - dialog:
+        - button:
+          - img
+      - complementary:
+        - generic:
+          - button:
+            - img
+          - heading [level=3]: Map Your Journey
+        - generic:
+          - generic:
+            - text: Name
+            - textbox:
+              - /placeholder: Your name
+          - generic:
+            - text: Class year
+            - spinbutton
+          - paragraph: Click the map to add stops along your journey
+          - list
+          - button [disabled]: Done
+    - generic [ref=e60]: Yale Alumni Welcome Reception · Shanghai · April 2026
+  - generic:
+    - img
+  - generic [ref=e61]:
+    - button "Toggle Nuxt DevTools" [ref=e62] [cursor=pointer]:
+      - img [ref=e63]
+    - generic "Page load time" [ref=e66]:
+      - generic [ref=e67]: "7"
+      - generic [ref=e68]: ms
+    - button "Toggle Component Inspector" [ref=e70] [cursor=pointer]:
+      - img [ref=e71]

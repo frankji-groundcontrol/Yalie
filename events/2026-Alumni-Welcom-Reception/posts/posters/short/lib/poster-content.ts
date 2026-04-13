@@ -22,14 +22,9 @@ export const posterContent = {
     '这不是一场只讨论工具的活动。我们想从 AI 进入真实生活之后的表达、路径与连接出发，让校友和朋友们在同一个现场里认真交流，也一起共创可被带走的内容。',
   locationCards: [
     {
-      name: '上海主会场',
-      venue: '陆家嘴数智港',
+      name: '陆家嘴数智港',
+      venue: '',
       address: '上海市浦东新区洋泾街道滨江大道257弄8号V6商墅',
-    },
-    {
-      name: '卫星会场',
-      venue: '耶鲁北京中心',
-      address: '北京市朝阳区建外大街8号IFC国际财源中心B座36层',
     },
   ],
   agendaItems: [
@@ -100,7 +95,7 @@ export const posterContent = {
   },
   audienceItems: [
     '即将前往纽黑文生活',
-    '想认识上海或北京的新朋友',
+    '想在上海认识新朋友',
     '对跨学科合作与创作感兴趣',
     '想和有好奇心的人聊聊',
   ],

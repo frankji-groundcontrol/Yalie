@@ -1,0 +1,72 @@
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - paragraph [ref=e7]: Constellation of Lives · Shanghai Reception 2026
+    - heading "Where Did Yale Take You?" [level=1] [ref=e8]
+    - paragraph [ref=e9]: From Yale pathways to global impact, now connected in Shanghai
+    - navigation "Switch map experience" [ref=e10]:
+      - link "Journey 旅程" [ref=e11] [cursor=pointer]:
+        - /url: /alumni
+        - img [ref=e13]
+        - generic [ref=e19]: Journey
+        - generic [ref=e20]: 旅程
+      - link "Local 本地" [ref=e21] [cursor=pointer]:
+        - /url: /local
+        - img [ref=e23]
+        - generic [ref=e27]: Local
+        - generic [ref=e28]: 本地
+  - generic [ref=e30]:
+    - generic [ref=e34]:
+      - generic:
+        - button "Frank Ji avatar Frank Ji '20" [ref=e36] [cursor=pointer]:
+          - img "Frank Ji avatar" [ref=e38]
+          - generic [ref=e39]: Frank Ji '20
+        - button "Marina Ross avatar Marina Ross '89" [ref=e40] [cursor=pointer]:
+          - img "Marina Ross avatar" [ref=e42]
+          - generic [ref=e43]: Marina Ross '89
+        - button "Daniel Park avatar Daniel Park '98" [ref=e44] [cursor=pointer]:
+          - img "Daniel Park avatar" [ref=e46]
+          - generic [ref=e47]: Daniel Park '98
+        - button "Lucia Herrera avatar Lucia Herrera '07" [ref=e48] [cursor=pointer]:
+          - img "Lucia Herrera avatar" [ref=e50]
+          - generic [ref=e51]: Lucia Herrera '07
+        - button "Owen Cheng avatar Owen Cheng '14" [ref=e52] [cursor=pointer]:
+          - img "Owen Cheng avatar" [ref=e54]
+          - generic [ref=e55]: Owen Cheng '14
+        - button "Priya Menon avatar Priya Menon '22" [ref=e56] [cursor=pointer]:
+          - img "Priya Menon avatar" [ref=e58]
+          - generic [ref=e59]: Priya Menon '22
+    - complementary "Map legend" [ref=e60]:
+      - heading "Alumni Journeys" [level=3] [ref=e61]
+      - list [ref=e62]:
+        - listitem [ref=e63]: "Origin: Yale · New Haven"
+        - listitem [ref=e65]: "Reunion: Shanghai 2026"
+        - listitem [ref=e67]: Frank Ji
+        - listitem [ref=e69]: Marina Ross
+        - listitem [ref=e71]: Daniel Park
+        - listitem [ref=e73]: Lucia Herrera
+        - listitem [ref=e75]: Owen Cheng
+        - listitem [ref=e77]: Priya Menon
+        - listitem [ref=e79]: Add Your Journey
+      - generic [ref=e81]:
+        - paragraph [ref=e82]: Click a star to explore an alumni's journey
+        - button "Got it" [ref=e83] [cursor=pointer]
+    - dialog:
+      - button:
+        - img
+    - complementary:
+      - generic:
+        - button:
+          - img
+        - heading [level=3]: Map Your Journey
+      - generic:
+        - generic:
+          - text: Name
+          - textbox:
+            - /placeholder: Your name
+        - generic:
+          - text: Class year
+          - spinbutton
+        - paragraph: Click the map to add stops along your journey
+        - list
+        - button [disabled]: Done
+  - generic [ref=e84]: Yale Alumni Welcome Reception · Shanghai · April 2026

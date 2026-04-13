@@ -1,0 +1,65 @@
+[    7952ms] [WARNING] %cssr:warn%c [Vue warn]: Failed to resolve component: MapModeToggle
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+      background: #f39c12;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      at <AlumniHero>
+at <Alumni>
+at <RouteProvider>
+at <RouterView>
+at <NuxtPage>
+at <App>
+at <NuxtRoot> @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/browser.mjs?v=25c5963e:47
+[    7953ms] [WARNING] %cssr:warn%c [Vue warn]: Component <Anonymous> is missing template or render function. 
+      background: #f39c12;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      at <Anonymous>
+at <AlumniHero>
+at <Alumni>
+at <RouteProvider>
+at <RouterView>
+at <NuxtPage>
+at <App>
+at <NuxtRoot> @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/browser.mjs?v=25c5963e:47
+[    7957ms] [INFO] <Suspense> is an experimental feature and its API will likely change. @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:7232
+[    7961ms] [WARNING] [Vue warn]: Failed to resolve component: MapModeToggle
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <AlumniHero > 
+  at <Alumni onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouteProvider key="/alumni" vnode= {__v_isVNode: true, __v_skip: true, type: Object, props: Object, key: null} route= {fullPath: /alumni, hash: , query: Object, name: alumni, path: /alumni}  ... > 
+  at <RouterView name=undefined route=undefined > 
+  at <NuxtPage > 
+  at <App key=4 > 
+  at <NuxtRoot> @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:49
+[    7962ms] [WARNING] [Vue warn]: Hydration node mismatch:
+- rendered on server: JSHandle@node  
+- expected on client: MapModeToggle 
+  at <AlumniHero > 
+  at <Alumni onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< undefined > > 
+  at <RouteProvider key="/alumni" vnode= {__v_isVNode: true, __v_skip: true, type: Object, props: Object, key: null} route= {fullPath: /alumni, hash: , query: Object, name: alumni, path: /alumni}  ... > 
+  at <RouterView name=undefined route=undefined > 
+  at <NuxtPage > 
+  at <App key=4 > 
+  at <NuxtRoot> @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:49
+[    7962ms] [ERROR] Hydration completed but contains mismatches. @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:1880
+[    8004ms] [LOG] ✨ %cNuxt DevTools %c Press Shift + Option + D to open DevTools color: black; border-radius: 3px 0 0 3px; padding: 2px 2px 1px 10px; background: #00DC82 border-radius: 0 3px 3px 0; padding: 2px 10px 1px 2px; background: #00DC8220  @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@nuxt+devtools@3.2.4_vite@7.3.1_@types+node@25.5.0_jiti@2.6.1_terser@5.46.1_yaml@2.8.3__vue@3.5.31_typescript@6.0.2_/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js?v=25c5963e:51
+[    8210ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[    8216ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   85826ms] [WARNING] [Vue warn]: Failed to resolve component: MapModeToggle
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <LocalHero > 
+  at <Local onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
+  at <RouteProvider key="/local" vnode= {__v_isVNode: true, __v_skip: true, type: Object, props: Object, key: null} route= {fullPath: /local, path: /local, query: Object, hash: , name: local}  ... > 
+  at <RouterView name=undefined route=undefined > 
+  at <NuxtPage > 
+  at <App key=4 > 
+  at <NuxtRoot> @ http://127.0.0.1:3000/_nuxt/@fs/Users/frankji/Projects/Yalie/events/2026-Alumni-Welcom-Reception/two-maps/node_modules/.pnpm/@vue+runtime-core@3.5.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=25c5963e:49
+[   89036ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   91770ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   97054ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355
+[   99955ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:3000/_nuxt/node_modules/.cache/vite/client/deps/globe__gl.js?v=25c5963e:355

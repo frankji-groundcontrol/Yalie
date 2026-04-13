@@ -1,0 +1,2 @@
+[     105ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Server Error) @ http://127.0.0.1:1701/alumni:0
+[     216ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ http://127.0.0.1:1701/alumni:460

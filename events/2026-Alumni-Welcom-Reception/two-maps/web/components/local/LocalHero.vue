@@ -40,16 +40,6 @@ const floatingPlacement: Record<GuideCategory, { left: string; top: string; dela
         <span>Shanghai</span>
         <small>上海</small>
       </button>
-      <button
-        type="button"
-        class="city-toggle-button"
-        :class="{ 'is-active': activeCity === 'beijing' }"
-        :aria-pressed="activeCity === 'beijing'"
-        @click="switchCity('beijing')"
-      >
-        <span>Beijing</span>
-        <small>北京</small>
-      </button>
     </div>
 
     <div class="hero-copy">

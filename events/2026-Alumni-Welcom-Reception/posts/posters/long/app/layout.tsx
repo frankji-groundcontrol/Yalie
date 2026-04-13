@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Yale Shanghai Club 四月校友聚会',
-  description: 'AI、生活与人生路径的相遇 | 4月26日 上海主场联动北京卫星场',
+  description: 'AI、生活与人生路径的相遇 | 4月26日',
   generator: 'v0.app',
   icons: {
     icon: '/yale_club_sh.jpg',

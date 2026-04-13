@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { profileStageAvatar } from "./AlumniStageAvatars";
+import { finalStoryStopIndex } from "../../lib/alumniJourneySelection";
 
 const { selectedProfile, selectedStoryStopIndex, clearSelection, selectStoryStop } = useAlumniState();
 
@@ -11,6 +12,7 @@ const activeStage = computed(() => {
   if (!selectedProfile.value) return profileStageAvatar("", 0);
   return profileStageAvatar(selectedProfile.value.id, activeStopIndex.value);
 });
+const finalStopIndex = computed(() => (selectedProfile.value ? finalStoryStopIndex(selectedProfile.value) : null));
 const hasMultipleStops = computed(() => stops.value.length > 1);
 
 function focusStop(index: number): void {
@@ -105,12 +107,24 @@ onUnmounted(() => {
             <p class="years">{{ stop.year }}{{ stop.endYear ? "–" + stop.endYear : "" }}</p>
           </button>
         </li>
-        <li class="timeline-item final">
-          <span class="dot">{{ selectedProfile.stops.length + 1 }}</span>
-          <article class="stop-card">
+        <li class="timeline-item final" :class="{ 'is-active': finalStopIndex !== null && activeStopIndex === finalStopIndex }">
+          <button
+            type="button"
+            class="dot"
+            :class="{ 'dot-active': finalStopIndex !== null && activeStopIndex === finalStopIndex }"
+            @click="finalStopIndex !== null ? focusStop(finalStopIndex) : undefined"
+          >
+            {{ selectedProfile.stops.length + 1 }}
+          </button>
+          <button
+            type="button"
+            class="stop-card"
+            :class="{ 'stop-card-active': finalStopIndex !== null && activeStopIndex === finalStopIndex }"
+            @click="finalStopIndex !== null ? focusStop(finalStopIndex) : undefined"
+          >
             <h3>Now in {{ selectedProfile.currentCity }}</h3>
             <p class="years">{{ selectedProfile.currentRole }}</p>
-          </article>
+          </button>
         </li>
       </ol>
     </div>
@@ -162,7 +176,7 @@ onUnmounted(() => {
 .drawer-content {
   height: 100%;
   overflow-y: auto;
-  padding: 1.2rem 1rem 1.25rem;
+  padding: 1.2rem 1rem calc(1.25rem + env(safe-area-inset-bottom, 1.5rem));
 }
 
 .stage-avatar-img {
@@ -327,6 +341,10 @@ hr { margin: 1rem 0; border: 0; border-top: 1px solid rgba(155, 104, 69, 0.38); 
 
   .drawer.is-open {
     transform: translateY(0);
+  }
+
+  .drawer-content {
+    padding-bottom: calc(3rem + env(safe-area-inset-bottom, 1.5rem));
   }
 }
 

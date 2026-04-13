@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e6]:
+      - paragraph [ref=e7]: Constellation of Lives · Shanghai Reception 2026
+      - heading "Where Did Yale Take You?" [level=1] [ref=e8]
+      - paragraph [ref=e9]: From Yale pathways to global impact, now connected in Shanghai
+    - generic [ref=e11]:
+      - generic [ref=e15]:
+        - generic:
+          - button "Frank Ji avatar Frank Ji '20" [ref=e17] [cursor=pointer]:
+            - img "Frank Ji avatar" [ref=e19]
+            - generic [ref=e20]: Frank Ji '20
+          - button "Marina Ross avatar Marina Ross '89" [ref=e21] [cursor=pointer]:
+            - img "Marina Ross avatar" [ref=e23]
+            - generic [ref=e24]: Marina Ross '89
+          - button "Daniel Park avatar Daniel Park '98" [ref=e25] [cursor=pointer]:
+            - img "Daniel Park avatar" [ref=e27]
+            - generic [ref=e28]: Daniel Park '98
+          - button "Lucia Herrera avatar Lucia Herrera '07" [ref=e29] [cursor=pointer]:
+            - img "Lucia Herrera avatar" [ref=e31]
+            - generic [ref=e32]: Lucia Herrera '07
+          - button "Owen Cheng avatar Owen Cheng '14" [ref=e33] [cursor=pointer]:
+            - img "Owen Cheng avatar" [ref=e35]
+            - generic [ref=e36]: Owen Cheng '14
+          - button "Priya Menon avatar Priya Menon '22" [ref=e37] [cursor=pointer]:
+            - img "Priya Menon avatar" [ref=e39]
+            - generic [ref=e40]: Priya Menon '22
+      - complementary "Map legend" [ref=e41]:
+        - heading "Alumni Journeys" [level=3] [ref=e42]
+        - list [ref=e43]:
+          - listitem [ref=e44]: "Origin: Yale · New Haven"
+          - listitem [ref=e46]: "Reunion: Shanghai 2026"
+          - listitem [ref=e48]: Frank Ji
+          - listitem [ref=e50]: Marina Ross
+          - listitem [ref=e52]: Daniel Park
+          - listitem [ref=e54]: Lucia Herrera
+          - listitem [ref=e56]: Owen Cheng
+          - listitem [ref=e58]: Priya Menon
+          - listitem [ref=e60]: Add Your Journey
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: Click a star to explore an alumni's journey
+          - button "Got it" [ref=e64] [cursor=pointer]
+      - dialog:
+        - button:
+          - img
+      - complementary:
+        - generic:
+          - button:
+            - img
+          - heading [level=3]: Map Your Journey
+        - generic:
+          - generic:
+            - text: Name
+            - textbox:
+              - /placeholder: Your name
+          - generic:
+            - text: Class year
+            - spinbutton
+          - paragraph: Click the map to add stops along your journey
+          - list
+          - button [disabled]: Done
+    - generic [ref=e65]: Yale Alumni Welcome Reception · Shanghai · April 2026
+  - generic:
+    - img
+  - generic [ref=e66]:
+    - button "Toggle Nuxt DevTools" [ref=e67] [cursor=pointer]:
+      - img [ref=e68]
+    - generic "Page load time" [ref=e71]:
+      - generic [ref=e72]: "15"
+      - generic [ref=e73]: ms
+    - button "Toggle Component Inspector" [ref=e75] [cursor=pointer]:
+      - img [ref=e76]

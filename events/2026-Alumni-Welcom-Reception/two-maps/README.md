@@ -65,10 +65,14 @@ pnpm dev
 - `pnpm dev` runs both Nuxt projects in parallel.
 - You can run a single app with `pnpm dev:alumni:web` or `pnpm dev:local:web`.
 - Shared code is consumed via workspace dependency `@yalie/shared`.
+- For a production-style run of the merged web app, use `pnpm --filter @yalie/two-maps-web build` and then `pnpm --filter @yalie/two-maps-web start`.
+- Do not run `.nuxt/dist/server/server.mjs` directly; that file is an internal Nuxt build artifact, not the public server entry.
 
 - `pnpm dev` 会并行启动两个 Nuxt 项目。
 - 如需单独启动，可使用 `pnpm dev:alumni:web` 或 `pnpm dev:local:web`。
 - 公共代码通过工作区依赖 `@yalie/shared` 复用。
+- 如需以接近生产的方式运行合并版 Web 应用，请先执行 `pnpm --filter @yalie/two-maps-web build`，再执行 `pnpm --filter @yalie/two-maps-web start`。
+- 不要直接运行 `.nuxt/dist/server/server.mjs`；它是 Nuxt 内部构建产物，不是对外可用的服务入口。
 
 ## Rendering Videos / 视频渲染
 

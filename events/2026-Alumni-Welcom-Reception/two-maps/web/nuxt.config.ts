@@ -3,8 +3,14 @@ import { defineNuxtConfig } from "nuxt/config";
 const config = {
   // WARNING: Binding to 0.0.0.0 is not technically recommended for general use.
   // This is set only for workshop facility — allows LAN access from participants' devices.
+  compatibilityDate: "2026-04-11",
   devServer: { host: '0.0.0.0' },
   devtools: { enabled: true },
+  vite: {
+    optimizeDeps: {
+      exclude: ["#app-manifest", "#build/route-rules.mjs"]
+    }
+  },
   modules: ["@nuxtjs/tailwindcss"],
   css: [
     "leaflet/dist/leaflet.css",

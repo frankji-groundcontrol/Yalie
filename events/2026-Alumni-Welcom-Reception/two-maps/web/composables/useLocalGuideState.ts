@@ -1,19 +1,28 @@
 import { computed, ref } from "vue";
 import type { ArtWalk, GuideCategory, GuideLocation, LocalGuideMapData } from "@yalie/shared";
+// Beijing data kept for future use but not currently active
+// import beijingData from "../../local-guide-map/data/templates/beijing-sample.json";
 import newHavenData from "../../local-guide-map/data/templates/new-haven-sample.json";
 import shanghaiData from "../../local-guide-map/data/templates/shanghai-sample.json";
+
+type LocalCityKey = "new-haven" | "shanghai";
 
 const newHavenRaw = newHavenData as LocalGuideMapData;
 const shanghaiRaw = shanghaiData as LocalGuideMapData;
 
-const activeCity = ref<"new-haven" | "shanghai">("new-haven");
+const cityData: Record<LocalCityKey, LocalGuideMapData> = {
+  "new-haven": newHavenRaw,
+  shanghai: shanghaiRaw
+};
+
+const activeCity = ref<LocalCityKey>("new-haven");
 const activeCategory = ref<GuideCategory | null>(null);
 const searchQuery = ref("");
 const activeLocationId = ref<string | null>(null);
 const selectedLocation = ref<GuideLocation | null>(null);
 const activeWalkId = ref<string | null>(null);
 
-const data = computed<LocalGuideMapData>(() => (activeCity.value === "new-haven" ? newHavenRaw : shanghaiRaw));
+const data = computed<LocalGuideMapData>(() => cityData[activeCity.value]);
 
 const filteredLocations = computed<GuideLocation[]>(() => {
   const keyword = searchQuery.value.trim().toLowerCase();
@@ -53,7 +62,7 @@ const activeWalk = computed<ArtWalk | null>(() => {
   return data.value.walks.find((walk) => walk.id === activeWalkId.value) ?? null;
 });
 
-function switchCity(city: "new-haven" | "shanghai"): void {
+function switchCity(city: LocalCityKey): void {
   if (activeCity.value === city) {
     return;
   }

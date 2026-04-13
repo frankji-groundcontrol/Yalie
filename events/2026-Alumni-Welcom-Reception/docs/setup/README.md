@@ -73,6 +73,19 @@ This starts the combined web app on **port 1701**, accessible from any device on
 
 这会在 **1701 端口** 启动合并版 Web 应用，局域网内的设备均可访问。
 
+For a production-style run on the workshop machine, build first and then start the generated Nitro server:
+
+如需在工作坊机器上以接近生产的方式运行，请先构建，再启动生成后的 Nitro 服务：
+
+```bash
+pnpm --filter @yalie/two-maps-web build
+pnpm --filter @yalie/two-maps-web start
+```
+
+Do **not** run `.nuxt/dist/server/server.mjs` directly. That file is an internal Nuxt build artifact and can fail with package-import errors such as `#internal/nuxt/paths`.
+
+请**不要**直接运行 `.nuxt/dist/server/server.mjs`。该文件是 Nuxt 内部构建产物，直接执行时可能出现 `#internal/nuxt/paths` 之类的包导入错误。
+
 | Service / 服务 | Port / 端口 | URL |
 |---|---|---|
 | Two Maps Web | 1701 | `http://<server-ip>:1701/` |

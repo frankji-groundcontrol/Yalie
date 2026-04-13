@@ -1,0 +1,6 @@
+[     266ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:1801/_nuxt/BID_1lEu.js:0
+[     272ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:1801/_nuxt/BID_1lEu.js:0
+[   18925ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:1801/_nuxt/BID_1lEu.js:0
+[   18931ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:1801/_nuxt/BID_1lEu.js:0
+[   19359ms] TypeError: Cannot use 'in' operator to search for '_leaflet_id' in null
+    at t (http://127.0.0.1:1801/_nuxt/B3eJJawi.js:16:1878)

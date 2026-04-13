@@ -6,7 +6,7 @@
 export const CITY_COORDS: Record<string, { lat: number; lng: number }> = {
   "New Haven": { lat: 41.3083, lng: -72.9279 },
   "Shanghai": { lat: 31.2304, lng: 121.4737 },
-  "Beijing": { lat: 39.9042, lng: 116.4074 },
+  // Beijing hidden - can be re-enabled: "Beijing": { lat: 39.9042, lng: 116.4074 },
   "Boston": { lat: 42.3601, lng: -71.0589 },
   "New York": { lat: 40.7128, lng: -74.006 },
   "London": { lat: 51.5074, lng: -0.1278 },

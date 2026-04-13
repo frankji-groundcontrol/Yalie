@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nuxt dev --port 1701",
     "build": "nuxt build",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.2",

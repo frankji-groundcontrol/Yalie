@@ -1,0 +1,52 @@
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - paragraph [ref=e7]: Constellation of Lives · Shanghai Reception 2026
+    - heading "Where Did Yale Take You?" [level=1] [ref=e8]
+    - paragraph [ref=e9]: From Yale pathways to global impact, now connected in Shanghai
+    - navigation "Switch map experience" [ref=e10]:
+      - link "Journey 旅程" [ref=e11] [cursor=pointer]:
+        - /url: /alumni
+        - img [ref=e13]
+        - generic [ref=e19]: Journey
+        - generic [ref=e20]: 旅程
+      - link "Local 本地" [ref=e21] [cursor=pointer]:
+        - /url: /local
+        - img [ref=e23]
+        - generic [ref=e27]: Local
+        - generic [ref=e28]: 本地
+  - generic [ref=e30]:
+    - complementary "Map legend" [ref=e36]:
+      - heading "Alumni Journeys" [level=3] [ref=e37]
+      - list [ref=e38]:
+        - listitem [ref=e39]: "Origin: Yale · New Haven"
+        - listitem [ref=e41]: "Reunion: Shanghai 2026"
+        - listitem [ref=e43]: Frank Ji
+        - listitem [ref=e45]: Marina Ross
+        - listitem [ref=e47]: Daniel Park
+        - listitem [ref=e49]: Lucia Herrera
+        - listitem [ref=e51]: Owen Cheng
+        - listitem [ref=e53]: Priya Menon
+        - listitem [ref=e55]: Add Your Journey
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: Click a star to explore an alumni's journey
+        - button "Got it" [ref=e59] [cursor=pointer]
+    - dialog:
+      - button:
+        - img
+    - complementary:
+      - generic:
+        - button:
+          - img
+        - heading [level=3]: Map Your Journey
+      - generic:
+        - generic:
+          - text: Name
+          - textbox:
+            - /placeholder: Your name
+        - generic:
+          - text: Class year
+          - spinbutton
+        - paragraph: Click the map to add stops along your journey
+        - list
+        - button [disabled]: Done
+  - generic [ref=e60]: Yale Alumni Welcome Reception · Shanghai · April 2026

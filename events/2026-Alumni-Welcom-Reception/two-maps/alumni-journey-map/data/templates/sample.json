@@ -9,7 +9,7 @@
       "classYear": 2020,
       "program": "Biological & Biomedical Sciences (PhD)",
       "track": "Computational Biology & Bioinformatics",
-      "hometown": "Beijing",
+      "hometown": "Shanghai",
       "hometownCountry": "China",
       "yaleExperience": [
         "PhD research in computational biology",
@@ -29,14 +29,14 @@
       "tags": ["biotech", "AI", "entrepreneurship", "community", "interdisciplinary"],
       "stops": [
         {
-          "city": "Beijing",
-          "cityCn": "\u5317\u4eac",
-          "coordinates": { "lat": 39.9042, "lng": 116.4074 },
+          "city": "Shanghai",
+          "cityCn": "\u4e0a\u6d77",
+          "coordinates": { "lat": 31.2304, "lng": 121.4737 },
           "year": 1994,
           "title": "Where It All Began",
           "titleCn": "\u4e00\u5207\u7684\u8d77\u70b9",
-          "story": "Growing up in Beijing, fascinated by the intersection of biology and technology.",
-          "storyCn": "\u5728\u5317\u4eac\u957f\u5927\uff0c\u5bf9\u751f\u7269\u4e0e\u6280\u672f\u7684\u4ea4\u53c9\u9886\u57df\u7740\u8ff7\u3002"
+          "story": "Growing up in Shanghai, fascinated by the intersection of biology and technology.",
+          "storyCn": "\u5728\u4e0a\u6d77\u957f\u5927\uff0c\u5bf9\u751f\u7269\u4e0e\u6280\u672f\u7684\u4ea4\u53c9\u9886\u57df\u7740\u8ff7\u3002"
         },
         {
           "city": "New Haven",
