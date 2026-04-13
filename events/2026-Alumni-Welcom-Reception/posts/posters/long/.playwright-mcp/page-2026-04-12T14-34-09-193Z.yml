@@ -1,0 +1,152 @@
+- main [ref=e2]:
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Yale Club of Shanghai
+      - generic [ref=e14]: 2026.04.26
+    - button "Toggle poster view" [ref=e16] [cursor=pointer]:
+      - img "Yale Club of Shanghai" [ref=e18]
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: April Alumni Gathering
+      - heading "四月校友聚会" [level=1] [ref=e21]
+      - paragraph [ref=e26]: AI、生活与人生路径的相遇
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e31]: 2026年4月26日
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - img [ref=e34]
+            - generic [ref=e37]:
+              - paragraph [ref=e38]: 上海主会场
+              - paragraph [ref=e39]: 陆家嘴数智港
+              - paragraph [ref=e40]: 上海市浦东新区洋泾街道滨江大道257弄8号V6商墅
+          - generic [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e45]:
+              - paragraph [ref=e46]: 卫星会场
+              - paragraph [ref=e47]: 耶鲁北京中心
+              - paragraph [ref=e48]: 北京市朝阳区建外大街8号IFC国际财源中心B座36层
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: About This Event
+        - heading "这次活动有什么不一样？" [level=2] [ref=e52]
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: 现在将OpenClaw之类的智能体或者Vibe Coding引入校友活动逐渐流行了起来。尽管我们或许也终不能免俗，但我们想让活动围绕人来展开。
+        - paragraph [ref=e55]: 很多活动都在和AI攀上关系，乐此不疲地讨论效率、工具、焦虑和追赶，而我们的活动重点并不是展示技术本身。
+        - paragraph [ref=e56]: 我们更想讨论的是，AI 怎么进入真实生活，怎么帮助我们理解自己、表达自己、连接彼此。
+        - paragraph [ref=e57]: 这一次，我们想换一种方式——把智能体当作朋友，把技能当作打开连接的钥匙，通过 AI 走进更多社区，认识更多朋友，产生更多真实的相遇。
+      - generic [ref=e58]:
+        - paragraph [ref=e59]: We Care About
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - paragraph [ref=e65]: Self-Expression
+            - paragraph [ref=e66]: 表达自己
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - paragraph [ref=e73]: Clarity of Path
+            - paragraph [ref=e74]: 理解路径
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img [ref=e77]
+              - paragraph [ref=e82]: Community Connection
+            - paragraph [ref=e83]: 连接彼此
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: Keynote Speakers
+        - heading "主题演讲嘉宾" [level=2] [ref=e91]
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - img "朱威" [ref=e95]
+            - heading "朱威" [level=3] [ref=e98]
+          - paragraph [ref=e99]: 地平线总裁
+          - paragraph [ref=e100]: 中科大精密仪器本科，耶鲁管理学院 MBA。曾任职于梅赛德斯-奔驰、法雷奥、宁德时代等企业。长期深耕智能汽车、产业协同、商业化落地与国际化发展。
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - img "崔东红" [ref=e103]
+            - heading "崔东红" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 上海交大医学院附属精神卫生中心研究员
+          - paragraph [ref=e108]: 医学博士，哲学学士，博导。复旦大学精神病学博士，美国耶鲁大学分子精神病学博士后。现任上海市精神疾病重点实验室执行主任、样本库主任。
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - paragraph [ref=e111]: Roundtable Guests
+        - heading "开放分享与圆桌对话" [level=2] [ref=e112]
+        - paragraph [ref=e113]: 四位嘉宾 + 两个空位留给你
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - img "刘子玥" [ref=e117]
+            - heading "刘子玥" [level=3] [ref=e120]
+          - paragraph [ref=e121]: 设计AI Agent出海、f-a-n事务所创始人
+          - paragraph [ref=e122]: 主持建筑师，兼任 SANAA 事务所及妹岛和世建筑设计事务所项目建筑师。耶鲁大学建筑学硕士，新南威尔士大学建筑学学士。曾就职于西扎佩里事务所、都市实践、标准营造等，也曾在雪城大学、新南威尔士大学、耶鲁大学、东南大学任教。
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - img "赵子超" [ref=e125]
+            - heading "赵子超" [level=3] [ref=e128]
+          - paragraph [ref=e129]: 导演、视效总监、电子音乐创作人
+          - paragraph [ref=e130]: SeeCiao 个人品牌主理人，策展人。曾就职于 Smoke&Mirrors、MPC 等国际特效公司。创立视觉特效厂牌 E-KUNG 至今 10 年，持续进行电音&跨界艺术创作、艺术展、音乐节、电音节及创意项目策划。
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img "Hedy Bok" [ref=e133]
+            - heading "Hedy Bok" [level=3] [ref=e136]
+          - paragraph [ref=e137]: AI穿戴设备创业者、心理咨询师
+          - paragraph [ref=e138]: 港大心理咨询硕士，耶鲁神学院硕士，普林斯顿比较文学学士。2018年耶鲁 Edwin Seder 跨学科研究奖获奖者，英国心理咨询协会会员。与潮汐、三联、Heartly Lab 合作冥想课程，陪伴16万学员。
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img "周悦" [ref=e141]
+            - heading "周悦" [level=3] [ref=e144]
+          - paragraph [ref=e145]: 上海人工智能实验室青年研究员
+          - paragraph [ref=e146]: 耶鲁大学国际关系博士，本科获政治科学、STS（Science, Technology and Society）双学位。长期从事人工智能与前沿科技方向的软硬件技术分析与政策、产业调查。
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e150]: X
+          - generic [ref=e151]:
+            - heading "Guest X" [level=3] [ref=e152]
+            - paragraph [ref=e153]: 来自现场的你
+        - paragraph [ref=e154]: 我们相信，最有趣的观点可能来自任何人。如果你有想分享的故事、经历或思考，欢迎在现场成为 Guest X，加入圆桌对话。
+      - paragraph [ref=e155]: 我们也希望把更多行业的朋友邀请进来——比如建筑、艺术、心理、政治学等领域——一起聊聊：当 AI 进入工作与生活之后，人的感受、审美、创作方式和人生选择，会发生什么变化。
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: Co-creation with AI
+        - heading "OpenClaw 共创" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - img [ref=e167]
+          - heading "轻量共创" [level=3] [ref=e170]
+        - paragraph [ref=e171]: 结合 OpenClaw，尝试人与智能体之间更自然的沟通方式：怎么提问，怎么来回对话，怎么把模糊的感受变成可以被表达、被组织的内容。
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - heading "人生路径地图" [level=3] [ref=e180]
+          - paragraph [ref=e181]: 把大家走过的每一段路，整理成可以被看见、被分享的路径地图
+          - img "人生路径地图示例" [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - img [ref=e186]
+            - heading "在地生活地图" [level=3] [ref=e188]
+          - paragraph [ref=e189]: 把关于纽黑文和你的城市的生活，变成可以分享的城市关系图
+          - img "在地生活地图示例" [ref=e190]
+      - paragraph [ref=e191]: 我们希望带走的，不只是一次活动记忆，而是一些真正和自己有关、和彼此有关的内容。
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - paragraph [ref=e194]: WHO IS THIS FOR
+        - heading "欢迎这样的你来到这里" [level=2] [ref=e195]
+      - generic [ref=e196]:
+        - paragraph [ref=e197]: 无论你是否是校友，只要下面有一点像你，都欢迎来参与：
+        - generic [ref=e198]:
+          - paragraph [ref=e201]: 即将前往纽黑文生活的准校友
+          - paragraph [ref=e204]: 在上海或北京，想认识新朋友和校友的人
+          - paragraph [ref=e207]: 对 AI、创作、城市生活、跨学科合作感兴趣的人
+          - paragraph [ref=e210]: 想和认真、敏感、好奇的人坐下来聊聊的人
+    - generic [ref=e212]:
+      - generic [ref=e213]: “
+      - paragraph [ref=e214]: 技术应当真正服务于人的尊严、自由与幸福。让我们一起探索，在一个人与 AI 共同塑造的新世界中，如何有态度地生活，有温度地连接，有创造力地共处。
+      - generic [ref=e215]: ”
+    - generic [ref=e217]:
+      - paragraph [ref=e218]: 报名通道即将开启
+      - paragraph [ref=e219]: 敬请期待
+    - paragraph [ref=e222]: Yale Club of Shanghai · April 2026

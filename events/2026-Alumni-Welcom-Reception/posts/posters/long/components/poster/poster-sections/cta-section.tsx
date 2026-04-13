@@ -1,0 +1,23 @@
+type RegistrationSectionProps = {
+  eyebrow: string
+  title: string
+  qrPlaceholderText: string
+  qrInstruction: string
+}
+
+export function RegistrationSection({ eyebrow, title, qrPlaceholderText, qrInstruction }: RegistrationSectionProps) {
+  return (
+    <section className="mb-16 w-full max-w-3xl">
+      <p className="mb-3 text-base md:text-lg tracking-[0.3em] text-[#00356b]/50 uppercase font-semibold">{eyebrow}</p>
+      <h2 className="mb-6 text-4xl md:text-5xl font-medium text-[#00356b]">{title}</h2>
+      <div className="flex flex-col items-center gap-4">
+        <div className="aspect-square w-full max-w-[220px] border border-dashed border-[#00356b]/25 bg-[#00356b]/[0.03] p-4">
+          <div className="flex h-full items-center justify-center border border-[#00356b]/12 bg-white/70 text-center text-sm uppercase tracking-[0.22em] text-[#00356b]/42">
+            {qrPlaceholderText}
+          </div>
+        </div>
+        <p className="text-lg md:text-xl text-[#00356b]/62">{qrInstruction}</p>
+      </div>
+    </section>
+  )
+}

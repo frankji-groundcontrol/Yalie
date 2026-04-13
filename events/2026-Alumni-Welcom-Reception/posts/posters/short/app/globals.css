@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #f4f7fb;
+  --foreground: #00356b;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Source Han Sans SC', sans-serif;
+  }
+}

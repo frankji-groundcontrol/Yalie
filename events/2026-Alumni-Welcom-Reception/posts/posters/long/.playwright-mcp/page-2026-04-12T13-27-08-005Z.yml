@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - main [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Yale Shanghai Alumni Reception · April 2026
+        - heading "Two Maps" [level=1] [ref=e9]
+        - paragraph [ref=e10]:
+          - text: Your journey. Your cities. Your people.
+          - text: Choose your entrance.
+      - generic [ref=e11]:
+        - link "I Alumni Journey Map 校友旅程地图 Every Yalie has a story. Six paths from campus to the world — where did Yale take you? See their stories" [ref=e12] [cursor=pointer]:
+          - /url: /alumni
+          - generic [ref=e15]:
+            - generic [ref=e16]: I
+            - heading "Alumni Journey Map" [level=2] [ref=e17]:
+              - text: Alumni
+              - text: Journey Map
+            - paragraph [ref=e18]: 校友旅程地图
+            - paragraph [ref=e19]: Every Yalie has a story. Six paths from campus to the world — where did Yale take you?
+            - generic [ref=e20]: See their stories
+        - link "II Local Guide Map 本地指南地图 Every Yalie has two hometowns. From Pepe's to the Bund — the places that shaped us and the places that welcome us. Explore both cities" [ref=e21] [cursor=pointer]:
+          - /url: /local
+          - generic [ref=e24]:
+            - generic [ref=e25]: II
+            - heading "Local Guide Map" [level=2] [ref=e26]:
+              - text: Local
+              - text: Guide Map
+            - paragraph [ref=e27]: 本地指南地图
+            - paragraph [ref=e28]: Every Yalie has two hometowns. From Pepe's to the Bund — the places that shaped us and the places that welcome us.
+            - generic [ref=e29]: Explore both cities
+    - generic [ref=e30]:
+      - generic [ref=e31]: Yale Alumni Welcome Reception · Shanghai · April 2026
+      - generic [ref=e32]: Built for web and event screens
+  - generic:
+    - img
+  - generic [ref=e33]:
+    - button "Toggle Nuxt DevTools" [ref=e34] [cursor=pointer]:
+      - img [ref=e35]
+    - generic "Page load time" [ref=e38]:
+      - generic [ref=e39]: "12"
+      - generic [ref=e40]: ms
+    - button "Toggle Component Inspector" [ref=e42] [cursor=pointer]:
+      - img [ref=e43]
