@@ -373,9 +373,7 @@ export function CardPosterView({ content, onLogoClick }: CardPosterViewProps) {
           <InfoCard exportId="registration" eyebrow={content.registration.eyebrow} title={content.registration.title} className={fullSpanClassName} backgroundImage="/yale-bg4.jpg">
           <div className="flex flex-col items-center gap-4">
             <div className="aspect-square w-full max-w-[220px] border border-dashed border-[#00356b]/25 bg-[#00356b]/[0.03] p-4">
-              <div className="flex h-full items-center justify-center border border-[#00356b]/12 bg-white/70 text-center text-sm uppercase tracking-[0.22em] text-[#00356b]/42">
-                {content.registration.qrPlaceholderText}
-              </div>
+              <img src="/qr-code.png" alt="报名二维码" className="h-full w-full object-contain" />
             </div>
             <p className="text-lg md:text-xl text-[#00356b]/62">{content.registration.qrInstruction}</p>
           </div>

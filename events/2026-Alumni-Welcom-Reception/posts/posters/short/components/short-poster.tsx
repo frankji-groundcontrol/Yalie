@@ -162,11 +162,8 @@ function PosterContent() {
             <div className="grid gap-6 lg:grid-cols-[260px_1fr] lg:items-stretch">
               <div className="justify-self-center flex flex-col justify-center border border-dashed border-white/22 bg-white/8 p-5 text-center backdrop-blur-sm h-full">
                 <p className="text-xs uppercase tracking-[0.32em] text-white/56">Registration</p>
-                <div className="mt-4 flex h-52 w-52 items-center justify-center border border-white/16 bg-white/92 text-[#00356b] shadow-inner shadow-[#00356b]/8 md:h-60 md:w-60">
-                  <div>
-                    <p className="text-2xl font-semibold md:text-3xl">{posterContent.qrTitle}</p>
-                    <p className="mt-3 text-sm leading-7 text-[#00356b]/62">{posterContent.qrInstruction}</p>
-                  </div>
+                <div className="mt-4 flex h-52 w-52 items-center justify-center border border-white/16 bg-white/92 p-3 shadow-inner shadow-[#00356b]/8 md:h-60 md:w-60">
+                  <img src="/qr-code.png" alt="报名二维码" className="h-full w-full object-contain" />
                 </div>
               </div>
 

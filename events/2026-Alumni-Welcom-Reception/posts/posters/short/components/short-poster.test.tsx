@@ -10,12 +10,11 @@ describe('ShortPoster', () => {
     expect(markup).toContain('四月校友聚会')
     expect(markup).toContain('AI、生活与人生路径的相遇')
     expect(markup).toContain('2026年4月26日')
-    expect(markup).toContain('上海主会场')
+    expect(markup).toContain('陆家嘴数智港')
     expect(markup).toContain('活动流程')
     expect(markup).toContain('主讲嘉宾')
-    expect(markup).toContain('适合谁来')
-    expect(markup).toContain('报名二维码')
-    expect(markup).toContain('扫描二维码或点击阅读原文进行报名')
+    expect(markup).toContain('期待你的参与')
+    expect(markup).toContain('/qr-code.png')
   })
 
   it('reuses long poster visual assets and speaker portraits for a more promotional layout', () => {
