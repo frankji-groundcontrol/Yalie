@@ -32,7 +32,7 @@ describe('HeroSection', () => {
     )
 
     expect(markup).toContain('陆家嘴数智港')
-    expect(markup).toContain('whitespace-nowrap text-lg md:text-xl leading-relaxed text-[#00356b]/56')
+    expect(markup).toContain('whitespace-nowrap text-xl md:text-2xl leading-relaxed text-[#00356b]/56')
     expect(markup).not.toContain('mt-1 text-xl md:text-2xl tracking-wide text-[#00356b]')
   })
 })

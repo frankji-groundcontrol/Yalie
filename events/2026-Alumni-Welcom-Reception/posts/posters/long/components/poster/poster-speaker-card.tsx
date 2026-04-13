@@ -15,12 +15,12 @@ export function PosterSpeakerCard({ speaker }: PosterSpeakerCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#00356b]/80 via-transparent to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-1.5">
-          <h3 className="text-lg font-medium leading-tight text-white">{speaker.name}</h3>
+          <h3 className="text-xl font-medium leading-tight text-white">{speaker.name}</h3>
         </div>
       </div>
 
-      <p className="mb-2 text-xl md:text-2xl font-medium text-[#00356b]">{speaker.title}</p>
-      <p className="text-lg md:text-xl leading-relaxed text-[#00356b]/70">{speaker.bio}</p>
+      <p className="mb-2 text-2xl md:text-3xl font-medium text-[#00356b]">{speaker.title}</p>
+      <p className="text-xl md:text-2xl leading-relaxed text-[#00356b]/70">{speaker.bio}</p>
       <div className="clear-both" />
     </div>
   )

@@ -17,10 +17,10 @@ export function PosterHeader({ clubName, dateLabel, onLogoClick, compact = false
   const logoButtonSizeClassName = compact ? 'h-full w-full cursor-pointer transition-transform duration-200 hover:scale-[1.02]' : 'h-full w-full cursor-pointer'
   const clubTextClassName = compact
     ? 'text-xl md:text-2xl tracking-[0.18em] text-[#00356b]/70 uppercase font-medium'
-    : 'text-lg md:text-xl tracking-[0.2em] text-[#00356b]/70 uppercase font-medium'
+    : 'text-xl md:text-2xl tracking-[0.2em] text-[#00356b]/70 uppercase font-medium'
   const dateTextClassName = compact
     ? 'text-xl md:text-2xl tracking-[0.18em] text-[#00356b]/60'
-    : 'text-lg md:text-xl tracking-[0.2em] text-[#00356b]/60'
+    : 'text-xl md:text-2xl tracking-[0.2em] text-[#00356b]/60'
 
   return (
     <>

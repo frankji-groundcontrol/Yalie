@@ -26,17 +26,17 @@ export function RoundtableSection({ speakers, guestX, closing }: RoundtableSecti
       <div className="border-2 border-[#00356b]/15 bg-[#00356b]/5 p-6">
         <div className="mb-3 flex items-start gap-4">
           <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#00356b]/10">
-            <span className="text-2xl font-medium text-[#00356b]">X</span>
+            <span className="text-3xl font-medium text-[#00356b]">X</span>
           </div>
           <div>
-            <h3 className="text-2xl font-medium tracking-wide text-[#00356b]">{guestX.name}</h3>
-            <p className="text-lg tracking-wide text-[#00356b]/60 font-medium">{guestX.title}</p>
+            <h3 className="text-3xl font-medium tracking-wide text-[#00356b]">{guestX.name}</h3>
+            <p className="text-xl tracking-wide text-[#00356b]/60 font-medium">{guestX.title}</p>
           </div>
         </div>
-        <p className="text-lg md:text-xl leading-relaxed text-[#00356b]/70">{guestX.description}</p>
+        <p className="text-xl md:text-2xl leading-relaxed text-[#00356b]/70">{guestX.description}</p>
       </div>
 
-      <p className="mx-auto mt-6 max-w-xl text-center text-lg md:text-xl font-medium leading-relaxed text-[#00356b]/72">{closing}</p>
+      <p className="mx-auto mt-6 max-w-xl text-center text-xl md:text-2xl font-medium leading-relaxed text-[#00356b]/72">{closing}</p>
     </section>
   )
 }

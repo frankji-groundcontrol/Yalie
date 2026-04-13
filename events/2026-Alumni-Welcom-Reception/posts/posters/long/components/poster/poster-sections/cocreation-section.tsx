@@ -19,9 +19,9 @@ export function CoCreationSection({ description, mapItems, closing }: CoCreation
           <div className="flex h-12 w-12 items-center justify-center bg-[#00356b]/10">
             <Sparkles className="h-6 w-6 text-[#00356b]" />
           </div>
-          <h3 className="text-xl font-medium text-[#00356b]">轻量共创</h3>
+          <h3 className="text-2xl font-medium text-[#00356b]">轻量共创</h3>
         </div>
-        <p className="text-lg md:text-xl leading-relaxed text-[#00356b]/70">{description}</p>
+        <p className="text-xl md:text-2xl leading-relaxed text-[#00356b]/70">{description}</p>
       </div>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -34,16 +34,16 @@ export function CoCreationSection({ description, mapItems, closing }: CoCreation
                 <div className="flex h-12 w-12 items-center justify-center bg-[#00356b]/10">
                   <Icon className="h-6 w-6 text-[#00356b]" />
                 </div>
-                <h3 className="text-lg md:text-xl font-medium text-[#00356b]">{item.title}</h3>
+                <h3 className="text-xl md:text-2xl font-medium text-[#00356b]">{item.title}</h3>
               </div>
-              <p className="mb-4 text-base md:text-lg leading-relaxed text-[#00356b]/60">{item.description}</p>
+              <p className="mb-4 text-lg md:text-xl leading-relaxed text-[#00356b]/60">{item.description}</p>
               <img src={item.image} alt={item.alt} className="w-full rounded border border-[#00356b]/20 opacity-50" />
             </div>
           )
         })}
       </div>
 
-      <p className="mt-6 text-center text-base md:text-lg font-medium leading-relaxed text-[#00356b]/82">{closing}</p>
+      <p className="mt-6 text-center text-lg md:text-xl font-medium leading-relaxed text-[#00356b]/82">{closing}</p>
     </section>
   )
 }

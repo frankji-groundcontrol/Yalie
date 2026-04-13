@@ -38,16 +38,16 @@ export function HeroSection({ title, subtitle, chineseDate, locations, compact =
   const sectionClassName = compact ? 'mx-auto mb-10 max-w-5xl text-center' : 'mx-auto mb-16 max-w-4xl text-center'
   const eyebrowClassName = compact
     ? 'mb-3 text-base md:text-lg tracking-[0.28em] text-[#00356b]/50 uppercase font-semibold'
-    : 'mb-3 text-base md:text-lg tracking-[0.3em] text-[#00356b]/50 uppercase font-semibold'
+    : 'mb-3 text-lg md:text-xl tracking-[0.3em] text-[#00356b]/50 uppercase font-semibold'
   const titleClassName = compact
     ? 'mb-4 text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance text-[#00356b]'
-    : 'mb-4 text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance text-[#00356b]'
+    : 'mb-4 text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight text-balance text-[#00356b]'
   const dividerWidth = compact ? 'w-12' : 'w-16'
   const subtitleClassName = compact
     ? 'mb-7 text-[2rem] md:text-[2.6rem] lg:text-[3rem] font-medium tracking-wide text-[#00356b]/80'
-    : 'mb-8 text-3xl md:text-4xl lg:text-5xl font-medium tracking-wide text-[#00356b]/80'
+    : 'mb-8 text-4xl md:text-5xl lg:text-6xl font-medium tracking-wide text-[#00356b]/80'
   const infoIconClassName = compact ? 'h-5 w-5' : 'h-6 w-6'
-  const infoTextClassName = compact ? 'text-xl md:text-2xl tracking-wide font-medium' : 'text-lg md:text-xl tracking-wide font-medium'
+  const infoTextClassName = compact ? 'text-xl md:text-2xl tracking-wide font-medium' : 'text-xl md:text-2xl tracking-wide font-medium'
   const locationWrapClassName = compact
     ? 'grid w-full max-w-4xl gap-3'
     : 'flex flex-col items-center gap-3'
@@ -82,16 +82,16 @@ export function HeroSection({ title, subtitle, chineseDate, locations, compact =
             >
               <MapPin className={infoIconClassName} />
               <div className="text-left">
-                <p className={compact ? 'text-lg md:text-xl tracking-[0.22em] text-[#00356b]/55 uppercase' : 'text-sm md:text-base tracking-[0.2em] text-[#00356b]/55 uppercase'}>
+                <p className={compact ? 'text-lg md:text-xl tracking-[0.22em] text-[#00356b]/55 uppercase' : 'text-base md:text-lg tracking-[0.2em] text-[#00356b]/55 uppercase'}>
                   {parsedLocation.label}
                 </p>
                 {parsedLocation.venue ? (
-                  <p className={compact ? 'mt-1 text-xl md:text-2xl tracking-wide text-[#00356b]' : 'mt-1 text-lg md:text-xl tracking-wide text-[#00356b]'}>
+                  <p className={compact ? 'mt-1 text-xl md:text-2xl tracking-wide text-[#00356b]' : 'mt-1 text-xl md:text-2xl tracking-wide text-[#00356b]'}>
                     {parsedLocation.venue}
                   </p>
                 ) : null}
                 {parsedLocation.address ? (
-                  <p className="mt-1 whitespace-nowrap text-lg md:text-xl leading-relaxed text-[#00356b]/56">{parsedLocation.address}</p>
+                  <p className="mt-1 whitespace-nowrap text-xl md:text-2xl leading-relaxed text-[#00356b]/56">{parsedLocation.address}</p>
                 ) : null}
               </div>
             </div>

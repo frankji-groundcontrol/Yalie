@@ -13,8 +13,8 @@ export function AudienceSection({ eyebrow, title, intro, items }: AudienceSectio
       <PosterSectionHeading eyebrow={eyebrow} title={title} />
 
       <div className="bg-[#00356b] p-8 text-white">
-        <p className="mb-5 text-lg md:text-xl text-white/70">{intro}</p>
-        <div className="space-y-4 text-lg md:text-xl text-white/90">
+        <p className="mb-5 text-xl md:text-2xl text-white/70">{intro}</p>
+        <div className="space-y-4 text-xl md:text-2xl text-white/90">
           {items.map((item) => (
             <div key={item} className="flex items-start gap-3">
               <div className="mt-2.5 h-2 w-2 shrink-0 bg-white/60" />
