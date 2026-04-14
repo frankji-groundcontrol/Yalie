@@ -52,7 +52,7 @@ export const posterContent = {
     {
       name: '朱威',
       title: '地平线总裁',
-      image: '/zhuwei.png',
+      image: '/zhuwei.jpg',
       alt: '朱威',
     },
     {
