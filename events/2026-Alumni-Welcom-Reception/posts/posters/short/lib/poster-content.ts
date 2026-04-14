@@ -33,17 +33,17 @@ export const posterContent = {
       title: '入场签到',
     },
     {
-      time: '2:00 PM - 2:30 PM',
+      time: '2:00 PM - 3:00 PM',
       title: '主题演讲',
       description: '两位主讲嘉宾依次分享。',
     },
     {
-      time: '2:30 PM - 3:30 PM',
+      time: '3:00 PM - 4:00 PM',
       title: '圆桌讨论',
       description: '我们希望把更多行业，比如建筑、艺术、心理、政治学等领域的校友和朋友们邀请进来一起聊聊。欢迎你在现场成为 Guest X，加入圆桌对话。',
     },
     {
-      time: '3:30 PM - 5:30 PM',
+      time: '4:00 PM - 6:00 PM',
       title: 'OpenClaw 共创 & 自由交流',
       description: '围绕两张地图展开共创体验；如不想参加共创，也可直接在交流区自由交流。',
     },
