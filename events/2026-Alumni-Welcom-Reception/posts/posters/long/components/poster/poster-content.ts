@@ -83,6 +83,7 @@ export const posterContent: PosterContent = {
       bio: '中科大精密仪器本科，耶鲁管理学院 MBA。曾任职于梅赛德斯-奔驰、法雷奥、宁德时代等企业。长期深耕智能汽车、产业协同、商业化落地与国际化发展。',
       image: '/zhuwei.jpg',
       alt: '朱威',
+      imageClassName: 'object-cover object-top',
     },
     {
       name: '崔东红',
