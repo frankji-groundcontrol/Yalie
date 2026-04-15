@@ -54,7 +54,7 @@ export const posterContent = {
       title: '地平线总裁',
       image: '/zhuwei.jpg',
       alt: '朱威',
-      imageClassName: 'object-cover object-top',
+      imageClassName: 'object-contain bg-white',
     },
     {
       name: '崔东红',
