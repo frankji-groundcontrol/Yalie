@@ -252,9 +252,14 @@ ip -4 addr show scope global | awk '/inet /{print $2}' | cut -d/ -f1
 # Classic form (may need `sudo apt install net-tools`):
 ifconfig | awk '/inet /{print $2}' | grep -v '127.0.0.1'
 
-# Public address — for remote viewers, through NAT:
-curl -fsS https://ipinfo.io/ip ; echo
-curl -fsS https://api.ipify.org ; echo
+# Public address — for remote viewers, through NAT. Try ALL methods;
+# any single endpoint can fail, be blocked, or return stale data.
+curl -4fsS https://api.ipify.org ; echo
+curl -4fsS https://ifconfig.me ; echo
+curl -4fsS https://icanhazip.com ; echo
+curl -4fsS https://checkip.amazonaws.com ; echo
+curl -4fsS https://ipinfo.io/ip ; echo
+dig +short myip.opendns.com @resolver1.opendns.com 2>/dev/null
 
 # Hostname (for internal DNS, optional):
 hostname -I
@@ -266,10 +271,12 @@ One-liner to print the share URLs after a start:
 
 ```bash
 LAN=$(ip -4 addr show scope global | awk '/inet /{print $2}' | cut -d/ -f1 | head -n1)
-PUB=$(curl -fsS https://api.ipify.org 2>/dev/null || echo "n/a")
+PUB=$( (curl -4fsS https://api.ipify.org || curl -4fsS https://ifconfig.me || curl -4fsS https://icanhazip.com || curl -4fsS https://checkip.amazonaws.com || curl -4fsS https://ipinfo.io/ip || dig +short myip.opendns.com @resolver1.opendns.com) 2>/dev/null | awk 'NF{print; exit}' )
 echo "LAN:    http://$LAN:$PORT/alumni  |  http://$LAN:$PORT/local"
-echo "Public: http://$PUB:$PORT/alumni  |  http://$PUB:$PORT/local"
+echo "Public: http://${PUB:-n/a}:$PORT/alumni  |  http://${PUB:-n/a}:$PORT/local"
 ```
+
+If public-IP methods disagree, report all candidates and tell the user which one you used. Prefer the LAN URL for phones on the same WiFi.
 
 ---
 
