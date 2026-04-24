@@ -89,6 +89,65 @@ If you ever see `Encountered 1 file(s) that should have been pointers, but weren
 
 ---
 
+## Event Asset Hosting — Temporary Alibaba Cloud OSS
+
+For the 2026 alumni welcome event only, browser-facing images (avatars, posters, QR codes) are temporarily served from Alibaba Cloud OSS **bucket `web-dj-20260205`** (Tokyo region, `ap-northeast-1`). This keeps the on-site app fast without treating OSS as the permanent source of truth.
+
+Canonical originals remain in git through **Git LFS**. After the event, agents should prefer the local `public/` files backed by Git LFS again.
+
+OSS prefix:
+
+```
+oss://web-dj-20260205/yalie/yale-club-of-shanghai/events/2026-04-alumni-welcome-event/
+```
+
+Security/lifetime model:
+
+- Objects under this prefix are **private ACL**; direct `https://.../file.jpg` URLs should return `403`.
+- App code uses generated **5-day signed URLs** committed into per-app URL maps.
+- Bucket lifecycle rule `expire-2026-alumni-welcome-event-5day` deletes objects under the event prefix 5 days after upload.
+- Current signed maps expire around `2026-04-29T09:51:00Z`; re-run the generator if the event site still needs OSS after that.
+
+Generated maps:
+
+| App | Helper | Generated signed URL map |
+|---|---|---|
+| `two-maps/web/` (Nuxt) | `composables/useAssetUrl.ts` | `web/lib/ossUrlMap.ts` |
+| `posts/posters/long/` (Next.js) | `lib/asset-url.ts` | `lib/oss-url-map.ts` |
+| `posts/posters/short/` (Next.js) | `lib/asset-url.ts` | `lib/oss-url-map.ts` |
+
+During the event, use the helper only:
+
+- Nuxt: `useAssetUrl("/avatars/frank-ji.jpg")`
+- Next.js: `assetUrl("/shirley.jpg")`
+
+Never hardcode OSS URLs manually. The helper first checks the generated signed URL map; if a path is missing or maps are cleared, it falls back to the local `/public/` path.
+
+To regenerate 5-day signed URLs before or during the event:
+
+```bash
+python3 events/2026-Alumni-Welcom-Reception/scripts/generate-oss-urls.py
+```
+
+To return to post-event local/LFS behavior:
+
+```bash
+python3 events/2026-Alumni-Welcom-Reception/scripts/generate-oss-urls.py --clear
+```
+
+When adding a new event image during the temporary OSS window:
+
+1. Drop the file into the correct `public/` folder (this remains the git/LFS source of truth).
+2. Upload it under the matching OSS sub-prefix with private/default ACL:
+   ```bash
+   ossutil cp new-image.jpg oss://web-dj-20260205/yalie/yale-club-of-shanghai/events/2026-04-alumni-welcome-event/<sub-prefix>/new-image.jpg \
+     --acl default \
+     --meta "Cache-Control:public, max-age=432000"
+   ```
+3. Re-run `scripts/generate-oss-urls.py` and commit the regenerated map.
+
+---
+
 ## Our Project: `two-maps`
 
 The active product is at:
