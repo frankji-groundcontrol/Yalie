@@ -6,6 +6,7 @@ const config = {
   compatibilityDate: "2026-04-11",
   devServer: { host: '0.0.0.0' },
   devtools: { enabled: true },
+
   vite: {
     optimizeDeps: {
       exclude: ["#app-manifest", "#build/route-rules.mjs"]

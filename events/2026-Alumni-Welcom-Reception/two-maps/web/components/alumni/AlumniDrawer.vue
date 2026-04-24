@@ -58,7 +58,7 @@ onUnmounted(() => {
         <Transition name="stage-avatar" mode="out-in">
           <img
             :key="`${selectedProfile.id}-avatar-${activeStopIndex}`"
-            :src="activeStage.imageUrl"
+            :src="useAssetUrl(activeStage.imageUrl)"
             :alt="`${selectedProfile.name} – ${activeStage.label}`"
             class="stage-avatar-img"
           />

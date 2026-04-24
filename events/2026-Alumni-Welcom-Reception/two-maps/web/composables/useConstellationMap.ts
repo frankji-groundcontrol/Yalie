@@ -222,7 +222,7 @@ function createAvatarElement(data: GlobeAvatar): HTMLElement {
   const img = document.createElement("img");
   img.className = "alumni-avatar-image";
   img.alt = `${data.name} avatar`;
-  img.src = data.photoUrl ?? "";
+  img.src = useAssetUrl(data.photoUrl ?? "");
 
   const halo = document.createElement("span");
   halo.className = "alumni-avatar-halo";
