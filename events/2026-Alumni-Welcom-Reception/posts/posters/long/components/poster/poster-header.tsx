@@ -1,3 +1,5 @@
+import { assetUrl } from '@/lib/asset-url'
+
 type PosterHeaderProps = {
   clubName: string
   dateLabel: string
@@ -8,7 +10,7 @@ type PosterHeaderProps = {
 export function PosterHeader({ clubName, dateLabel, onLogoClick, compact = false }: PosterHeaderProps) {
   const icon = (
     <div className="h-full w-full border border-white/80 bg-white/70 p-2 shadow-[0_12px_32px_rgba(0,53,107,0.08)] backdrop-blur-sm">
-      <img src="/yale_club_sh.jpg" alt="Yale Club of Shanghai" className="h-full w-full object-contain" />
+      <img src={assetUrl('/yale_club_sh.jpg')} alt="Yale Club of Shanghai" className="h-full w-full object-contain" />
     </div>
   )
 

@@ -1,5 +1,6 @@
 import { Map as MapIcon, Route, Sparkles } from 'lucide-react'
 
+import { assetUrl } from '@/lib/asset-url'
 import { PosterMapItem } from '../poster-content'
 import { PosterSectionHeading } from '../poster-section-heading'
 
@@ -37,7 +38,7 @@ export function CoCreationSection({ description, mapItems, closing }: CoCreation
                 <h3 className="text-xl md:text-2xl font-medium text-[#00356b]">{item.title}</h3>
               </div>
               <p className="mb-4 text-lg md:text-xl leading-relaxed text-[#00356b]/60">{item.description}</p>
-              <img src={item.image} alt={item.alt} className="w-full rounded border border-[#00356b]/20 opacity-50" />
+              <img src={assetUrl(item.image)} alt={item.alt} className="w-full rounded border border-[#00356b]/20 opacity-50" />
             </div>
           )
         })}
