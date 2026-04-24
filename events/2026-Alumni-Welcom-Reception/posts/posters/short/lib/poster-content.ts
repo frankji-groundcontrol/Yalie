@@ -59,7 +59,7 @@ export const posterContent = {
     {
       name: '杨小雯',
       title: '龙腾资本创始人及管理合伙人',
-      image: '/shirley.png',
+      image: '/shirley.jpg',
       alt: '杨小雯',
     },
   ] satisfies PosterSpeaker[],
@@ -67,13 +67,13 @@ export const posterContent = {
     {
       name: '刘子玥',
       title: '设计AI Agent出海、f-a-n事务所创始人',
-      image: '/ziyue.png',
+      image: '/ziyue.jpg',
       alt: '刘子玥',
     },
     {
       name: '赵子超',
       title: '导演、视效总监、电子音乐创作人、E-Kung厂牌创始人',
-      image: '/zichao.png',
+      image: '/zichao.jpg',
       alt: '赵子超',
     },
     {

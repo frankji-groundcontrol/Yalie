@@ -37,6 +37,58 @@ Do **not** run `git pull`, `git merge`, `git rebase`, or `git push` unless the u
 
 ---
 
+## Git Remotes — Prefer Gitee From Mainland China
+
+The repo is mirrored to two hosts. Both receive the same history; pick based on where you're running from.
+
+| Host | URL | When to use |
+|---|---|---|
+| **GitHub** (primary) | `https://github.com/frankji-groundcontrol/Yalie.git` | Outside mainland China; CI; public reference |
+| **Gitee** (China mirror) | `https://gitee.com/frankji-groundcontrol/yalie.git` | **Inside mainland China** — avoids GitHub throttling |
+
+If `git pull` or `git clone` from GitHub is crawling, switch to Gitee:
+
+```bash
+# Add gitee as a second remote (once):
+git remote add gitee https://gitee.com/frankji-groundcontrol/yalie.git
+
+# Pull from gitee on the active branch:
+git fetch gitee
+git pull gitee 2026-04-alumni-welcome-event
+
+# Or clone via gitee from the start:
+git clone https://gitee.com/frankji-groundcontrol/yalie.git
+```
+
+When you push after the user explicitly asks, push to **both** remotes so they stay in sync:
+
+```bash
+git push origin  2026-04-alumni-welcome-event
+git push gitee   2026-04-alumni-welcome-event
+```
+
+### Git LFS is required
+
+Binary assets (`*.jpg`, `*.png`, `*.pdf`, `*.mp4`, Remotion bundle maps) are stored in **Git LFS** to keep clones fast. Before cloning or pulling:
+
+```bash
+# macOS
+brew install git-lfs
+
+# Ubuntu
+sudo apt-get install git-lfs
+
+# One-time setup per machine:
+git lfs install
+
+# After pull, fetch missing LFS objects:
+git lfs pull
+```
+
+If you ever see `Encountered 1 file(s) that should have been pointers, but weren't` on a fresh clone, run `git lfs pull` and retry.
+
+---
+
 ## Our Project: `two-maps`
 
 The active product is at:

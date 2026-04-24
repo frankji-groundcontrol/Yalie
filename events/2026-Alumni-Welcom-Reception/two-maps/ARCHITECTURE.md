@@ -189,7 +189,7 @@ Everything flows from the JSON. Edit the JSON → both web and video update on t
 | Change shared formatters | `shared/utils/format.ts` |
 | Change the alumni video | `alumni-journey-map/video-remotion/src/AlumniJourneyVideo.tsx` |
 | Change the local guide video | `local-guide-map/video-remotion/src/LocalGuideVideo.tsx` |
-| Add new alumni photo | `web/public/avatars/<slug>.png` + update `photoUrl` in JSON |
+| Add new alumni photo | `web/public/avatars/<slug>.jpg` + update `photoUrl` in JSON (JPEG, quality ~85) |
 | Landing page | `web/pages/index.vue` + `web/components/shared/MapModeToggle.vue` |
 | Visual design rules | `docs/visual-direction_en.md` |
 | OpenClaw facilitation prompts | `docs/openclaw-starter-prompts_{en,cn}.md` |

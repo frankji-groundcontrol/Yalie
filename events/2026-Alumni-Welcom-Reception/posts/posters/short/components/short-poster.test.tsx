@@ -14,7 +14,7 @@ describe('ShortPoster', () => {
     expect(markup).toContain('活动流程')
     expect(markup).toContain('主讲嘉宾')
     expect(markup).toContain('期待你的参与')
-    expect(markup).toContain('/qr-code.png')
+    expect(markup).toContain('/qr-code.jpg')
   })
 
   it('reuses long poster visual assets and speaker portraits for a more promotional layout', () => {
@@ -23,8 +23,8 @@ describe('ShortPoster', () => {
     expect(markup).toContain('/yale_club_sh.jpg')
     expect(markup).toContain('/yale-bg1.jpg')
     expect(markup).toContain('/zhuwei.jpg')
-    expect(markup).toContain('/shirley.png')
-    expect(markup).toContain('/ziyue.png')
+    expect(markup).toContain('/shirley.jpg')
+    expect(markup).toContain('/ziyue.jpg')
     expect(markup).toContain('地平线总裁')
     expect(markup).toContain('设计AI Agent出海、f-a-n事务所创始人')
   })

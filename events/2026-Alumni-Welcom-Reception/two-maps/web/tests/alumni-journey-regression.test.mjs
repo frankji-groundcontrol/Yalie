@@ -16,7 +16,7 @@ test("selected stop drives avatar image and map position", () => {
     fallbackImageUrl: frank.photoUrl
   });
 
-  assert.equal(idleState.imageUrl, "/avatars/frank-ji.png");
+  assert.equal(idleState.imageUrl, "/avatars/frank-ji.jpg");
   assert.deepEqual(idleState.coordinates, { lat: 31.2304, lng: 121.4737 });
 
   const selectedState = getAvatarDisplayState({
@@ -26,7 +26,7 @@ test("selected stop drives avatar image and map position", () => {
     fallbackImageUrl: frank.photoUrl
   });
 
-  assert.equal(selectedState.imageUrl, "/avatars/stages/alumni-frank-ji-2020/step-1.png");
+  assert.equal(selectedState.imageUrl, "/avatars/stages/alumni-frank-ji-2020/step-1.jpg");
   assert.deepEqual(selectedState.coordinates, { lat: 39.9042, lng: 116.4074 });
 });
 

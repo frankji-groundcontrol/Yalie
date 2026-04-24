@@ -394,7 +394,7 @@ These are the recurring tasks. Each example names the **owner** role, **reviewer
 3. Append to `profiles[]`, mirroring the structure of `alumni-frank-ji-2020`:
    - `id`: `alumni-<first>-<last>-<classYear>` (e.g. `alumni-yan-chen-2018`).
    - `stops[]`: ordered by `year` ascending; each stop has `coordinates` plus EN/CN fields.
-   - `photoUrl`: `/avatars/yan-chen.png` — add the asset to `web/public/avatars/` (square PNG or WebP, ≥512px).
+   - `photoUrl`: `/avatars/yan-chen.jpg` — add the asset to `web/public/avatars/` (square JPEG, quality ~85, ≥512px — see compression convention below).
 4. Coordinate sanity: Hangzhou ~30.27 / 120.15.
 5. Run `pnpm dev`, open `/alumni`, click Yan's card, confirm her journey line renders from hometown → New Haven → Hangzhou.
 6. `[FE]` Min reviews: card layout, hover state, palette tokens.
@@ -404,7 +404,7 @@ These are the recurring tasks. Each example names the **owner** role, **reviewer
 
 **Owner**: `[BE]` Bo · **Reviewers**: `[FE]` Min, `[QA]` Qi
 
-1. Drop the new image into `web/public/avatars/<slug>.png` (prefer PNG or WebP, square, ≥512px).
+1. Drop the new image into `web/public/avatars/<slug>.jpg` (JPEG quality 85, square, ≥512px). If your source is PNG/WebP, convert with `magick input.png -background white -flatten -quality 85 -strip output.jpg` to match the compression convention used across `web/public/` and `posts/posters/*/public/`.
 2. If the file name changes, update `photoUrl` in the matching profile in `alumni-journey-map/data/templates/sample.json`.
 3. If the file name is the same, delete the old asset and let git pick up the replacement (`git status` to confirm).
 4. Restart `pnpm dev` to bust Nuxt's asset cache; open `/alumni`, verify the card shows the new photo.

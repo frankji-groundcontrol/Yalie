@@ -12,7 +12,7 @@ export function RegistrationSection({ eyebrow, title, qrPlaceholderText, qrInstr
       <h2 className="mb-6 text-5xl md:text-6xl font-medium text-[#00356b]">{title}</h2>
       <div className="flex flex-col items-center gap-4">
         <div className="aspect-square w-full max-w-[260px] border border-dashed border-[#00356b]/25 bg-[#00356b]/[0.03] p-4">
-          <img src="/qr-code.png" alt="报名二维码" className="h-full w-full object-contain" />
+          <img src="/qr-code.jpg" alt="报名二维码" className="h-full w-full object-contain" />
         </div>
         <p className="text-xl md:text-2xl text-[#00356b]/62">{qrInstruction}</p>
       </div>

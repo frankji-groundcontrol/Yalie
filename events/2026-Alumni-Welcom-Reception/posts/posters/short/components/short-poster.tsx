@@ -152,8 +152,8 @@ function PosterContent() {
               description={posterContent.agendaItems[3].description}
             >
               <div className="grid gap-3 md:grid-cols-2">
-                <img src="/map-1-journey.png" alt="人生路径地图截图" className="w-full border border-white/14 bg-white/8" />
-                <img src="/map-2-local.png" alt="在地生活地图截图" className="w-full border border-white/14 bg-white/8" />
+                <img src="/map-1-journey.jpg" alt="人生路径地图截图" className="w-full border border-white/14 bg-white/8" />
+                <img src="/map-2-local.jpg" alt="在地生活地图截图" className="w-full border border-white/14 bg-white/8" />
               </div>
             </AgendaRow>
           </div>
@@ -163,7 +163,7 @@ function PosterContent() {
               <div className="justify-self-center flex flex-col justify-center border border-dashed border-white/22 bg-white/8 p-5 text-center backdrop-blur-sm h-full">
                 <p className="text-xs uppercase tracking-[0.32em] text-white/56">Registration</p>
                 <div className="mt-4 flex h-52 w-52 items-center justify-center border border-white/16 bg-white/92 p-3 shadow-inner shadow-[#00356b]/8 md:h-60 md:w-60">
-                  <img src="/qr-code.png" alt="报名二维码" className="h-full w-full object-contain" />
+                  <img src="/qr-code.jpg" alt="报名二维码" className="h-full w-full object-contain" />
                 </div>
               </div>
 

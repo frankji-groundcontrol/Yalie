@@ -8,6 +8,17 @@
 
 Obsidian vault for the Yale (Yalie) alumni community in China. Contains event planning, bilingual content operations, and embedded code sub-projects. Licensed MPL 2.0.
 
+## Git Remotes
+
+- **GitHub (primary):** `https://github.com/frankji-groundcontrol/Yalie.git`
+- **Gitee (China mirror):** `https://gitee.com/frankji-groundcontrol/yalie.git`
+
+Both remotes receive the same force-pushed history. From mainland China, prefer Gitee to avoid GitHub throttling. See `CLAUDE.md` at the repo root for the full remote + LFS setup guide.
+
+## Git LFS
+
+Binary assets (`*.jpg`, `*.png`, `*.pdf`, `*.mp4`, Remotion bundle maps) are stored in **Git LFS**. Agents and contributors need `git-lfs` installed and initialized (`git lfs install`) before cloning or pulling. See `.gitattributes` at the repo root for the full tracked-pattern list.
+
 ## Structure
 
 ```
