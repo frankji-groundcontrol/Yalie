@@ -57,10 +57,10 @@ export const posterContent = {
       imageClassName: 'object-contain bg-white',
     },
     {
-      name: '崔东红',
-      title: '教授、上海市精神卫生中心研究员',
-      image: '/cuidonghong.webp',
-      alt: '崔东红',
+      name: '杨小雯',
+      title: '龙腾资本创始人及管理合伙人',
+      image: '/shirley.png',
+      alt: '杨小雯',
     },
   ] satisfies PosterSpeaker[],
   roundtableSpeakers: [

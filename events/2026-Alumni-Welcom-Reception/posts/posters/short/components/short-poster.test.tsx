@@ -23,7 +23,7 @@ describe('ShortPoster', () => {
     expect(markup).toContain('/yale_club_sh.jpg')
     expect(markup).toContain('/yale-bg1.jpg')
     expect(markup).toContain('/zhuwei.jpg')
-    expect(markup).toContain('/cuidonghong.webp')
+    expect(markup).toContain('/shirley.png')
     expect(markup).toContain('/ziyue.png')
     expect(markup).toContain('地平线总裁')
     expect(markup).toContain('设计AI Agent出海、f-a-n事务所创始人')

@@ -86,11 +86,11 @@ export const posterContent: PosterContent = {
       imageClassName: 'object-contain bg-white',
     },
     {
-      name: '崔东红',
-      title: '上海交大医学院附属精神卫生中心研究员',
-      bio: '医学博士，哲学学士，博导。复旦大学精神病学博士，美国耶鲁大学分子精神病学博士后。现任上海市精神疾病重点实验室执行主任、样本库主任。',
-      image: '/cuidonghong.webp',
-      alt: '崔东红',
+      name: '杨小雯',
+      title: '龙腾资本创始人及管理合伙人',
+      bio: "耶鲁管理学院'93届校友，耶鲁管理学院全球董事。中国大陆最早一批风险投资专家，曾任香港电讯盈科中国投资总监、JP摩根副总裁及 Verizon 资产管理国际证券投资经理。",
+      image: '/shirley.png',
+      alt: '杨小雯',
     },
   ],
   roundtableSpeakers: [
