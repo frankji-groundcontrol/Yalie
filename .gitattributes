@@ -49,8 +49,12 @@
 # These are large committed build outputs. Keep in LFS rather than removing
 # so the documented workflow ("Pre-built Remotion bundles are committed") still
 # works without blowing up clones.
+# Two patterns needed: chunked bundles (e.g. 267.bundle.js) AND the root
+# entry bundle (just bundle.js / bundle.js.map). Glob `*` requires >=1 char.
 *.bundle.js     filter=lfs diff=lfs merge=lfs -text
 *.bundle.js.map filter=lfs diff=lfs merge=lfs -text
+bundle.js       filter=lfs diff=lfs merge=lfs -text
+bundle.js.map   filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
