@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 
 import { Handshake, Map as MapIcon, PenLine, Route, Sparkles } from 'lucide-react'
 
+import { assetUrl } from '@/lib/asset-url'
 import { PosterContent, PosterSpeaker } from '../poster-content'
 import { PosterFooter } from '../poster-footer'
 import { PosterHeader } from '../poster-header'
@@ -55,7 +56,7 @@ function CampusBackdrop({ imagePath, opacity = 0.24 }: { imagePath: string; opac
     <div
       className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url("${imagePath}")`,
+        backgroundImage: `url("${assetUrl(imagePath)}")`,
         opacity,
       }}
     />
@@ -89,7 +90,7 @@ function CompactSpeakerCard({ speaker }: CompactSpeakerCardProps) {
     <article className="border border-[#00356b]/12 bg-[#00356b]/[0.03] p-4 transition-colors duration-200 hover:bg-[#00356b]/[0.05]">
       <div className={`relative float-left mr-4 mb-2 h-24 w-24 ${speaker.frameClassName ?? ''}`.trim()}>
         <img
-          src={speaker.image}
+          src={assetUrl(speaker.image)}
           alt={speaker.alt}
           className={`h-full w-full border-2 border-[#00356b] ${speaker.imageClassName ?? 'object-cover'}`}
         />
@@ -338,7 +339,7 @@ export function CardPosterView({ content, onLogoClick }: CardPosterViewProps) {
                     <h3 className="text-2xl md:text-3xl font-medium text-[#00356b]">{item.title}</h3>
                   </div>
                   <p className="mb-4 text-lg md:text-xl leading-relaxed text-[#00356b]/68">{item.description}</p>
-                  <img src={item.image} alt={item.alt} className="w-full border border-[#00356b]/18 opacity-70" />
+                  <img src={assetUrl(item.image)} alt={item.alt} className="w-full border border-[#00356b]/18 opacity-70" />
                 </article>
               )
             })}
@@ -373,7 +374,7 @@ export function CardPosterView({ content, onLogoClick }: CardPosterViewProps) {
           <InfoCard exportId="registration" eyebrow={content.registration.eyebrow} title={content.registration.title} className={fullSpanClassName} backgroundImage="/yale-bg4.jpg">
           <div className="flex flex-col items-center gap-4">
             <div className="aspect-square w-full max-w-[220px] border border-dashed border-[#00356b]/25 bg-[#00356b]/[0.03] p-4">
-              <img src="/qr-code.jpg" alt="报名二维码" className="h-full w-full object-contain" />
+              <img src={assetUrl('/qr-code.jpg')} alt="报名二维码" className="h-full w-full object-contain" />
             </div>
             <p className="text-lg md:text-xl text-[#00356b]/62">{content.registration.qrInstruction}</p>
           </div>

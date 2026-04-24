@@ -1,5 +1,7 @@
 import { ReactNode } from 'react'
 
+import { assetUrl } from '@/lib/asset-url'
+
 type PosterShellProps = {
   children: ReactNode
 }
@@ -23,7 +25,7 @@ export function PosterShell({ children }: PosterShellProps) {
           key={image}
           className="absolute z-[1] opacity-[0.05]"
           style={{
-            backgroundImage: `url("${image}")`,
+            backgroundImage: `url("${assetUrl(image)}")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             top: backgroundOffsets[index],
