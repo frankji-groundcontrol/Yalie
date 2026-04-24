@@ -3,6 +3,7 @@
 import { ArrowRight, CalendarDays, MapPin, Sparkles } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 
+import { assetUrl } from '../lib/asset-url'
 import { posterContent, type PosterSpeaker } from '../lib/poster-content'
 import { CARD_EXPORT_WIDTH, clampExportWidth, getExportWidthBounds } from './card-export'
 import { useCardExport } from './use-card-export'
@@ -27,7 +28,10 @@ function CardWrapper({ children, className = '', exportId, exportTitle, style }:
       data-card-export-title={exportTitle}
       style={style}
       className={`relative overflow-hidden rounded-[1.35rem] border-2 border-[#00356b]/32 bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(244,247,252,0.94))] shadow-[0_22px_70px_rgba(0,53,107,0.1)] ${className}`}>
-      <div className="pointer-events-none absolute inset-0 bg-[url('/yale-bg1.jpg')] bg-cover bg-center opacity-[0.08]" />
+      <div
+        className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.08]"
+        style={{ backgroundImage: `url("${assetUrl('/yale-bg1.jpg')}")` }}
+      />
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.78),rgba(244,247,252,0.75))]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 h-12 border-b-2 border-[#00356b]/24 bg-[linear-gradient(180deg,rgba(232,239,249,0.95),rgba(255,255,255,0.75))]" />
       <div className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-6 pt-3 md:px-7">
@@ -47,7 +51,7 @@ function SpeakerThumbnail({ speaker }: { speaker: PosterSpeaker }) {
   return (
     <article className="flex items-center gap-3 border border-white/10 bg-white/7 px-3 py-3">
       <div className="relative h-14 w-14 shrink-0 overflow-hidden border border-white/18 bg-white/85">
-        <img src={speaker.image} alt={speaker.alt} className={`h-full w-full ${speaker.imageClassName ?? 'object-cover'}`} />
+        <img src={assetUrl(speaker.image)} alt={speaker.alt} className={`h-full w-full ${speaker.imageClassName ?? 'object-cover'}`} />
       </div>
       <div className="min-w-0">
         <p className="text-sm font-semibold text-white md:text-base">{speaker.name}</p>
@@ -94,13 +98,16 @@ function PosterContent() {
           </div>
           <div className="h-20 w-px bg-[#00356b]/20" />
           <div className="h-44 w-44 shrink-0 border border-white/80 bg-white/72 p-3 shadow-[0_12px_32px_rgba(0,53,107,0.08)] backdrop-blur-sm md:h-52 md:w-52">
-            <img src="/yale_club_sh.jpg" alt="Yale Club of Shanghai" className="h-full w-full object-contain" />
+            <img src={assetUrl('/yale_club_sh.jpg')} alt="Yale Club of Shanghai" className="h-full w-full object-contain" />
           </div>
         </div>
       </div>
 
       <div className="mt-4 -mx-6 -mb-6 md:-mx-7 md:-mb-7 bg-[#00356b] px-6 py-6 text-white md:px-8 md:py-7">
-        <div className="pointer-events-none absolute inset-0 bg-[url('/yale-bg1.jpg')] bg-cover bg-center opacity-[0.05]" />
+        <div
+          className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.05]"
+          style={{ backgroundImage: `url("${assetUrl('/yale-bg1.jpg')}")` }}
+        />
         <div className="relative z-10">
           <div className="text-sm font-semibold uppercase tracking-[0.28em] text-[#f4d58d] md:text-base">{posterContent.chineseDate} · 活动流程</div>
           <div className="mt-6 space-y-3">
@@ -152,8 +159,8 @@ function PosterContent() {
               description={posterContent.agendaItems[3].description}
             >
               <div className="grid gap-3 md:grid-cols-2">
-                <img src="/map-1-journey.jpg" alt="人生路径地图截图" className="w-full border border-white/14 bg-white/8" />
-                <img src="/map-2-local.jpg" alt="在地生活地图截图" className="w-full border border-white/14 bg-white/8" />
+                <img src={assetUrl('/map-1-journey.jpg')} alt="人生路径地图截图" className="w-full border border-white/14 bg-white/8" />
+                <img src={assetUrl('/map-2-local.jpg')} alt="在地生活地图截图" className="w-full border border-white/14 bg-white/8" />
               </div>
             </AgendaRow>
           </div>
@@ -163,7 +170,7 @@ function PosterContent() {
               <div className="justify-self-center flex flex-col justify-center border border-dashed border-white/22 bg-white/8 p-5 text-center backdrop-blur-sm h-full">
                 <p className="text-xs uppercase tracking-[0.32em] text-white/56">Registration</p>
                 <div className="mt-4 flex h-52 w-52 items-center justify-center border border-white/16 bg-white/92 p-3 shadow-inner shadow-[#00356b]/8 md:h-60 md:w-60">
-                  <img src="/qr-code.jpg" alt="报名二维码" className="h-full w-full object-contain" />
+                  <img src={assetUrl('/qr-code.jpg')} alt="报名二维码" className="h-full w-full object-contain" />
                 </div>
               </div>
 
